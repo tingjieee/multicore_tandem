@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<bioml label="x! taxon-to-file matching list">
+	<taxon label="yeast">
+		<!--file format="peptide" URL="../fasta/epop.fasta.pro" /-->
+		<!--file format="peptide" URL="../fasta/scd.fasta.pro" />
+		<file format="peptide" URL="../fasta/scd_1.fasta.pro" />
+		<file format="peptide" URL="../fasta/crap.fasta.pro" />
+		<file format="peptide" URL="../fasta/u_scd.fasta.pro" /-->
+		<!--file format="peptide" URL="../fasta/uniprot.fasta" /-->
+		<file format="peptide" URL="../fasta/ipi.HUMAN.v3.87.fasta" />
+		<file format="peptide" URL="../fasta/uniprot_sprot.fasta" />
+		<file format="peptide" URL="../fasta/uniprot_sprot_varsploc.fasta" />
+
+	</taxon>
+</bioml>

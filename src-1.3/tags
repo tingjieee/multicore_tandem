@@ -1,0 +1,2035 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BASE64_H	base64.h	2;"	d
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -O3 -DGCC4_3 -std=c++11 -mavx -DPLUGGABLE_SCORING -DPROTEIN_GROUP -DPTANDEM -DHYDROLYZE -DVVV $/;"	m
+DEPS	Makefile	/^DEPS := $(patsubst %.o,%.d,$(OBJS))$/;"	m
+DESMAP	msequenceserver.h	/^typedef map<string,size_t> DESMAP;$/;"	t
+DESMAP	p3msequenceserver.h	/^typedef map<string,size_t> DESMAP;$/;"	t
+EXECUTABLE	Makefile	/^EXECUTABLE = ..\/bin\/ptandem$/;"	m
+Expat_External_INCLUDED	expat_external.h	6;"	d
+Expat_INCLUDED	expat.h	6;"	d
+FASTA	msequenceserver.h	/^		FASTA = 0,$/;"	e	enum:msequenceServer::__anon21
+Get_mSeq	mprocess.h	/^	char* Get_mSeq(void) { return m_pSeq;}$/;"	f	class:mprocess
+IDI_ICON1	resource.h	5;"	d
+IS_BIG_ENDIAN	MSNumpress.cpp	/^bool IS_BIG_ENDIAN = is_big_endian();$/;"	m	namespace:ms::numpress::MSNumpress	file:
+I_A	loadmspectrum.h	/^		I_A =	0x08,$/;"	e	enum:loadmspectrum::__anon16
+I_A	mprocess.h	/^		I_A =	0x08,$/;"	e	enum:mprocess::__anon17
+I_A	saxhandler.h	/^		I_A =	0x08,$/;"	e	enum:SAXSpectraHandler::__anon22
+I_B	loadmspectrum.h	/^		I_B =	0x02,$/;"	e	enum:loadmspectrum::__anon16
+I_B	mprocess.h	/^		I_B =	0x02,$/;"	e	enum:mprocess::__anon17
+I_B	saxhandler.h	/^		I_B =	0x02,$/;"	e	enum:SAXSpectraHandler::__anon22
+I_C	loadmspectrum.h	/^		I_C =	0x10,$/;"	e	enum:loadmspectrum::__anon16
+I_C	mprocess.h	/^		I_C =	0x10,$/;"	e	enum:mprocess::__anon17
+I_C	saxhandler.h	/^		I_C =	0x10,$/;"	e	enum:SAXSpectraHandler::__anon22
+I_X	loadmspectrum.h	/^		I_X =	0x04,$/;"	e	enum:loadmspectrum::__anon16
+I_X	mprocess.h	/^		I_X =	0x04,$/;"	e	enum:mprocess::__anon17
+I_X	saxhandler.h	/^		I_X =	0x04,$/;"	e	enum:SAXSpectraHandler::__anon22
+I_Y	loadmspectrum.h	/^		I_Y =	0x01,$/;"	e	enum:loadmspectrum::__anon16
+I_Y	mprocess.h	/^		I_Y =	0x01,$/;"	e	enum:mprocess::__anon17
+I_Y	saxhandler.h	/^		I_Y =	0x01,$/;"	e	enum:SAXSpectraHandler::__anon22
+I_Z	loadmspectrum.h	/^		I_Z =	0x20,$/;"	e	enum:loadmspectrum::__anon16
+I_Z	mprocess.h	/^		I_Z =	0x20,$/;"	e	enum:mprocess::__anon17
+I_Z	saxhandler.h	/^		I_Z =	0x20,$/;"	e	enum:SAXSpectraHandler::__anon22
+Insert	mprocess.h	/^	bool Insert(const unsigned long _id)$/;"	f	class:buf
+IonCount	mprocess.h	/^	long IonCount;$/;"	m	class:unit
+LDFLAGS	Makefile	/^LDFLAGS = -lpthread -L\/usr\/lib -lm -lexpat -ltbbmalloc_proxy$/;"	m
+LINKCC	Makefile	/^LINKCC = $(CXX)$/;"	m
+LOADSPECTRUM_H	loadmspectrum.h	132;"	d
+MBIOMLREPORT_H	mbiomlreport.h	137;"	d
+MCLEAVE_H	mcleave.h	132;"	d
+MDOMAINS_H	mdomains.h	132;"	d
+MHISTOGRAM_H	mhistogram.h	132;"	d
+MIType	mscore.h	/^	MIType() { }$/;"	f	class:MIType
+MIType	mscore.h	/^class MIType$/;"	c
+MMOTIF_H	mmotif.h	132;"	d
+MPAM_H	mpam.h	134;"	d
+MPLUGIN_H	mplugin.h	132;"	d
+MPMODS_H	mpmods.h	134;"	d
+MPROCESS_H	mprocess.h	132;"	d
+MREFINE_H	mrefine.h	132;"	d
+MREPORT_H	mreport.h	132;"	d
+MSCOREPAM_H	mscorepam.h	132;"	d
+MSCORESTATE_H	mscorestate.h	132;"	d
+MSCORE_H	mscore.h	132;"	d
+MSCORE_TANDEM_H	mscore_tandem.h	132;"	d
+MSEMISTATE_H	msemistate.h	132;"	d
+MSEQMAP	mprocess.h	/^typedef map<uint64_t,vector<msequence> > MSEQMAP;$/;"	t
+MSEQUENCECOLLECTION_H	msequencecollection.h	132;"	d
+MSEQUENCESERVER_H	msequenceserver.h	132;"	d
+MSEQUENCEUTILITIES_H	msequtilities.h	132;"	d
+MSEQUENCE_H	msequence.h	132;"	d
+MSNumpress	MSNumpress.cpp	/^namespace MSNumpress {$/;"	n	namespace:ms::numpress	file:
+MSNumpress	MSNumpress.hpp	/^namespace MSNumpress {$/;"	n	namespace:ms::numpress
+MSPECTRUMCONDITION_H	mspectrumcondition.h	132;"	d
+MSPECTRUM_H	mspectrum.h	132;"	d
+MTERMMODS_H	mtermmods.h	134;"	d
+MXXCLEAVAGE_H	mxxcleavage.h	134;"	d
+MZID_MREPORT_H	mzid_report.h	132;"	d
+M_lMaxModStates	mscore.cpp	/^unsigned long mscorestate::M_lMaxModStates = 1 << 12;$/;"	m	class:mscorestate	file:
+M_lMaxModStates	mscorestate.h	/^      static unsigned long M_lMaxModStates;$/;"	m	class:mscorestate
+Max_fZ	mprocess.h	/^	float Max_fZ;$/;"	m	class:mprocess
+OBJS	Makefile	/^OBJS := $(patsubst %.cpp,%.o,$(wildcard *.cpp))$/;"	m
+ONE	MSNumpress.cpp	/^const int ONE = 1;$/;"	m	namespace:ms::numpress::MSNumpress	file:
+P3MPROCESS_H	p3mprocess.h	132;"	d
+P3MSEQUENCESERVER_H	p3msequenceserver.h	132;"	d
+PermuteState	mscore.h	/^	PermuteState() { m_pSeq = new char[256]; m_pPerm = new char[256]; m_lSize = 255;}$/;"	f	class:PermuteState
+PermuteState	mscore.h	/^class PermuteState$/;"	c
+ProcessThread	p3.cpp	/^DWORD WINAPI ProcessThread(LPVOID _p)$/;"	f
+ProcessThread	p3.cpp	/^void* ProcessThread(void *_p){$/;"	f
+ProcessThread	tandem.cpp	/^void* ProcessThread(void *_p){$/;"	f
+ProteinGlobalId	tandem.cpp	/^size_t ProteinGlobalId = 0;$/;"	v
+Protein_threads	tandem.cpp	/^int Protein_threads = 0;$/;"	v
+RefineThread	p3.cpp	/^DWORD WINAPI RefineThread(LPVOID _p)$/;"	f
+RefineThread	p3.cpp	/^void* RefineThread(void *_p){$/;"	f
+RefineThread	tandem.cpp	/^void* RefineThread(void *_p){$/;"	f
+Remove	mprocess.h	/^	bool Remove(int& readableIndex){$/;"	f	class:buf
+SAXBIOMLHANDLER_H	saxbiomlhandler.h	138;"	d
+SAXBiomlHandler	saxbiomlhandler.cpp	/^SAXBiomlHandler::SAXBiomlHandler( )$/;"	f	class:SAXBiomlHandler
+SAXBiomlHandler	saxbiomlhandler.h	/^class SAXBiomlHandler : public SAXHandler$/;"	c
+SAXGAMLHANDLER_H	saxgamlhandler.h	138;"	d
+SAXGamlHandler	saxgamlhandler.cpp	/^SAXGamlHandler::SAXGamlHandler( vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:SAXGamlHandler
+SAXGamlHandler	saxgamlhandler.h	/^class SAXGamlHandler : public SAXSpectraHandler$/;"	c
+SAXHANDLER_H	saxhandler.h	132;"	d
+SAXHandler	saxhandler.cpp	/^SAXHandler::SAXHandler()$/;"	f	class:SAXHandler
+SAXHandler	saxhandler.h	/^class SAXHandler$/;"	c
+SAXMODHANDLER_H	saxmodhandler.h	138;"	d
+SAXMZDATAHANDLER_H	saxmzdatahandler.h	2;"	d
+SAXMZMLHANDLER_H	saxmzmlhandler.h	2;"	d
+SAXMZXMLHANDLER_H	saxmzxmlhandler.h	2;"	d
+SAXModHandler	saxmodhandler.cpp	/^SAXModHandler::SAXModHandler( )$/;"	f	class:SAXModHandler
+SAXModHandler	saxmodhandler.h	/^class SAXModHandler : public SAXHandler$/;"	c
+SAXMzdataHandler	saxmzdatahandler.cpp	/^SAXMzdataHandler::SAXMzdataHandler( vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:SAXMzdataHandler
+SAXMzdataHandler	saxmzdatahandler.h	/^class SAXMzdataHandler : public SAXSpectraHandler$/;"	c
+SAXMzmlHandler	saxmzmlhandler.cpp	/^SAXMzmlHandler::SAXMzmlHandler( vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:SAXMzmlHandler
+SAXMzmlHandler	saxmzmlhandler.h	/^class SAXMzmlHandler : public SAXSpectraHandler$/;"	c
+SAXMzxmlHandler	saxmzxmlhandler.cpp	/^SAXMzxmlHandler::SAXMzxmlHandler( vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:SAXMzxmlHandler
+SAXMzxmlHandler	saxmzxmlhandler.h	/^class SAXMzxmlHandler : public SAXSpectraHandler$/;"	c
+SAXSAPHANDLER_H	saxsaphandler.h	138;"	d
+SAXSapHandler	saxsaphandler.cpp	/^SAXSapHandler::SAXSapHandler( )$/;"	f	class:SAXSapHandler
+SAXSapHandler	saxsaphandler.h	/^class SAXSapHandler : public SAXHandler$/;"	c
+SAXSpectraHandler	saxhandler.cpp	/^SAXSpectraHandler::SAXSpectraHandler(vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:SAXSpectraHandler
+SAXSpectraHandler	saxhandler.h	/^class SAXSpectraHandler : public SAXHandler$/;"	c
+SAXTANDEMINPUTHANDLER_H	saxtandeminputhandler.h	138;"	d
+SAXTAXHANDLER_H	saxtaxhandler.h	138;"	d
+SAXTandemInputHandler	saxtandeminputhandler.cpp	/^SAXTandemInputHandler::SAXTandemInputHandler(const string& _p, xMap& _map)$/;"	f	class:SAXTandemInputHandler
+SAXTandemInputHandler	saxtandeminputhandler.h	/^class SAXTandemInputHandler : public SAXHandler$/;"	c
+SAXTaxHandler	saxtaxhandler.cpp	/^SAXTaxHandler::SAXTaxHandler(const string& _p, const string& _t, vector<string>& _vP)$/;"	f	class:SAXTaxHandler
+SAXTaxHandler	saxtaxhandler.h	/^class SAXTaxHandler : public SAXHandler$/;"	c
+SEQMAP	mprocess.h	/^typedef map<size_t,string> SEQMAP;$/;"	t
+SEQUENCE	xmltaxonomy.h	/^		SEQUENCE = 1,$/;"	e	enum:XmlTaxonomy::tax_type
+SMap	stdafx.h	/^typedef map<size_t,double> SMap;$/;"	t
+SPECTRUM	xmltaxonomy.h	/^		SPECTRUM = 2$/;"	e	enum:XmlTaxonomy::tax_type
+SRCS	Makefile	/^SRCS := $(wildcard *.cpp)$/;"	m
+S_A	mscore.h	/^		S_A =	4,$/;"	e	enum:mscore::__anon19
+S_B	mscore.h	/^		S_B =	2,$/;"	e	enum:mscore::__anon19
+S_C	mscore.h	/^		S_C =	5,$/;"	e	enum:mscore::__anon19
+S_X	mscore.h	/^		S_X =	3,$/;"	e	enum:mscore::__anon19
+S_Y	mscore.h	/^		S_Y =	1,$/;"	e	enum:mscore::__anon19
+S_Z	mscore.h	/^		S_Z =	6,$/;"	e	enum:mscore::__anon19
+SavInfo	saxsaphandler.h	/^	SavInfo(void)$/;"	f	class:SavInfo
+SavInfo	saxsaphandler.h	/^class SavInfo$/;"	c
+Spec	mprocess.h	/^	vector<singleSpectrum> Spec;$/;"	m	class:onePeptide
+Spectra_divisions	tandem.cpp	/^int Spectra_divisions = 0;$/;"	v
+TAX_TYPE	xmltaxonomy.h	/^	} TAX_TYPE;$/;"	m	class:XmlTaxonomy	typeref:enum:XmlTaxonomy::tax_type
+THROW_ON_OVERFLOW	MSNumpress.hpp	50;"	d
+TYPE	mpam.cpp	/^const char* mpammanager::TYPE = "refinement, point mutation algorithm";$/;"	m	class:mpammanager	file:
+TYPE	mpam.h	/^	static const char* TYPE;$/;"	m	class:mpammanager
+TYPE	mpmods.cpp	/^const char* mpmodsmanager::TYPE = "refinement, potential modifications algorithm";$/;"	m	class:mpmodsmanager	file:
+TYPE	mpmods.h	/^	static const char* TYPE;$/;"	m	class:mpmodsmanager
+TYPE	mrefine.cpp	/^const char* mrefinemanager::TYPE = "refinement, algorithm";$/;"	m	class:mrefinemanager	file:
+TYPE	mrefine.h	/^	static const char* TYPE;$/;"	m	class:mrefinemanager
+TYPE	mscore.cpp	/^const char* mscoremanager::TYPE = "scoring, algorithm";$/;"	m	class:mscoremanager	file:
+TYPE	mscore.h	/^	static const char* TYPE;$/;"	m	class:mscoremanager
+TYPE	mtermmods.cpp	/^const char* mtermmodsmanager::TYPE = "refinement, terminal modifications algorithm";$/;"	m	class:mtermmodsmanager	file:
+TYPE	mtermmods.h	/^	static const char* TYPE;$/;"	m	class:mtermmodsmanager
+TYPE	mxxcleavage.cpp	/^const char* mxxcleavagemanager::TYPE = "refinement, unanticipated cleavages algorithm";$/;"	m	class:mxxcleavagemanager	file:
+TYPE	mxxcleavage.h	/^	static const char* TYPE;$/;"	m	class:mxxcleavagemanager
+T_A	mscore.h	/^		T_A =	0x08,$/;"	e	enum:mscore::__anon18
+T_B	mscore.h	/^		T_B =	0x02,$/;"	e	enum:mscore::__anon18
+T_C	mscore.h	/^		T_C =	0x10,$/;"	e	enum:mscore::__anon18
+T_FRAGMENT_DALTONS	mscore.h	/^		T_FRAGMENT_DALTONS = 0x04,$/;"	e	enum:mscore::__anon20
+T_FRAGMENT_PPM	mscore.h	/^		T_FRAGMENT_PPM =	0x08,$/;"	e	enum:mscore::__anon20
+T_PARENT_DALTONS	mscore.h	/^		T_PARENT_DALTONS = 0x01,$/;"	e	enum:mscore::__anon20
+T_PARENT_PPM	mscore.h	/^		T_PARENT_PPM = 0x02,$/;"	e	enum:mscore::__anon20
+T_X	mscore.h	/^		T_X =	0x04,$/;"	e	enum:mscore::__anon18
+T_Y	mscore.h	/^		T_Y =	0x01,$/;"	e	enum:mscore::__anon18
+T_Z	mscore.h	/^		T_Z =	0x20,$/;"	e	enum:mscore::__anon18
+UNKNOWN	msequenceserver.h	/^		UNKNOWN = 0xFFFFFFFF,$/;"	e	enum:msequenceServer::__anon21
+VERSION	stdafx.h	248;"	d
+XBANG	msequenceserver.h	/^		XBANG = 1,$/;"	e	enum:msequenceServer::__anon21
+XMLCALL	expat_external.h	38;"	d
+XMLCALL	expat_external.h	40;"	d
+XMLCALL	expat_external.h	52;"	d
+XMLCALL	expat_external_old.h	35;"	d
+XMLCALL	expat_external_old.h	37;"	d
+XMLCALL	expat_external_old.h	49;"	d
+XMLCLASS	stdafx.h	163;"	d
+XMLIMPORT	expat_external.h	62;"	d
+XMLIMPORT	expat_external.h	71;"	d
+XMLIMPORT	expat_external_old.h	59;"	d
+XMLIMPORT	expat_external_old.h	67;"	d
+XMLPARAMETER_H	xmlparameter.h	132;"	d
+XMLPARSEAPI	expat_external.h	75;"	d
+XMLPARSEAPI	expat_external_old.h	71;"	d
+XMLTAXONOMY_H	xmltaxonomy.h	132;"	d
+XML_AttlistDeclHandler	expat.h	/^typedef void (XMLCALL *XML_AttlistDeclHandler) ($/;"	t
+XML_AttlistDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_AttlistDeclHandler) ($/;"	t
+XML_Bool	expat.h	/^typedef unsigned char XML_Bool;$/;"	t
+XML_Bool	expat_old.h	/^typedef unsigned char XML_Bool;$/;"	t
+XML_CQUANT_NONE	expat.h	/^  XML_CQUANT_NONE,$/;"	e	enum:XML_Content_Quant
+XML_CQUANT_NONE	expat_old.h	/^  XML_CQUANT_NONE,$/;"	e	enum:XML_Content_Quant
+XML_CQUANT_OPT	expat.h	/^  XML_CQUANT_OPT,$/;"	e	enum:XML_Content_Quant
+XML_CQUANT_OPT	expat_old.h	/^  XML_CQUANT_OPT,$/;"	e	enum:XML_Content_Quant
+XML_CQUANT_PLUS	expat.h	/^  XML_CQUANT_PLUS$/;"	e	enum:XML_Content_Quant
+XML_CQUANT_PLUS	expat_old.h	/^  XML_CQUANT_PLUS$/;"	e	enum:XML_Content_Quant
+XML_CQUANT_REP	expat.h	/^  XML_CQUANT_REP,$/;"	e	enum:XML_Content_Quant
+XML_CQUANT_REP	expat_old.h	/^  XML_CQUANT_REP,$/;"	e	enum:XML_Content_Quant
+XML_CTYPE_ANY	expat.h	/^  XML_CTYPE_ANY,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_ANY	expat_old.h	/^  XML_CTYPE_ANY,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_CHOICE	expat.h	/^  XML_CTYPE_CHOICE,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_CHOICE	expat_old.h	/^  XML_CTYPE_CHOICE,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_EMPTY	expat.h	/^  XML_CTYPE_EMPTY = 1,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_EMPTY	expat_old.h	/^  XML_CTYPE_EMPTY = 1,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_MIXED	expat.h	/^  XML_CTYPE_MIXED,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_MIXED	expat_old.h	/^  XML_CTYPE_MIXED,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_NAME	expat.h	/^  XML_CTYPE_NAME,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_NAME	expat_old.h	/^  XML_CTYPE_NAME,$/;"	e	enum:XML_Content_Type
+XML_CTYPE_SEQ	expat.h	/^  XML_CTYPE_SEQ$/;"	e	enum:XML_Content_Type
+XML_CTYPE_SEQ	expat_old.h	/^  XML_CTYPE_SEQ$/;"	e	enum:XML_Content_Type
+XML_Char	expat_external.h	/^typedef char XML_Char;$/;"	t
+XML_Char	expat_external.h	/^typedef unsigned short XML_Char;$/;"	t
+XML_Char	expat_external.h	/^typedef wchar_t XML_Char;$/;"	t
+XML_Char	expat_external_old.h	/^typedef char XML_Char;$/;"	t
+XML_Char	expat_external_old.h	/^typedef unsigned short XML_Char;$/;"	t
+XML_Char	expat_external_old.h	/^typedef wchar_t XML_Char;$/;"	t
+XML_CharacterDataHandler	expat.h	/^typedef void (XMLCALL *XML_CharacterDataHandler) (void *userData,$/;"	t
+XML_CharacterDataHandler	expat_old.h	/^typedef void (XMLCALL *XML_CharacterDataHandler) (void *userData,$/;"	t
+XML_CommentHandler	expat.h	/^typedef void (XMLCALL *XML_CommentHandler) (void *userData,$/;"	t
+XML_CommentHandler	expat_old.h	/^typedef void (XMLCALL *XML_CommentHandler) (void *userData,$/;"	t
+XML_Content	expat.h	/^typedef struct XML_cp XML_Content;$/;"	t	typeref:struct:XML_cp
+XML_Content	expat_old.h	/^typedef struct XML_cp XML_Content;$/;"	t	typeref:struct:XML_cp
+XML_Content_Quant	expat.h	/^enum XML_Content_Quant {$/;"	g
+XML_Content_Quant	expat_old.h	/^enum XML_Content_Quant {$/;"	g
+XML_Content_Type	expat.h	/^enum XML_Content_Type {$/;"	g
+XML_Content_Type	expat_old.h	/^enum XML_Content_Type {$/;"	g
+XML_DefaultHandler	expat.h	/^typedef void (XMLCALL *XML_DefaultHandler) (void *userData,$/;"	t
+XML_DefaultHandler	expat_old.h	/^typedef void (XMLCALL *XML_DefaultHandler) (void *userData,$/;"	t
+XML_ERROR_ABORTED	expat.h	/^  XML_ERROR_ABORTED,$/;"	e	enum:XML_Error
+XML_ERROR_ABORTED	expat_old.h	/^  XML_ERROR_ABORTED,$/;"	e	enum:XML_Error
+XML_ERROR_ASYNC_ENTITY	expat.h	/^  XML_ERROR_ASYNC_ENTITY,$/;"	e	enum:XML_Error
+XML_ERROR_ASYNC_ENTITY	expat_old.h	/^  XML_ERROR_ASYNC_ENTITY,$/;"	e	enum:XML_Error
+XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF	expat.h	/^  XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF,$/;"	e	enum:XML_Error
+XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF	expat_old.h	/^  XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF,$/;"	e	enum:XML_Error
+XML_ERROR_BAD_CHAR_REF	expat.h	/^  XML_ERROR_BAD_CHAR_REF,$/;"	e	enum:XML_Error
+XML_ERROR_BAD_CHAR_REF	expat_old.h	/^  XML_ERROR_BAD_CHAR_REF,$/;"	e	enum:XML_Error
+XML_ERROR_BINARY_ENTITY_REF	expat.h	/^  XML_ERROR_BINARY_ENTITY_REF,$/;"	e	enum:XML_Error
+XML_ERROR_BINARY_ENTITY_REF	expat_old.h	/^  XML_ERROR_BINARY_ENTITY_REF,$/;"	e	enum:XML_Error
+XML_ERROR_CANT_CHANGE_FEATURE_ONCE_PARSING	expat.h	/^  XML_ERROR_CANT_CHANGE_FEATURE_ONCE_PARSING,$/;"	e	enum:XML_Error
+XML_ERROR_CANT_CHANGE_FEATURE_ONCE_PARSING	expat_old.h	/^  XML_ERROR_CANT_CHANGE_FEATURE_ONCE_PARSING,$/;"	e	enum:XML_Error
+XML_ERROR_DUPLICATE_ATTRIBUTE	expat.h	/^  XML_ERROR_DUPLICATE_ATTRIBUTE,$/;"	e	enum:XML_Error
+XML_ERROR_DUPLICATE_ATTRIBUTE	expat_old.h	/^  XML_ERROR_DUPLICATE_ATTRIBUTE,$/;"	e	enum:XML_Error
+XML_ERROR_ENTITY_DECLARED_IN_PE	expat.h	/^  XML_ERROR_ENTITY_DECLARED_IN_PE,$/;"	e	enum:XML_Error
+XML_ERROR_ENTITY_DECLARED_IN_PE	expat_old.h	/^  XML_ERROR_ENTITY_DECLARED_IN_PE,$/;"	e	enum:XML_Error
+XML_ERROR_EXTERNAL_ENTITY_HANDLING	expat.h	/^  XML_ERROR_EXTERNAL_ENTITY_HANDLING,$/;"	e	enum:XML_Error
+XML_ERROR_EXTERNAL_ENTITY_HANDLING	expat_old.h	/^  XML_ERROR_EXTERNAL_ENTITY_HANDLING,$/;"	e	enum:XML_Error
+XML_ERROR_FEATURE_REQUIRES_XML_DTD	expat.h	/^  XML_ERROR_FEATURE_REQUIRES_XML_DTD,$/;"	e	enum:XML_Error
+XML_ERROR_FEATURE_REQUIRES_XML_DTD	expat_old.h	/^  XML_ERROR_FEATURE_REQUIRES_XML_DTD,$/;"	e	enum:XML_Error
+XML_ERROR_FINISHED	expat.h	/^  XML_ERROR_FINISHED,$/;"	e	enum:XML_Error
+XML_ERROR_FINISHED	expat_old.h	/^  XML_ERROR_FINISHED,$/;"	e	enum:XML_Error
+XML_ERROR_INCOMPLETE_PE	expat.h	/^  XML_ERROR_INCOMPLETE_PE,$/;"	e	enum:XML_Error
+XML_ERROR_INCOMPLETE_PE	expat_old.h	/^  XML_ERROR_INCOMPLETE_PE,$/;"	e	enum:XML_Error
+XML_ERROR_INCORRECT_ENCODING	expat.h	/^  XML_ERROR_INCORRECT_ENCODING,$/;"	e	enum:XML_Error
+XML_ERROR_INCORRECT_ENCODING	expat_old.h	/^  XML_ERROR_INCORRECT_ENCODING,$/;"	e	enum:XML_Error
+XML_ERROR_INVALID_TOKEN	expat.h	/^  XML_ERROR_INVALID_TOKEN,$/;"	e	enum:XML_Error
+XML_ERROR_INVALID_TOKEN	expat_old.h	/^  XML_ERROR_INVALID_TOKEN,$/;"	e	enum:XML_Error
+XML_ERROR_JUNK_AFTER_DOC_ELEMENT	expat.h	/^  XML_ERROR_JUNK_AFTER_DOC_ELEMENT,$/;"	e	enum:XML_Error
+XML_ERROR_JUNK_AFTER_DOC_ELEMENT	expat_old.h	/^  XML_ERROR_JUNK_AFTER_DOC_ELEMENT,$/;"	e	enum:XML_Error
+XML_ERROR_MISPLACED_XML_PI	expat.h	/^  XML_ERROR_MISPLACED_XML_PI,$/;"	e	enum:XML_Error
+XML_ERROR_MISPLACED_XML_PI	expat_old.h	/^  XML_ERROR_MISPLACED_XML_PI,$/;"	e	enum:XML_Error
+XML_ERROR_NONE	expat.h	/^  XML_ERROR_NONE,$/;"	e	enum:XML_Error
+XML_ERROR_NONE	expat_old.h	/^  XML_ERROR_NONE,$/;"	e	enum:XML_Error
+XML_ERROR_NOT_STANDALONE	expat.h	/^  XML_ERROR_NOT_STANDALONE,$/;"	e	enum:XML_Error
+XML_ERROR_NOT_STANDALONE	expat_old.h	/^  XML_ERROR_NOT_STANDALONE,$/;"	e	enum:XML_Error
+XML_ERROR_NOT_SUSPENDED	expat.h	/^  XML_ERROR_NOT_SUSPENDED,$/;"	e	enum:XML_Error
+XML_ERROR_NOT_SUSPENDED	expat_old.h	/^  XML_ERROR_NOT_SUSPENDED,$/;"	e	enum:XML_Error
+XML_ERROR_NO_ELEMENTS	expat.h	/^  XML_ERROR_NO_ELEMENTS,$/;"	e	enum:XML_Error
+XML_ERROR_NO_ELEMENTS	expat_old.h	/^  XML_ERROR_NO_ELEMENTS,$/;"	e	enum:XML_Error
+XML_ERROR_NO_MEMORY	expat.h	/^  XML_ERROR_NO_MEMORY,$/;"	e	enum:XML_Error
+XML_ERROR_NO_MEMORY	expat_old.h	/^  XML_ERROR_NO_MEMORY,$/;"	e	enum:XML_Error
+XML_ERROR_PARAM_ENTITY_REF	expat.h	/^  XML_ERROR_PARAM_ENTITY_REF,$/;"	e	enum:XML_Error
+XML_ERROR_PARAM_ENTITY_REF	expat_old.h	/^  XML_ERROR_PARAM_ENTITY_REF,$/;"	e	enum:XML_Error
+XML_ERROR_PARTIAL_CHAR	expat.h	/^  XML_ERROR_PARTIAL_CHAR,$/;"	e	enum:XML_Error
+XML_ERROR_PARTIAL_CHAR	expat_old.h	/^  XML_ERROR_PARTIAL_CHAR,$/;"	e	enum:XML_Error
+XML_ERROR_PUBLICID	expat.h	/^  XML_ERROR_PUBLICID,$/;"	e	enum:XML_Error
+XML_ERROR_PUBLICID	expat_old.h	/^  XML_ERROR_PUBLICID,$/;"	e	enum:XML_Error
+XML_ERROR_RECURSIVE_ENTITY_REF	expat.h	/^  XML_ERROR_RECURSIVE_ENTITY_REF,$/;"	e	enum:XML_Error
+XML_ERROR_RECURSIVE_ENTITY_REF	expat_old.h	/^  XML_ERROR_RECURSIVE_ENTITY_REF,$/;"	e	enum:XML_Error
+XML_ERROR_RESERVED_NAMESPACE_URI	expat.h	/^  XML_ERROR_RESERVED_NAMESPACE_URI$/;"	e	enum:XML_Error
+XML_ERROR_RESERVED_PREFIX_XML	expat.h	/^  XML_ERROR_RESERVED_PREFIX_XML,$/;"	e	enum:XML_Error
+XML_ERROR_RESERVED_PREFIX_XMLNS	expat.h	/^  XML_ERROR_RESERVED_PREFIX_XMLNS,$/;"	e	enum:XML_Error
+XML_ERROR_SUSPENDED	expat.h	/^  XML_ERROR_SUSPENDED,$/;"	e	enum:XML_Error
+XML_ERROR_SUSPENDED	expat_old.h	/^  XML_ERROR_SUSPENDED,$/;"	e	enum:XML_Error
+XML_ERROR_SUSPEND_PE	expat.h	/^  XML_ERROR_SUSPEND_PE,$/;"	e	enum:XML_Error
+XML_ERROR_SUSPEND_PE	expat_old.h	/^  XML_ERROR_SUSPEND_PE$/;"	e	enum:XML_Error
+XML_ERROR_SYNTAX	expat.h	/^  XML_ERROR_SYNTAX,$/;"	e	enum:XML_Error
+XML_ERROR_SYNTAX	expat_old.h	/^  XML_ERROR_SYNTAX,$/;"	e	enum:XML_Error
+XML_ERROR_TAG_MISMATCH	expat.h	/^  XML_ERROR_TAG_MISMATCH,$/;"	e	enum:XML_Error
+XML_ERROR_TAG_MISMATCH	expat_old.h	/^  XML_ERROR_TAG_MISMATCH,$/;"	e	enum:XML_Error
+XML_ERROR_TEXT_DECL	expat.h	/^  XML_ERROR_TEXT_DECL,$/;"	e	enum:XML_Error
+XML_ERROR_TEXT_DECL	expat_old.h	/^  XML_ERROR_TEXT_DECL,$/;"	e	enum:XML_Error
+XML_ERROR_UNBOUND_PREFIX	expat.h	/^  XML_ERROR_UNBOUND_PREFIX,$/;"	e	enum:XML_Error
+XML_ERROR_UNBOUND_PREFIX	expat_old.h	/^  XML_ERROR_UNBOUND_PREFIX,$/;"	e	enum:XML_Error
+XML_ERROR_UNCLOSED_CDATA_SECTION	expat.h	/^  XML_ERROR_UNCLOSED_CDATA_SECTION,$/;"	e	enum:XML_Error
+XML_ERROR_UNCLOSED_CDATA_SECTION	expat_old.h	/^  XML_ERROR_UNCLOSED_CDATA_SECTION,$/;"	e	enum:XML_Error
+XML_ERROR_UNCLOSED_TOKEN	expat.h	/^  XML_ERROR_UNCLOSED_TOKEN,$/;"	e	enum:XML_Error
+XML_ERROR_UNCLOSED_TOKEN	expat_old.h	/^  XML_ERROR_UNCLOSED_TOKEN,$/;"	e	enum:XML_Error
+XML_ERROR_UNDECLARING_PREFIX	expat.h	/^  XML_ERROR_UNDECLARING_PREFIX,$/;"	e	enum:XML_Error
+XML_ERROR_UNDECLARING_PREFIX	expat_old.h	/^  XML_ERROR_UNDECLARING_PREFIX,$/;"	e	enum:XML_Error
+XML_ERROR_UNDEFINED_ENTITY	expat.h	/^  XML_ERROR_UNDEFINED_ENTITY,$/;"	e	enum:XML_Error
+XML_ERROR_UNDEFINED_ENTITY	expat_old.h	/^  XML_ERROR_UNDEFINED_ENTITY,$/;"	e	enum:XML_Error
+XML_ERROR_UNEXPECTED_STATE	expat.h	/^  XML_ERROR_UNEXPECTED_STATE,$/;"	e	enum:XML_Error
+XML_ERROR_UNEXPECTED_STATE	expat_old.h	/^  XML_ERROR_UNEXPECTED_STATE,$/;"	e	enum:XML_Error
+XML_ERROR_UNKNOWN_ENCODING	expat.h	/^  XML_ERROR_UNKNOWN_ENCODING,$/;"	e	enum:XML_Error
+XML_ERROR_UNKNOWN_ENCODING	expat_old.h	/^  XML_ERROR_UNKNOWN_ENCODING,$/;"	e	enum:XML_Error
+XML_ERROR_XML_DECL	expat.h	/^  XML_ERROR_XML_DECL,$/;"	e	enum:XML_Error
+XML_ERROR_XML_DECL	expat_old.h	/^  XML_ERROR_XML_DECL,$/;"	e	enum:XML_Error
+XML_ElementDeclHandler	expat.h	/^typedef void (XMLCALL *XML_ElementDeclHandler) (void *userData,$/;"	t
+XML_ElementDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_ElementDeclHandler) (void *userData,$/;"	t
+XML_Encoding	expat.h	/^} XML_Encoding;$/;"	t	typeref:struct:__anon2
+XML_Encoding	expat_old.h	/^} XML_Encoding;$/;"	t	typeref:struct:__anon12
+XML_EndCdataSectionHandler	expat.h	/^typedef void (XMLCALL *XML_EndCdataSectionHandler) (void *userData);$/;"	t
+XML_EndCdataSectionHandler	expat_old.h	/^typedef void (XMLCALL *XML_EndCdataSectionHandler) (void *userData);$/;"	t
+XML_EndDoctypeDeclHandler	expat.h	/^typedef void (XMLCALL *XML_EndDoctypeDeclHandler)(void *userData);$/;"	t
+XML_EndDoctypeDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_EndDoctypeDeclHandler)(void *userData);$/;"	t
+XML_EndElementHandler	expat.h	/^typedef void (XMLCALL *XML_EndElementHandler) (void *userData,$/;"	t
+XML_EndElementHandler	expat_old.h	/^typedef void (XMLCALL *XML_EndElementHandler) (void *userData,$/;"	t
+XML_EndNamespaceDeclHandler	expat.h	/^typedef void (XMLCALL *XML_EndNamespaceDeclHandler) ($/;"	t
+XML_EndNamespaceDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_EndNamespaceDeclHandler) ($/;"	t
+XML_EntityDeclHandler	expat.h	/^typedef void (XMLCALL *XML_EntityDeclHandler) ($/;"	t
+XML_EntityDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_EntityDeclHandler) ($/;"	t
+XML_Error	expat.h	/^enum XML_Error {$/;"	g
+XML_Error	expat_old.h	/^enum XML_Error {$/;"	g
+XML_Expat_Version	expat.h	/^} XML_Expat_Version;$/;"	t	typeref:struct:__anon4
+XML_Expat_Version	expat_old.h	/^} XML_Expat_Version;$/;"	t	typeref:struct:__anon14
+XML_ExternalEntityRefHandler	expat.h	/^typedef int (XMLCALL *XML_ExternalEntityRefHandler) ($/;"	t
+XML_ExternalEntityRefHandler	expat_old.h	/^typedef int (XMLCALL *XML_ExternalEntityRefHandler) ($/;"	t
+XML_FALSE	expat.h	30;"	d
+XML_FALSE	expat_old.h	26;"	d
+XML_FEATURE_CONTEXT_BYTES	expat.h	/^  XML_FEATURE_CONTEXT_BYTES,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_CONTEXT_BYTES	expat_old.h	/^  XML_FEATURE_CONTEXT_BYTES,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_DTD	expat.h	/^  XML_FEATURE_DTD,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_DTD	expat_old.h	/^  XML_FEATURE_DTD,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_END	expat.h	/^  XML_FEATURE_END = 0,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_END	expat_old.h	/^  XML_FEATURE_END = 0,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_MIN_SIZE	expat.h	/^  XML_FEATURE_MIN_SIZE,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_MIN_SIZE	expat_old.h	/^  XML_FEATURE_MIN_SIZE,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_NS	expat.h	/^  XML_FEATURE_NS$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_SIZEOF_XML_CHAR	expat.h	/^  XML_FEATURE_SIZEOF_XML_CHAR,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_SIZEOF_XML_CHAR	expat_old.h	/^  XML_FEATURE_SIZEOF_XML_CHAR,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_SIZEOF_XML_LCHAR	expat.h	/^  XML_FEATURE_SIZEOF_XML_LCHAR,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_SIZEOF_XML_LCHAR	expat_old.h	/^  XML_FEATURE_SIZEOF_XML_LCHAR$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_UNICODE	expat.h	/^  XML_FEATURE_UNICODE,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_UNICODE	expat_old.h	/^  XML_FEATURE_UNICODE,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_UNICODE_WCHAR_T	expat.h	/^  XML_FEATURE_UNICODE_WCHAR_T,$/;"	e	enum:XML_FeatureEnum
+XML_FEATURE_UNICODE_WCHAR_T	expat_old.h	/^  XML_FEATURE_UNICODE_WCHAR_T,$/;"	e	enum:XML_FeatureEnum
+XML_FINISHED	expat.h	/^  XML_FINISHED,$/;"	e	enum:XML_Parsing
+XML_FINISHED	expat_old.h	/^  XML_FINISHED,$/;"	e	enum:XML_Parsing
+XML_Feature	expat.h	/^} XML_Feature;$/;"	t	typeref:struct:__anon5
+XML_Feature	expat_old.h	/^} XML_Feature;$/;"	t	typeref:struct:__anon15
+XML_FeatureEnum	expat.h	/^enum XML_FeatureEnum {$/;"	g
+XML_FeatureEnum	expat_old.h	/^enum XML_FeatureEnum {$/;"	g
+XML_GetErrorByteIndex	expat.h	936;"	d
+XML_GetErrorByteIndex	expat_old.h	928;"	d
+XML_GetErrorColumnNumber	expat.h	935;"	d
+XML_GetErrorColumnNumber	expat_old.h	927;"	d
+XML_GetErrorLineNumber	expat.h	934;"	d
+XML_GetErrorLineNumber	expat_old.h	926;"	d
+XML_GetUserData	expat.h	674;"	d
+XML_GetUserData	expat_old.h	666;"	d
+XML_INITIALIZED	expat.h	/^  XML_INITIALIZED,$/;"	e	enum:XML_Parsing
+XML_INITIALIZED	expat_old.h	/^  XML_INITIALIZED,$/;"	e	enum:XML_Parsing
+XML_Index	expat_external.h	/^typedef __int64 XML_Index; $/;"	t
+XML_Index	expat_external.h	/^typedef long XML_Index;$/;"	t
+XML_Index	expat_external.h	/^typedef long long XML_Index;$/;"	t
+XML_LChar	expat_external.h	/^typedef char XML_LChar;$/;"	t
+XML_LChar	expat_external.h	/^typedef wchar_t XML_LChar;$/;"	t
+XML_LChar	expat_external_old.h	/^typedef char XML_LChar;$/;"	t
+XML_LChar	expat_external_old.h	/^typedef wchar_t XML_LChar;$/;"	t
+XML_MAJOR_VERSION	expat.h	1005;"	d
+XML_MAJOR_VERSION	expat_old.h	996;"	d
+XML_MICRO_VERSION	expat.h	1007;"	d
+XML_MICRO_VERSION	expat_old.h	998;"	d
+XML_MINOR_VERSION	expat.h	1006;"	d
+XML_MINOR_VERSION	expat_old.h	997;"	d
+XML_Memory_Handling_Suite	expat.h	/^} XML_Memory_Handling_Suite;$/;"	t	typeref:struct:__anon1
+XML_Memory_Handling_Suite	expat_old.h	/^} XML_Memory_Handling_Suite;$/;"	t	typeref:struct:__anon11
+XML_NotStandaloneHandler	expat.h	/^typedef int (XMLCALL *XML_NotStandaloneHandler) (void *userData);$/;"	t
+XML_NotStandaloneHandler	expat_old.h	/^typedef int (XMLCALL *XML_NotStandaloneHandler) (void *userData);$/;"	t
+XML_NotationDeclHandler	expat.h	/^typedef void (XMLCALL *XML_NotationDeclHandler) ($/;"	t
+XML_NotationDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_NotationDeclHandler) ($/;"	t
+XML_PARAM_ENTITY_PARSING_ALWAYS	expat.h	/^  XML_PARAM_ENTITY_PARSING_ALWAYS$/;"	e	enum:XML_ParamEntityParsing
+XML_PARAM_ENTITY_PARSING_ALWAYS	expat_old.h	/^  XML_PARAM_ENTITY_PARSING_ALWAYS$/;"	e	enum:XML_ParamEntityParsing
+XML_PARAM_ENTITY_PARSING_NEVER	expat.h	/^  XML_PARAM_ENTITY_PARSING_NEVER,$/;"	e	enum:XML_ParamEntityParsing
+XML_PARAM_ENTITY_PARSING_NEVER	expat_old.h	/^  XML_PARAM_ENTITY_PARSING_NEVER,$/;"	e	enum:XML_ParamEntityParsing
+XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE	expat.h	/^  XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE,$/;"	e	enum:XML_ParamEntityParsing
+XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE	expat_old.h	/^  XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE,$/;"	e	enum:XML_ParamEntityParsing
+XML_PARSING	expat.h	/^  XML_PARSING,$/;"	e	enum:XML_Parsing
+XML_PARSING	expat_old.h	/^  XML_PARSING,$/;"	e	enum:XML_Parsing
+XML_ParamEntityParsing	expat.h	/^enum XML_ParamEntityParsing {$/;"	g
+XML_ParamEntityParsing	expat_old.h	/^enum XML_ParamEntityParsing {$/;"	g
+XML_Parser	expat.h	/^typedef struct XML_ParserStruct *XML_Parser;$/;"	t	typeref:struct:XML_ParserStruct
+XML_Parser	expat_old.h	/^typedef struct XML_ParserStruct *XML_Parser;$/;"	t	typeref:struct:XML_ParserStruct
+XML_Parsing	expat.h	/^enum XML_Parsing {$/;"	g
+XML_Parsing	expat_old.h	/^enum XML_Parsing {$/;"	g
+XML_ParsingStatus	expat.h	/^} XML_ParsingStatus;$/;"	t	typeref:struct:__anon3
+XML_ParsingStatus	expat_old.h	/^} XML_ParsingStatus;$/;"	t	typeref:struct:__anon13
+XML_ProcessingInstructionHandler	expat.h	/^typedef void (XMLCALL *XML_ProcessingInstructionHandler) ($/;"	t
+XML_ProcessingInstructionHandler	expat_old.h	/^typedef void (XMLCALL *XML_ProcessingInstructionHandler) ($/;"	t
+XML_STATIC	stdafx.h	164;"	d
+XML_STATUS_ERROR	expat.h	/^  XML_STATUS_ERROR = 0,$/;"	e	enum:XML_Status
+XML_STATUS_ERROR	expat.h	47;"	d
+XML_STATUS_ERROR	expat_old.h	/^  XML_STATUS_ERROR = 0,$/;"	e	enum:XML_Status
+XML_STATUS_ERROR	expat_old.h	43;"	d
+XML_STATUS_OK	expat.h	/^  XML_STATUS_OK = 1,$/;"	e	enum:XML_Status
+XML_STATUS_OK	expat.h	49;"	d
+XML_STATUS_OK	expat_old.h	/^  XML_STATUS_OK = 1,$/;"	e	enum:XML_Status
+XML_STATUS_OK	expat_old.h	45;"	d
+XML_STATUS_SUSPENDED	expat.h	/^  XML_STATUS_SUSPENDED = 2$/;"	e	enum:XML_Status
+XML_STATUS_SUSPENDED	expat.h	51;"	d
+XML_STATUS_SUSPENDED	expat_old.h	/^  XML_STATUS_SUSPENDED = 2,$/;"	e	enum:XML_Status
+XML_STATUS_SUSPENDED	expat_old.h	47;"	d
+XML_SUSPENDED	expat.h	/^  XML_SUSPENDED$/;"	e	enum:XML_Parsing
+XML_SUSPENDED	expat_old.h	/^  XML_SUSPENDED$/;"	e	enum:XML_Parsing
+XML_SetExternalEntityRefHandlerArg	expat.h	14;"	d
+XML_SetExternalEntityRefHandlerArg	expat_old.h	14;"	d
+XML_SetProcessingInstructionHandler	expat.h	11;"	d
+XML_SetProcessingInstructionHandler	expat_old.h	11;"	d
+XML_SetStartNamespaceDeclHandler	expat.h	13;"	d
+XML_SetStartNamespaceDeclHandler	expat_old.h	13;"	d
+XML_SetUnparsedEntityDeclHandler	expat.h	12;"	d
+XML_SetUnparsedEntityDeclHandler	expat_old.h	12;"	d
+XML_Size	expat_external.h	/^typedef unsigned __int64 XML_Size;$/;"	t
+XML_Size	expat_external.h	/^typedef unsigned long XML_Size;$/;"	t
+XML_Size	expat_external.h	/^typedef unsigned long long XML_Size;$/;"	t
+XML_SkippedEntityHandler	expat.h	/^typedef void (XMLCALL *XML_SkippedEntityHandler) ($/;"	t
+XML_SkippedEntityHandler	expat_old.h	/^typedef void (XMLCALL *XML_SkippedEntityHandler) ($/;"	t
+XML_StartCdataSectionHandler	expat.h	/^typedef void (XMLCALL *XML_StartCdataSectionHandler) (void *userData);$/;"	t
+XML_StartCdataSectionHandler	expat_old.h	/^typedef void (XMLCALL *XML_StartCdataSectionHandler) (void *userData);$/;"	t
+XML_StartDoctypeDeclHandler	expat.h	/^typedef void (XMLCALL *XML_StartDoctypeDeclHandler) ($/;"	t
+XML_StartDoctypeDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_StartDoctypeDeclHandler) ($/;"	t
+XML_StartElementHandler	expat.h	/^typedef void (XMLCALL *XML_StartElementHandler) (void *userData,$/;"	t
+XML_StartElementHandler	expat_old.h	/^typedef void (XMLCALL *XML_StartElementHandler) (void *userData,$/;"	t
+XML_StartNamespaceDeclHandler	expat.h	/^typedef void (XMLCALL *XML_StartNamespaceDeclHandler) ($/;"	t
+XML_StartNamespaceDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_StartNamespaceDeclHandler) ($/;"	t
+XML_Status	expat.h	/^enum XML_Status {$/;"	g
+XML_Status	expat_old.h	/^enum XML_Status {$/;"	g
+XML_TRUE	expat.h	29;"	d
+XML_TRUE	expat_old.h	25;"	d
+XML_UNICODE	expat_external.h	82;"	d
+XML_UNICODE	expat_external_old.h	78;"	d
+XML_USE_MSC_EXTENSIONS	expat_external.h	11;"	d
+XML_USE_MSC_EXTENSIONS	expat_external_old.h	8;"	d
+XML_UnknownEncodingHandler	expat.h	/^typedef int (XMLCALL *XML_UnknownEncodingHandler) ($/;"	t
+XML_UnknownEncodingHandler	expat_old.h	/^typedef int (XMLCALL *XML_UnknownEncodingHandler) ($/;"	t
+XML_UnparsedEntityDeclHandler	expat.h	/^typedef void (XMLCALL *XML_UnparsedEntityDeclHandler) ($/;"	t
+XML_UnparsedEntityDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_UnparsedEntityDeclHandler) ($/;"	t
+XML_XmlDeclHandler	expat.h	/^typedef void (XMLCALL *XML_XmlDeclHandler) (void           *userData,$/;"	t
+XML_XmlDeclHandler	expat_old.h	/^typedef void (XMLCALL *XML_XmlDeclHandler) (void           *userData,$/;"	t
+XML_cp	expat.h	/^struct XML_cp {$/;"	s
+XML_cp	expat_old.h	/^struct XML_cp {$/;"	s
+XmlParameter	xmlparameter.cpp	/^XmlParameter::XmlParameter(void)$/;"	f	class:XmlParameter
+XmlParameter	xmlparameter.h	/^class XmlParameter$/;"	c
+XmlParse_INCLUDED	expat_old.h	6;"	d
+XmlTaxonomy	xmltaxonomy.cpp	/^XmlTaxonomy::XmlTaxonomy(void)$/;"	f	class:XmlTaxonomy
+XmlTaxonomy	xmltaxonomy.h	/^class XmlTaxonomy$/;"	c
+_APS_NEXT_COMMAND_VALUE	resource.h	12;"	d
+_APS_NEXT_CONTROL_VALUE	resource.h	13;"	d
+_APS_NEXT_RESOURCE_VALUE	resource.h	11;"	d
+_APS_NEXT_SYMED_VALUE	resource.h	14;"	d
+_CRT_SECURE_NO_DEPRECATE	stdafx.h	187;"	d
+_MSNUMPRESS_HPP_	MSNumpress.hpp	42;"	d
+__inline__	stdafx.h	180;"	d
+__inline__	stdafx.h	192;"	d
+__inline__	stdafx.h	200;"	d
+__int64_t	stdafx.h	181;"	d
+__int64_t	stdafx.h	194;"	d
+a0	mhistogram.h	/^	float a0(void)	{$/;"	f	class:mhistogram
+a1	mhistogram.h	/^	float a1(void)	{$/;"	f	class:mhistogram
+accession	saxmzmlhandler.h	/^		string accession;$/;"	m	class:SAXMzmlHandler::cvParam
+activate	msemistate.h	/^	  bool activate(const bool _b)	{$/;"	f	class:msemistate
+add	mhistogram.h	/^	virtual int add(const float _f)	{$/;"	f	class:mhistogram
+add	mhistogram.h	/^	virtual int add(const int _c)	{$/;"	f	class:count_mhistogram
+addMass	masscalc.cpp	/^void masscalc::addMass(const char* _m, double _mono, double _ave)$/;"	f	class:masscalc
+add_A	mscore.cpp	/^bool mscore::add_A(const unsigned long _t,const long _c)$/;"	f	class:mscore
+add_B	mscore.cpp	/^bool mscore::add_B(const unsigned long _t,const long _c)$/;"	f	class:mscore
+add_C	mscore.cpp	/^bool mscore::add_C(const unsigned long _t,const long _c)$/;"	f	class:mscore
+add_X	mscore.cpp	/^bool mscore::add_X(const unsigned long _t,const long _c)$/;"	f	class:mscore
+add_Y	mscore.cpp	/^bool mscore::add_Y(const unsigned long _t,const long _c)$/;"	f	class:mscore
+add_Z	mscore.cpp	/^bool mscore::add_Z(const unsigned long _t,const long _c)$/;"	f	class:mscore
+add_analysis	mzid_report.cpp	/^bool mzid_report::add_analysis(vector<mspectrum> &_vs,vector<string> &_vp,XmlParameter &_x)$/;"	f	class:mzid_report
+add_dbsequence	mzid_report.cpp	/^bool mzid_report::add_dbsequence(vector<mspectrum> &_vs)$/;"	f	class:mzid_report
+add_details	mscore.cpp	/^bool mscore::add_details(mspectrum &_s)$/;"	f	class:mscore
+add_header	mzid_report.cpp	/^bool mzid_report::add_header(string &_s,string &_t)$/;"	f	class:mzid_report
+add_inputs	mzid_report.cpp	/^bool mzid_report::add_inputs(vector<mspectrum> &_vs,vector<string> &_vp,XmlParameter &_x)$/;"	f	class:mzid_report
+add_mi	mscore.cpp	/^bool mscore::add_mi(mspectrum &_s)$/;"	f	class:mscore
+add_mi	mscore_tandem.cpp	/^bool mscore_tandem::add_mi(mspectrum &_s)$/;"	f	class:mscore_tandem
+add_mod	mscorestate.h	/^      long add_mod(char *_p)$/;"	f	class:mscorestate
+add_mod	msequtilities.cpp	/^bool msequtilities::add_mod(const char _c,const size_t _v)$/;"	f	class:msequtilities
+add_peptide_evidence	mzid_report.cpp	/^bool mzid_report::add_peptide_evidence(vector<mspectrum> &_vs)$/;"	f	class:mzid_report
+add_peptides	mzid_report.cpp	/^bool mzid_report::add_peptides(vector<mspectrum> &_vs)$/;"	f	class:mzid_report
+add_seq	mscore.cpp	/^unsigned long mscore::add_seq(const char *_s,const bool _n,const bool _c,const unsigned long _l,const int _f)$/;"	f	class:mscore
+add_spectra	mprocess.cpp	/^bool mprocess::add_spectra(vector<mspectrum> &_v)$/;"	f	class:mprocess
+allowed	mscorepam.h	/^	bool allowed(string &_s)$/;"	f	class:mscoresap
+analysis_collection	mzid_report.cpp	/^bool mzid_report::analysis_collection(vector<mspectrum> &_vs,vector<string> &_vp)$/;"	f	class:mzid_report
+analysis_mods	mzid_report.cpp	/^bool mzid_report::analysis_mods(string &_v,bool _b)$/;"	f	class:mzid_report
+analysis_protocol_collection	mzid_report.cpp	/^bool mzid_report::analysis_protocol_collection(XmlParameter &_x)$/;"	f	class:mzid_report
+average	masscalc.h	/^		double average;$/;"	m	struct:masscalc::massPair
+average	masscalc.h	/^	{	monoisotopic, average };$/;"	e	enum:masscalc::massType
+b64_decode_mio	base64.cpp	/^int b64_decode_mio ( char *dest,  char *src, size_t size )$/;"	f
+b64_pad	base64.cpp	/^static const unsigned char b64_pad = '=';$/;"	v	file:
+b64_tbl	base64.cpp	/^static const unsigned char *b64_tbl = (const unsigned char*) "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/";$/;"	v	file:
+bMap	stdafx.h	/^typedef map<string,bool> bMap;$/;"	t
+bar_mpro	tandem.cpp	/^pthread_barrier_t bar_mpro;$/;"	v
+barrier_divide_wl	tandem.cpp	/^pthread_barrier_t barrier_divide_wl;$/;"	v
+barrier_parallel	tandem.cpp	/^pthread_barrier_t barrier_parallel;$/;"	v
+batchTaskQueue	mprocess.h	/^	buf batchTaskQueue;$/;"	m	class:mprocess
+block_overhead	tandem.cpp	/^	vector<double> block_overhead;$/;"	m	class:overheadDetail	file:
+blur	mscore_tandem.cpp	/^__inline__ bool mscore_tandem::blur(vector<mi> &_s)$/;"	f	class:mscore_tandem
+buf	mprocess.h	/^	buf(void)$/;"	f	class:buf
+buf	mprocess.h	/^class buf {$/;"	c
+bufSize	mprocess.h	/^	size_t bufSize;$/;"	m	class:buf
+bz	msequenceserver.cpp	/^bool msequenceServer::bz(char *_p)$/;"	f	class:msequenceServer
+calcMass	masscalc.cpp	/^double masscalc::calcMass(const char* _m)$/;"	f	class:masscalc
+chBCount	mprocess.h	/^	int chBCount;$/;"	m	class:unit
+chYCount	mprocess.h	/^	int chYCount;$/;"	m	class:unit
+characters	saxbiomlhandler.cpp	/^void SAXBiomlHandler::characters(const XML_Char *s, int len)$/;"	f	class:SAXBiomlHandler
+characters	saxgamlhandler.cpp	/^void SAXGamlHandler::characters(const XML_Char *s, int len)$/;"	f	class:SAXGamlHandler
+characters	saxhandler.cpp	/^void SAXHandler::characters(const XML_Char *s, int len)$/;"	f	class:SAXHandler
+characters	saxmzdatahandler.cpp	/^void SAXMzdataHandler::characters(const XML_Char *s, int len)$/;"	f	class:SAXMzdataHandler
+characters	saxmzmlhandler.cpp	/^void SAXMzmlHandler::characters(const XML_Char *s, int len)$/;"	f	class:SAXMzmlHandler
+characters	saxmzxmlhandler.cpp	/^void SAXMzxmlHandler::characters(const XML_Char *s, int len)$/;"	f	class:SAXMzxmlHandler
+characters	saxtandeminputhandler.cpp	/^void SAXTandemInputHandler::characters(const XML_Char *s, int len)$/;"	f	class:SAXTandemInputHandler
+charactersCallback	saxhandler.cpp	/^static void charactersCallback(void *data, const XML_Char *s, int len)$/;"	f	file:
+charge	mprocess.cpp	/^bool mprocess::charge(void)$/;"	f	class:mprocess
+check	mmotif.h	/^	bool check(const char *_p,size_t &_o)	{$/;"	f	class:mmotif
+check	mmotif.h	/^	bool check(const char _c)	{$/;"	f	class:mmotifres
+check	mprocess.h	/^	bool check(double _s,double _m)	{$/;"	f	class:merrors
+checkArraySet	tandem.cpp	/^set<int> checkArraySet;$/;"	v
+checkMut	saxsaphandler.cpp	/^bool SAXSapHandler::checkMut(char _r,char _m)	$/;"	f	class:SAXSapHandler
+check_neutral	mspectrumcondition.cpp	/^bool mspectrumcondition::check_neutral(mspectrum &_s)$/;"	f	class:mspectrumcondition
+check_pam_mass	mscore.cpp	/^__inline__ bool mscore::check_pam_mass()$/;"	f	class:mscore
+check_parents	mscore.cpp	/^bool mscore::check_parents(void)	{$/;"	f	class:mscore
+check_proteins	mreport.cpp	/^bool mreport::check_proteins(const size_t _t)$/;"	f	class:mreport
+check_simd	mscore_tandem.cpp	/^unsigned int mscore_tandem::check_simd(void)$/;"	f	class:mscore_tandem
+check_size	mscorestate.h	/^ *\/   bool check_size(const long _s)     $/;"	f	class:mscorestate
+check_terminii	mscore.h	/^	__inline__ bool check_terminii(void) {$/;"	f	class:mscore
+children	expat.h	/^  XML_Content *                 children;$/;"	m	struct:XML_cp
+children	expat_old.h	/^  XML_Content *                 children;$/;"	m	struct:XML_cp
+clean_isotopes	mspectrumcondition.cpp	/^bool mspectrumcondition::clean_isotopes(mspectrum &_s)$/;"	f	class:mspectrumcondition
+clean_sequences	mprocess.cpp	/^bool mprocess::clean_sequences(void)$/;"	f	class:mprocess
+clean_sequences	p3mprocess.cpp	/^bool p3mprocess::clean_sequences(void)$/;"	f	class:p3mprocess
+clear	mhistogram.h	/^	virtual bool clear()	{$/;"	f	class:count_mhistogram
+clear	mhistogram.h	/^	virtual bool clear()	{$/;"	f	class:mhistogram
+clear	mprocess.cpp	/^bool mprocess::clear(void)$/;"	f	class:mprocess
+clear	mscore.cpp	/^bool mscore::clear()$/;"	f	class:mscore
+clear	mscore_tandem.cpp	/^bool mscore_tandem::clear()$/;"	f	class:mscore_tandem
+clear	msequencecollection.cpp	/^bool msequenceCollection::clear(void)$/;"	f	class:msequenceCollection
+clear	msequenceserver.cpp	/^bool msequenceServer::clear(void)$/;"	f	class:msequenceServer
+clear_intensity_values	mspectrum.h	/^       void clear_intensity_values() {  \/\/ clear intensities and associated stats$/;"	f	class:mspectrum
+clear_motifs	msequtilities.cpp	/^bool msequtilities::clear_motifs(const bool _b)	$/;"	f	class:msequtilities
+clear_survive	mhistogram.h	/^	bool clear_survive()$/;"	f	class:mhistogram
+close	mprocess.h	/^	bool close()	{$/;"	f	class:mprocesslog
+cond	tandem.cpp	/^	pthread_cond_t cond;$/;"	m	class:sequenceControl	file:
+condition	mspectrumcondition.cpp	/^bool mspectrumcondition::condition(mspectrum &_s, mscore &_score)$/;"	f	class:mspectrumcondition
+convert	expat.h	/^  int (XMLCALL *convert)(void *data, const char *s);$/;"	m	struct:__anon2
+convert	expat_old.h	/^  int (XMLCALL *convert)(void *data, const char *s);$/;"	m	struct:__anon12
+convert	mhistogram.h	/^	virtual float convert(const float _f)	{$/;"	f	class:count_mhistogram
+cost	tandem.cpp	/^	float  cost;$/;"	m	class:sequenceControl	file:
+count_mhistogram	mhistogram.h	/^	count_mhistogram(void) {m_lLength = 8;}$/;"	f	class:count_mhistogram
+count_mhistogram	mhistogram.h	/^class count_mhistogram$/;"	c
+crc	mprocess.cpp	/^uint64_t mprocess::crc(const string &_s)$/;"	f	class:mprocess
+crc_timeCnt	tandem.cpp	/^float crc_timeCnt = 0;$/;"	v
+crc_time_thread	mprocess.h	/^	long  crc_time_thread;$/;"	m	class:mprocess
+create_equals	mscorestate.h	/^      bool create_equals(const long _s)$/;"	f	class:mscorestate
+create_keep_score	mprocess.cpp	/^bool mprocess::create_keep_score(const msequence &_s,const size_t _v,const size_t _w,const long _m,bool _p,vector<unit> &_plRes)$/;"	f	class:mprocess
+create_mpam	mpam.cpp	/^mpam* mpammanager::create_mpam(XmlParameter &_x)$/;"	f	class:mpammanager
+create_mpmods	mpmods.cpp	/^mpmods* mpmodsmanager::create_mpmods(XmlParameter &_x)$/;"	f	class:mpmodsmanager
+create_mrefine	mrefine.cpp	/^mrefine* mrefinemanager::create_mrefine(XmlParameter &_x)$/;"	f	class:mrefinemanager
+create_mscore	mscore.cpp	/^mscore* mscoremanager::create_mscore(XmlParameter &_x)$/;"	f	class:mscoremanager
+create_mtermmods	mtermmods.cpp	/^mtermmods* mtermmodsmanager::create_mtermmods(XmlParameter &_x)$/;"	f	class:mtermmodsmanager
+create_mxxcleavage	mxxcleavage.cpp	/^mxxcleavage* mxxcleavagemanager::create_mxxcleavage(XmlParameter &_x)$/;"	f	class:mxxcleavagemanager
+create_plugin	mpam.cpp	/^mplugin* mpamfactory_tandem::create_plugin()$/;"	f	class:mpamfactory_tandem
+create_plugin	mplugin.cpp	/^mplugin* mpluginmanager::create_plugin(const char* _type, const char* _spec)$/;"	f	class:mpluginmanager
+create_plugin	mpmods.cpp	/^mplugin* mpmodsfactory_tandem::create_plugin()$/;"	f	class:mpmodsfactory_tandem
+create_plugin	mrefine.cpp	/^mplugin* mrefinefactory_tandem::create_plugin()$/;"	f	class:mrefinefactory_tandem
+create_plugin	mscore_tandem.cpp	/^mplugin* mscorefactory_tandem::create_plugin()$/;"	f	class:mscorefactory_tandem
+create_plugin	mtermmods.cpp	/^mplugin* mtermmodsfactory_tandem::create_plugin()$/;"	f	class:mtermmodsfactory_tandem
+create_plugin	mxxcleavage.cpp	/^mplugin* mxxcleavagefactory_tandem::create_plugin()$/;"	f	class:mxxcleavagefactory_tandem
+create_rollback	mprocess.cpp	/^bool mprocess::create_rollback(vector<mspectrum>& _v)$/;"	f	class:mprocess
+create_score	mprocess.cpp	/^bool mprocess::create_score(const msequence &_s,const size_t _v,const size_t _w,const long _m,bool _p)$/;"	f	class:mprocess
+create_score	p3mprocess.cpp	/^bool p3mprocess::create_score(const msequence &_s,const size_t _v,const size_t _w,const long _m,bool _p)$/;"	f	class:p3mprocess
+cvParam	saxmzmlhandler.h	/^	class cvParam$/;"	c	class:SAXMzmlHandler
+data	expat.h	/^  void *data;$/;"	m	struct:__anon2
+data	expat_old.h	/^  void *data;$/;"	m	struct:__anon12
+data_collection	mzid_report.cpp	/^bool mzid_report::data_collection(vector<mspectrum> &_vs,vector<string> &_vp,XmlParameter &_x)$/;"	f	class:mzid_report
+decode32	saxhandler.cpp	/^void SAXSpectraHandler::decode32(bool bM \/*= true*\/, bool bI \/*= true*\/)$/;"	f	class:SAXSpectraHandler
+decode64	saxhandler.cpp	/^void SAXSpectraHandler::decode64(bool bM \/*= true*\/, bool bI \/*= true*\/)$/;"	f	class:SAXSpectraHandler
+decodeFixedPoint	MSNumpress.cpp	/^static double decodeFixedPoint($/;"	f	namespace:ms::numpress::MSNumpress
+decodeInt	MSNumpress.cpp	/^static void decodeInt($/;"	f	namespace:ms::numpress::MSNumpress
+decodeLinear	MSNumpress.cpp	/^size_t decodeLinear($/;"	f	namespace:ms::numpress::MSNumpress
+decodeLinear	MSNumpress.cpp	/^void decodeLinear($/;"	f	namespace:ms::numpress::MSNumpress
+decodePic	MSNumpress.cpp	/^size_t decodePic($/;"	f	namespace:ms::numpress::MSNumpress
+decodePic	MSNumpress.cpp	/^void decodePic($/;"	f	namespace:ms::numpress::MSNumpress
+decodeSafe	MSNumpress.cpp	/^size_t decodeSafe($/;"	f	namespace:ms::numpress::MSNumpress
+decodeSlof	MSNumpress.cpp	/^size_t decodeSlof($/;"	f	namespace:ms::numpress::MSNumpress
+decodeSlof	MSNumpress.cpp	/^void decodeSlof($/;"	f	namespace:ms::numpress::MSNumpress
+decode_group	base64.cpp	/^static void decode_group (unsigned char output[],$/;"	f	file:
+divideBatch	mprocess.h	/^	divideBatch(void){$/;"	f	class:divideBatch
+divideBatch	mprocess.h	/^class divideBatch {$/;"	c
+done	msequenceserver.cpp	/^bool msequenceServer::done(void) const{$/;"	f	class:msequenceServer
+dot	mprocess.cpp	/^__inline__ double mprocess::dot(const size_t _f,const size_t _s,const float _r,const bool _t)$/;"	f	class:mprocess
+dot	mscore_tandem.cpp	/^double mscore_tandem::dot(unsigned long *_v)$/;"	f	class:mscore_tandem
+dot_t	mscore.h	/^	double dot_t;$/;"	m	class:mscore
+dtohl	saxhandler.cpp	/^uint64_t SAXSpectraHandler::dtohl(uint64_t l, bool bNet)$/;"	f	class:SAXSpectraHandler
+dtohl	saxhandler.cpp	/^unsigned long SAXSpectraHandler::dtohl(uint32_t l, bool bNet)$/;"	f	class:SAXSpectraHandler
+dump	mhistogram.h	/^	bool dump(void)$/;"	f	class:mhistogram
+dynamic_parent_ion_selection	mprocess.cpp	/^bool mprocess::dynamic_parent_ion_selection(const double _d,const double _maxe)$/;"	f	class:mprocess
+dynamic_parent_ion_selection_ppm	mprocess.cpp	/^bool mprocess::dynamic_parent_ion_selection_ppm(const double _d, const double _maxe)$/;"	f	class:mprocess
+dynamic_range	mspectrumcondition.cpp	/^bool mspectrumcondition::dynamic_range(mspectrum &_s)$/;"	f	class:mspectrumcondition
+encodeFixedPoint	MSNumpress.cpp	/^static void encodeFixedPoint($/;"	f	namespace:ms::numpress::MSNumpress
+encodeInt	MSNumpress.cpp	/^static void encodeInt($/;"	f	namespace:ms::numpress::MSNumpress
+encodeLinear	MSNumpress.cpp	/^size_t encodeLinear($/;"	f	namespace:ms::numpress::MSNumpress
+encodeLinear	MSNumpress.cpp	/^void encodeLinear($/;"	f	namespace:ms::numpress::MSNumpress
+encodePic	MSNumpress.cpp	/^size_t encodePic($/;"	f	namespace:ms::numpress::MSNumpress
+encodePic	MSNumpress.cpp	/^void encodePic($/;"	f	namespace:ms::numpress::MSNumpress
+encodeSafe	MSNumpress.cpp	/^size_t encodeSafe($/;"	f	namespace:ms::numpress::MSNumpress
+encodeSlof	MSNumpress.cpp	/^size_t encodeSlof($/;"	f	namespace:ms::numpress::MSNumpress
+encodeSlof	MSNumpress.cpp	/^void encodeSlof($/;"	f	namespace:ms::numpress::MSNumpress
+encode_group	base64.cpp	/^static void encode_group (unsigned char output[],$/;"	f	file:
+encoding	expat.h	/^XML_ParserCreate(const XML_Char *encoding);$/;"	v
+encoding	expat_old.h	/^XML_ParserCreate(const XML_Char *encoding);$/;"	v
+end	mprocess.h	/^	int end;$/;"	m	class:divideBatch
+end	mprocess.h	/^	long end;$/;"	m	class:onePeptide
+end	mreport.cpp	/^bool mreport::end(void)$/;"	f	class:mreport
+end	mzid_report.cpp	/^bool mzid_report::end(void)$/;"	f	class:mzid_report
+endElement	saxbiomlhandler.cpp	/^void SAXBiomlHandler::endElement(const XML_Char *el)$/;"	f	class:SAXBiomlHandler
+endElement	saxgamlhandler.cpp	/^void SAXGamlHandler::endElement(const XML_Char *el)$/;"	f	class:SAXGamlHandler
+endElement	saxhandler.cpp	/^void SAXHandler::endElement(const XML_Char *el)$/;"	f	class:SAXHandler
+endElement	saxmodhandler.cpp	/^void SAXModHandler::endElement(const XML_Char *el)$/;"	f	class:SAXModHandler
+endElement	saxmzdatahandler.cpp	/^void SAXMzdataHandler::endElement(const XML_Char *el)$/;"	f	class:SAXMzdataHandler
+endElement	saxmzmlhandler.cpp	/^void SAXMzmlHandler::endElement(const XML_Char *el)$/;"	f	class:SAXMzmlHandler
+endElement	saxmzxmlhandler.cpp	/^void SAXMzxmlHandler::endElement(const XML_Char *el)$/;"	f	class:SAXMzxmlHandler
+endElement	saxsaphandler.cpp	/^void SAXSapHandler::endElement(const XML_Char *el)$/;"	f	class:SAXSapHandler
+endElement	saxtandeminputhandler.cpp	/^void SAXTandemInputHandler::endElement(const XML_Char *el)$/;"	f	class:SAXTandemInputHandler
+endElement	saxtaxhandler.cpp	/^void SAXTaxHandler::endElement(const XML_Char *el)$/;"	f	class:SAXTaxHandler
+endElementCallback	saxhandler.cpp	/^static void endElementCallback(void *data, const XML_Char *el)$/;"	f	file:
+end_0	mprocess.h	/^	long end_0;$/;"	m	class:hydrolyze_seq
+endgroup	mreport.cpp	/^bool mreport::endgroup()$/;"	f	class:mreport
+equals	mprocess.h	/^	long equals;$/;"	m	class:singleSpectrum
+error	msequenceserver.cpp	/^bool msequenceServer::error(void) const{$/;"	f	class:msequenceServer
+expect	mhistogram.h	/^	float expect(const float _f)	{$/;"	f	class:mhistogram
+expect_protein	mhistogram.h	/^	float expect_protein(const float _f)	{$/;"	f	class:mhistogram
+expect_protein	mprocess.cpp	/^double mprocess::expect_protein(const unsigned long _c,const unsigned long _t,$/;"	f	class:mprocess
+f	mscore_tandem.h	/^        __declspec(align(16)) float f[4];$/;"	m	union:mscore_tandem::u_m128
+fHyper	mdomains.h	/^	vector<float> fHyper;$/;"	m	class:mdomain
+fHyper	mprocess.h	/^	float fHyper;$/;"	m	class:unit
+fScore	mdomains.h	/^	vector<float> fScore;$/;"	m	class:mdomain
+fScore	mprocess.h	/^	float fScore;$/;"	m	class:unit
+factory	mpam.cpp	/^static mpamfactory_tandem factory;$/;"	v	file:
+factory	mpmods.cpp	/^static mpmodsfactory_tandem factory;$/;"	v	file:
+factory	mrefine.cpp	/^static mrefinefactory_tandem factory;$/;"	v	file:
+factory	mscore_tandem.cpp	/^static mscorefactory_tandem factory;$/;"	v	file:
+factory	mtermmods.cpp	/^static mtermmodsfactory_tandem factory;$/;"	v	file:
+factory	mxxcleavage.cpp	/^static mxxcleavagefactory_tandem factory;$/;"	v	file:
+feature	expat.h	/^  enum XML_FeatureEnum  feature;$/;"	m	struct:__anon5	typeref:enum:__anon5::XML_FeatureEnum
+feature	expat_old.h	/^  enum XML_FeatureEnum  feature;$/;"	m	struct:__anon15	typeref:enum:__anon15::XML_FeatureEnum
+finalBuffer	expat.h	/^  XML_Bool finalBuffer;$/;"	m	struct:__anon3
+finalBuffer	expat_old.h	/^  XML_Bool finalBuffer;$/;"	m	struct:__anon13
+find_loss	mspectrumcondition.cpp	/^bool mspectrumcondition::find_loss(mspectrum &_s,const float _d,const float _t,const float _p)$/;"	f	class:mspectrumcondition
+finish	msequenceserver.cpp	/^bool msequenceServer::finish(void)$/;"	f	class:msequenceServer
+flag	mprocess.h	/^	std::atomic<int> flag; \/\/ 0->writeable, 1->readable$/;"	m	class:item
+flag	tandem.cpp	/^	int   flag;$/;"	m	class:sequenceControl	file:
+float_16	mscore_tandem.h	/^	typedef __declspec(align(16)) float float_16;$/;"	m	class:mscore_tandem
+format	mspectrum.h	/^	bool format()	{$/;"	f	class:mspectrum
+format_text	mreport.h	/^	bool format_text(string &_s)	{$/;"	f	class:mreport
+free_fcn	expat.h	/^  void (*free_fcn)(void *ptr);$/;"	m	struct:__anon1
+free_fcn	expat_old.h	/^  void (*free_fcn)(void *ptr);$/;"	m	struct:__anon11
+full	msequencecollection.cpp	/^bool msequenceCollection::full(void)$/;"	f	class:msequenceCollection
+get	loadmspectrum.cpp	/^bool loadcmn::get(mspectrum &_m)$/;"	f	class:loadcmn
+get	loadmspectrum.cpp	/^bool loaddta::get(mspectrum &_m)$/;"	f	class:loaddta
+get	loadmspectrum.cpp	/^bool loadgaml::get()$/;"	f	class:loadgaml
+get	loadmspectrum.cpp	/^bool loadmatrix::get(mspectrum &_m)$/;"	f	class:loadmatrix
+get	loadmspectrum.cpp	/^bool loadmzdata::get()$/;"	f	class:loadmzdata
+get	loadmspectrum.cpp	/^bool loadmzml::get()$/;"	f	class:loadmzml
+get	loadmspectrum.cpp	/^bool loadmzxml::get()$/;"	f	class:loadmzxml
+get	loadmspectrum.cpp	/^bool loadpkl::get(mspectrum &_m)$/;"	f	class:loadpkl
+get	loadmspectrum.h	/^	virtual bool get() {return true; }$/;"	f	class:loadmspectrum
+get	loadmspectrum.h	/^	virtual bool get(mspectrum &_m) {return true; } \/\/ retrieves a single spectrum from a data file$/;"	f	class:loadmspectrum
+get	mplugin.cpp	/^mpluginmanager& mpluginmanager::get()$/;"	f	class:mpluginmanager
+get	xmlparameter.cpp	/^bool XmlParameter::get(string &_k,string &_v)$/;"	f	class:XmlParameter
+getAaMass	msequtilities.h	/^	double getAaMass(char c, unsigned long t)$/;"	f	class:msequtilities
+getAttrValue	saxhandler.h	/^	inline const char* getAttrValue(const char* name, const XML_Char **attr)$/;"	f	class:SAXHandler
+getMass	masscalc.cpp	/^double masscalc::getMass(const char* _m)$/;"	f	class:masscalc
+getMassType	masscalc.h	/^	massType getMassType()$/;"	f	class:masscalc
+getPosition	base64.cpp	/^inline int getPosition( char buf )$/;"	f
+get_aa	mscore.cpp	/^bool mscore::get_aa(vector<maa> &_m,const size_t _a,double &_d)$/;"	f	class:mscore
+get_error_estimate	mprocess.h	/^	double get_error_estimate() {return m_dEsum;}$/;"	f	class:mprocess
+get_key	mplugin.cpp	/^string mpluginmanager::get_key(const char* _type, const char* _spec)$/;"	f	class:mpluginmanager
+get_mh	mscore.h	/^	double get_mh()	{$/;"	f	class:mscore
+get_peptide_count	mprocess.cpp	/^size_t mprocess::get_peptide_count()$/;"	f	class:mprocess
+get_post	mreport.cpp	/^bool mreport::get_post(const string &_s,string &_p,const size_t _b,const size_t _e)$/;"	f	class:mreport
+get_post	mzid_report.cpp	/^bool mzid_report::get_post(const string &_s,string &_p,const size_t _b,const size_t _e)$/;"	f	class:mzid_report
+get_pre	mreport.cpp	/^bool mreport::get_pre(const string &_s,string &_p,const size_t _b,const size_t _e)$/;"	f	class:mreport
+get_pre	mzid_report.cpp	/^bool mzid_report::get_pre(const string &_s,string &_p,const size_t _b,const size_t _e)$/;"	f	class:mzid_report
+get_protein_count	mprocess.cpp	/^size_t mprocess::get_protein_count()$/;"	f	class:mprocess
+get_reversed	mprocess.cpp	/^long mprocess::get_reversed()$/;"	f	class:mprocess
+get_short_label	mreport.cpp	/^bool mreport::get_short_label(const string &_s,char *_p,const unsigned long _l,const unsigned long _t)$/;"	f	class:mreport
+get_thread	mprocess.cpp	/^unsigned long mprocess::get_thread()$/;"	f	class:mprocess
+get_threads	mprocess.cpp	/^unsigned long mprocess::get_threads()$/;"	f	class:mprocess
+get_threshold	mprocess.cpp	/^double mprocess::get_threshold()$/;"	f	class:mprocess
+get_time	msequenceserver.cpp	/^double msequenceServer::get_time(void)$/;"	f	class:msequenceServer
+get_total_residues	mprocess.cpp	/^size_t mprocess::get_total_residues()$/;"	f	class:mprocess
+get_unimod	mzid_report.cpp	/^bool mzid_report::get_unimod(double _m,string &_u,string &_d)$/;"	f	class:mzid_report
+get_unimod	mzid_report.cpp	/^bool mzid_report::get_unimod(int _m,string &_u,string &_d)$/;"	f	class:mzid_report
+get_unimod_mass	mzid_report.h	/^	int get_unimod_mass(double _m)	{$/;"	f	class:mzid_report
+get_unique	mprocess.cpp	/^size_t mprocess::get_unique()$/;"	f	class:mprocess
+get_valid	mprocess.cpp	/^size_t mprocess::get_valid()$/;"	f	class:mprocess
+getpath	xmlparameter.cpp	/^bool XmlParameter::getpath(string &_p)$/;"	f	class:XmlParameter
+group	mreport.cpp	/^bool mreport::group(const mspectrum &_s)$/;"	f	class:mreport
+guessCharge	saxhandler.cpp	/^int SAXSpectraHandler::guessCharge()$/;"	f	class:SAXSpectraHandler
+handler	loadmspectrum.h	/^  SAXGamlHandler handler;$/;"	m	class:loadgaml
+handler	loadmspectrum.h	/^  SAXMzdataHandler handler;$/;"	m	class:loadmzdata
+handler	loadmspectrum.h	/^  SAXMzmlHandler handler;$/;"	m	class:loadmzml
+handler	loadmspectrum.h	/^  SAXMzxmlHandler handler;$/;"	m	class:loadmzxml
+hconvert	mscore.cpp	/^float mscore::hconvert(float _f)$/;"	f	class:mscore
+hconvert	mscore_tandem.cpp	/^float mscore_tandem::hconvert(float _f) {$/;"	f	class:mscore_tandem
+hfactor	mscore.cpp	/^double mscore::hfactor(long _l)$/;"	f	class:mscore
+hfactor	mscore_tandem.cpp	/^double mscore_tandem::hfactor(long _l) {$/;"	f	class:mscore_tandem
+histogram	mreport.cpp	/^bool mreport::histogram(mspectrum &_s)$/;"	f	class:mreport
+hydro	mprocess.cpp	/^bool mprocess::hydro(const msequence &_s)$/;"	f	class:mprocess
+hydro_each_sequence	mprocess.cpp	/^bool mprocess::hydro_each_sequence()$/;"	f	class:mprocess
+hydro_single	mprocess.cpp	/^bool mprocess::hydro_single(const msequence &_s)$/;"	f	class:mprocess
+hydro_t	mprocess.h	/^	double hydro_t;$/;"	m	class:mprocess
+hydrolyze_repeat	mprocess.h	/^	bool hydrolyze_repeat;$/;"	m	class:mprocess
+hydrolyze_seq	mprocess.h	/^	hydrolyze_seq(void)  { $/;"	f	class:hydrolyze_seq
+hydrolyze_seq	mprocess.h	/^class hydrolyze_seq {$/;"	c
+info	mreport.cpp	/^bool mreport::info(XmlParameter &_x)$/;"	f	class:mreport
+init	mhistogram.h	/^	void init() {$/;"	f	class:mhistogram
+initialize	mmotif.h	/^	bool initialize()	{$/;"	f	class:mmotif
+initialize	mprocess.cpp	/^bool mprocess::initialize(void)$/;"	f	class:mprocess
+initialize	mrefine.cpp	/^bool mrefine::initialize(){$/;"	f	class:mrefine
+initialize	mscorepam.h	/^	bool initialize(const char *_p,const size_t _s,const float _f)$/;"	f	class:mscorepam
+initialize	mscorepam.h	/^	bool initialize(const char *_p,const size_t _s,const float _f)$/;"	f	class:mscoresap
+initialize	mscorepam.h	/^	bool initialize(const char *_p,const size_t _s,const float _f,const int _i)$/;"	f	class:mscoresap
+initialize	mscorestate.h	/^	bool initialize(const double _n,const double _c)$/;"	f	class:mscoreterm
+initialize	mscorestate.h	/^      bool initialize(const char *_p,const long _s)$/;"	f	class:mscorestate
+initialize	msequencecollection.cpp	/^bool msequenceCollection::initialize(const size_t _t)$/;"	f	class:msequenceCollection
+initialize	msequenceserver.cpp	/^bool msequenceServer::initialize(const size_t _t)$/;"	f	class:msequenceServer
+initialize_crc	mprocess.cpp	/^bool mprocess::initialize_crc(void)$/;"	f	class:mprocess
+insert_dups	mprocess.cpp	/^bool mprocess::insert_dups(void)$/;"	f	class:mprocess
+ion_check	mscore_tandem.cpp	/^float mscore_tandem::ion_check(const unsigned long _v,const size_t _s)$/;"	f	class:mscore_tandem
+ion_type	loadmspectrum.h	/^	} ion_type; \/\/ enum for referencing information about specific ion types.$/;"	m	class:loadmspectrum	typeref:enum:loadmspectrum::__anon16
+ion_type	mprocess.h	/^	} ion_type; \/\/ enum for referencing information about specific ion types.$/;"	m	class:mprocess	typeref:enum:mprocess::__anon17
+ion_type	saxhandler.h	/^	} ion_type; \/\/ enum for referencing information about specific ion types.$/;"	m	class:SAXSpectraHandler	typeref:enum:SAXSpectraHandler::__anon22
+isAttr	saxhandler.h	/^	inline bool isAttr(const char *n1, const XML_Char *n2)$/;"	f	class:SAXHandler
+isElement	saxhandler.h	/^	inline bool isElement(const char *n1, const XML_Char *n2)$/;"	f	class:SAXHandler
+is_big_endian	MSNumpress.cpp	/^static bool is_big_endian() {$/;"	f	namespace:ms::numpress::MSNumpress
+is_modified	msequtilities.cpp	/^bool msequtilities::is_modified()$/;"	f	class:msequtilities
+item	mprocess.h	/^	item(void){$/;"	f	class:item
+item	mprocess.h	/^class item {$/;"	c
+keep_time	mprocess.h	/^	double keep_time;$/;"	m	class:mprocess
+lastCleave	mprocess.h	/^	long lastCleave;$/;"	m	class:hydrolyze_seq
+length	mhistogram.h	/^	int length(void)	{$/;"	f	class:count_mhistogram
+length	mhistogram.h	/^	int length(void)	{$/;"	f	class:mhistogram
+lessThanDetails	mscore.cpp	/^bool lessThanDetails(const mspectrumdetails &_l,const mspectrumdetails &_r)$/;"	f
+lessThanMI	mscore.cpp	/^bool lessThanMI(const mi &_l,const mi &_r)$/;"	f
+lessThanMImz	mspectrumcondition.cpp	/^bool lessThanMImz(const mi &_l,const mi &_r)$/;"	f
+lessThanMass	mprocess.cpp	/^bool lessThanMass(const mi &_l,const mi &_r)$/;"	f
+lessThanOrder	mprocess.cpp	/^bool lessThanOrder(const mspectrum &_l,const mspectrum &_r)$/;"	f
+lessThanSequence	mprocess.cpp	/^bool lessThanSequence(const msequence &_l,const msequence &_r)$/;"	f
+lessThanSequenceDebugUid	tandem.cpp	/^bool lessThanSequenceDebugUid(const msequence &_l,const msequence &_r)$/;"	f
+lessThanSequenceDes	mprocess.cpp	/^bool lessThanSequenceDes(const msequence &_l,const msequence &_r)$/;"	f
+lessThanSequenceUid	mprocess.cpp	/^bool lessThanSequenceUid(const msequence &_l,const msequence &_r)$/;"	f
+lessThanSpec	p3.cpp	/^bool lessThanSpec(const mspectrum &_l,const mspectrum &_r)$/;"	f
+lessThanSpec	tandem.cpp	/^bool lessThanSpec(const mspectrum &_l,const mspectrum &_r)$/;"	f
+lessThanSpectrum	mprocess.cpp	/^bool lessThanSpectrum(const mspectrum &_l,const mspectrum &_r)$/;"	f
+lessThanSpectrumId	mprocess.cpp	/^bool lessThanSpectrumId(const mspectrum &_l,const mspectrum &_r)$/;"	f
+lessThanSpectrumSequence	mprocess.cpp	/^bool lessThanSpectrumSequence(const mspectrum &_l,const mspectrum &_r)$/;"	f
+limit	msemistate.h	/^	  long limit(const long _l,const long _m)	{$/;"	f	class:msemistate
+list	mhistogram.h	/^	int list(const int _l)	{$/;"	f	class:count_mhistogram
+list	mhistogram.h	/^	int list(const int _l)	{$/;"	f	class:mhistogram
+load	mcleave.h	/^	bool load(string &_s)	{$/;"	f	class:mcleave
+load	mcleave.h	/^	bool load(string &_s)	{$/;"	f	class:mcleave_single
+load	mprocess.cpp	/^bool mprocess::load(const char *_f,mprocess *_p)$/;"	f	class:mprocess
+load	mspectrumcondition.cpp	/^bool mspectrumcondition::load(XmlParameter &_x)$/;"	f	class:mspectrumcondition
+load	saxtandeminputhandler.cpp	/^bool SAXTandemInputHandler::load(){$/;"	f	class:SAXTandemInputHandler
+load	saxtaxhandler.cpp	/^bool SAXTaxHandler::load(const string &_y)$/;"	f	class:SAXTaxHandler
+load	xmlparameter.cpp	/^bool XmlParameter::load(string &_p)$/;"	f	class:XmlParameter
+load	xmltaxonomy.cpp	/^bool XmlTaxonomy::load(const string &_p,const string &_t,const string &_y)$/;"	f	class:XmlTaxonomy
+load_annotation	mprocess.cpp	/^bool mprocess::load_annotation(mprocess *_p)$/;"	f	class:mprocess
+load_best_vector	mprocess.cpp	/^bool mprocess::load_best_vector(void)$/;"	f	class:mprocess
+load_file	msequenceserver.cpp	/^long msequenceServer::load_file(const string &_p,const string &_t)$/;"	f	class:msequenceServer
+load_file	p3msequenceserver.cpp	/^long p3msequenceServer::load_file(const string &_p,const string &_t)$/;"	f	class:p3msequenceServer
+load_next	mscore.cpp	/^bool mscore::load_next(void)$/;"	f	class:mscore
+load_next_pam	mscore.cpp	/^bool mscore::load_next_pam(void)$/;"	f	class:mscore
+load_next_sap	mscore.cpp	/^bool mscore::load_next_sap(void)$/;"	f	class:mscore
+load_next_term	mscore.cpp	/^bool mscore::load_next_term(void)$/;"	f	class:mscore
+load_param	mscore.cpp	/^bool mscore::load_param(XmlParameter &_x)$/;"	f	class:mscore
+load_saps	mprocess.cpp	/^bool mprocess::load_saps(mprocess *_p)$/;"	f	class:mprocess
+load_seq	mscore.cpp	/^bool mscore::load_seq(const unsigned long _t,const long _c)$/;"	f	class:mscore
+load_sequences	mprocess.cpp	/^bool mprocess::load_sequences(void)$/;"	f	class:mprocess
+load_sequences	p3mprocess.cpp	/^bool p3mprocess::load_sequences()$/;"	f	class:p3mprocess
+load_state	mscore.cpp	/^bool mscore::load_state(void)$/;"	f	class:mscore
+load_test	loadmspectrum.h	/^	int load_test(const char *_p)	{$/;"	f	class:loadmspectrum
+load_unimod	mzid_report.cpp	/^bool mzid_report::load_unimod(void)$/;"	f	class:mzid_report
+loadcmn	loadmspectrum.cpp	/^loadcmn::loadcmn(void)$/;"	f	class:loadcmn
+loadcmn	loadmspectrum.h	/^class loadcmn : public loadmspectrum$/;"	c
+loaddta	loadmspectrum.cpp	/^loaddta::loaddta(void)$/;"	f	class:loaddta
+loaddta	loadmspectrum.h	/^class loaddta : public loadmspectrum$/;"	c
+loadgaml	loadmspectrum.cpp	/^loadgaml::loadgaml( vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:loadgaml
+loadgaml	loadmspectrum.h	/^class loadgaml : public loadmspectrum$/;"	c
+loadmatrix	loadmspectrum.cpp	/^loadmatrix::loadmatrix(void)$/;"	f	class:loadmatrix
+loadmatrix	loadmspectrum.h	/^class loadmatrix : public loadmspectrum$/;"	c
+loadmspectrum	loadmspectrum.h	/^	loadmspectrum(void) { m_tId = 0; m_cEol = 0x0A; m_tSize = 4096*4096;}$/;"	f	class:loadmspectrum
+loadmspectrum	loadmspectrum.h	/^class loadmspectrum$/;"	c
+loadmzdata	loadmspectrum.cpp	/^loadmzdata::loadmzdata( vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:loadmzdata
+loadmzdata	loadmspectrum.h	/^class loadmzdata : public loadmspectrum$/;"	c
+loadmzml	loadmspectrum.cpp	/^loadmzml::loadmzml( vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:loadmzml
+loadmzml	loadmspectrum.h	/^class loadmzml : public loadmspectrum$/;"	c
+loadmzxml	loadmspectrum.cpp	/^loadmzxml::loadmzxml( vector<mspectrum>& _vS, mspectrumcondition& _sC, mscore& _m)$/;"	f	class:loadmzxml
+loadmzxml	loadmspectrum.h	/^class loadmzxml : public loadmspectrum$/;"	c
+loadpkl	loadmspectrum.cpp	/^loadpkl::loadpkl(void)$/;"	f	class:loadpkl
+loadpkl	loadmspectrum.h	/^class loadpkl : public loadmspectrum$/;"	c
+lock_crc	tandem.cpp	/^pthread_mutex_t lock_crc = PTHREAD_MUTEX_INITIALIZER; $/;"	v
+lock_dup	tandem.cpp	/^pthread_mutex_t lock_dup = PTHREAD_MUTEX_INITIALIZER; $/;"	v
+lock_statistics	tandem.cpp	/^pthread_mutex_t lock_statistics = PTHREAD_MUTEX_INITIALIZER; $/;"	v
+log	mprocess.h	/^	bool log(const char *_m)	{$/;"	f	class:mprocesslog
+log	mprocess.h	/^	bool log(string &_m)	{$/;"	f	class:mprocesslog
+log_10	mscore_tandem.cpp	/^__inline__ float mscore_tandem::log_10(float _f)	{$/;"	f	class:mscore_tandem
+m	mscore_tandem.h	/^        __m128 m;$/;"	m	union:mscore_tandem::u_m128
+m_Cleave	mprocess.h	/^	mcleave m_Cleave; \/\/ the specification for a cleavage peptide bond$/;"	m	class:mprocess
+m_Pam	mscore.h	/^	mscorepam m_Pam; \/\/ class stores information about point mutations state machine$/;"	m	class:mscore
+m_Sap	mscore.h	/^	mscoresap m_Sap; \/\/ class stores information about single amino acid polymorphisms state machine$/;"	m	class:mscore
+m_Score	mreport.h	/^	mscore& m_Score; \/\/ mscore used to generate scores in report$/;"	m	class:mreport
+m_Score	mzid_report.h	/^	mscore& m_Score; \/\/ mscore used to generate scores in report$/;"	m	class:mzid_report
+m_State	mscore.h	/^	mscorestate m_State; \/\/ class stores information about the potential modification state machine$/;"	m	class:mscore
+m_Term	mscore.h	/^	mscoreterm m_Term; \/\/ class stores information about potential modification of the N- & C-terminii$/;"	m	class:mscore
+m_bAa	saxmodhandler.h	/^	bool m_bAa;$/;"	m	class:SAXModHandler
+m_bAa	saxsaphandler.h	/^	bool m_bAa;$/;"	m	class:SAXSapHandler
+m_bActive	msemistate.h	/^	  bool m_bActive;$/;"	m	class:msemistate
+m_bActive	mspectrum.h	/^	bool m_bActive; \/\/ a flag indicating that a spectrum is available for scoring$/;"	m	class:mspectrum
+m_bAnnotation	mprocess.h	/^	bool m_bAnnotation;$/;"	m	class:mprocess
+m_bC	mcleave.h	/^	bool m_bC; \/\/ if true, all residues in m_pNCleave can be C-temrinal to a cleavable bond$/;"	m	class:mcleave_single
+m_bC	mscorestate.h	/^	bool m_bC; \/\/ true if C terminal modification allowed$/;"	m	class:mscoreterm
+m_bCX	mcleave.h	/^	bool m_bCX;$/;"	m	class:mcleave_single
+m_bChargeDither	mprocess.h	/^	bool m_bChargeDither;$/;"	m	class:mprocess
+m_bCheckNg	mprocess.h	/^	bool m_bCheckNg;$/;"	m	class:mprocess
+m_bComplete	msequtilities.h	/^	bool m_bComplete; \/\/ true if complete modifications are to be used$/;"	m	class:msequtilities
+m_bCompress	mreport.h	/^	bool m_bCompress;$/;"	m	class:mreport
+m_bCondition	mspectrumcondition.h	/^	bool m_bCondition; \/\/ enables the use of all conditioning methods$/;"	m	class:mspectrumcondition
+m_bCrcCheck	mprocess.h	/^	bool m_bCrcCheck;$/;"	m	class:mprocess
+m_bDesc	saxgamlhandler.h	/^	bool m_bDesc;$/;"	m	class:SAXGamlHandler
+m_bDone	msequenceserver.h	/^	bool m_bDone; \/\/ true if the last sequence has been read$/;"	m	class:msequenceServer
+m_bEnd	mscorepam.h	/^	bool m_bEnd;$/;"	m	class:mscoresap
+m_bError	msequenceserver.h	/^	bool m_bError; \/\/ true if the server is in an error condition$/;"	m	class:msequenceServer
+m_bForcedMods	msequtilities.h	/^	bool m_bForcedMods;$/;"	m	class:msequtilities
+m_bForward	msequence.h	/^	bool m_bForward;$/;"	m	class:msequence
+m_bGaml	saxhandler.h	/^	bool m_bGaml;			\/\/ true if current file is GAML spectra$/;"	m	class:SAXSpectraHandler
+m_bINT	saxgamlhandler.h	/^	bool m_bINT;$/;"	m	class:SAXGamlHandler
+m_bInData	saxgamlhandler.h	/^	bool m_bInData;$/;"	m	class:SAXGamlHandler
+m_bInData	saxmzdatahandler.h	/^	bool m_bInData;$/;"	m	class:SAXMzdataHandler
+m_bInData	saxmzmlhandler.h	/^	bool m_bInData;$/;"	m	class:SAXMzmlHandler
+m_bInMsLevel2	saxmzdatahandler.h	/^	bool m_bInMsLevel2;$/;"	m	class:SAXMzdataHandler
+m_bInMsLevel2	saxmzmlhandler.h	/^	bool m_bInMsLevel2;$/;"	m	class:SAXMzmlHandler
+m_bInMsLevel2	saxmzxmlhandler.h	/^	bool m_bInMsLevel2;$/;"	m	class:SAXMzxmlHandler
+m_bInPeaks	saxmzxmlhandler.h	/^	bool m_bInPeaks;$/;"	m	class:SAXMzxmlHandler
+m_bInPrecursorMz	saxmzxmlhandler.h	/^	bool m_bInPrecursorMz;$/;"	m	class:SAXMzxmlHandler
+m_bInRefGroup	saxmzmlhandler.h	/^	bool m_bInRefGroup;$/;"	m	class:SAXMzmlHandler
+m_bInintenArrayBinary	saxmzdatahandler.h	/^	bool m_bInintenArrayBinary;$/;"	m	class:SAXMzdataHandler
+m_bInintenArrayBinary	saxmzmlhandler.h	/^	bool m_bInintenArrayBinary;$/;"	m	class:SAXMzmlHandler
+m_bInmzArrayBinary	saxmzdatahandler.h	/^	bool m_bInmzArrayBinary;$/;"	m	class:SAXMzdataHandler
+m_bInmzArrayBinary	saxmzmlhandler.h	/^	bool m_bInmzArrayBinary;$/;"	m	class:SAXMzmlHandler
+m_bInput	saxtandeminputhandler.h	/^	bool m_bInput; \/\/true if current note is of type "input". $/;"	m	class:SAXTandemInputHandler
+m_bIsC	mscore.h	/^	bool m_bIsC; \/\/ true if the current peptide contains the C-terminus of the protein$/;"	m	class:mscore
+m_bIsModified	msequtilities.h	/^	bool m_bIsModified;$/;"	m	class:msequtilities
+m_bIsN	mscore.h	/^	bool m_bIsN; \/\/ true if the current peptide contains the N-terminus of the protein$/;"	m	class:mscore
+m_bIsPossible	mscorestate.h	/^	  bool m_bIsPossible; \/\/ true if a modified state is a potential solution$/;"	m	class:mscorestate
+m_bIsX	mmotif.h	/^	bool m_bIsX;$/;"	m	class:mmotifres
+m_bIsotope	mprocess.h	/^	bool m_bIsotope;$/;"	m	class:merrors
+m_bIsotopeError	mscore.h	/^	bool m_bIsotopeError; \/\/ true if the spectrum mass may be associated with the wrong isotopic peak$/;"	m	class:mscore
+m_bLowPrecision	saxhandler.h	/^	bool m_bLowPrecision;	\/\/ i.e. 32-bit (v. 64-bit)$/;"	m	class:SAXSpectraHandler
+m_bMZ	saxgamlhandler.h	/^	bool m_bMZ;$/;"	m	class:SAXGamlHandler
+m_bMini	mscore.h	/^	bool m_bMini;$/;"	m	class:mscore
+m_bMinimalAnnotation	mprocess.h	/^	bool m_bMinimalAnnotation;$/;"	m	class:mprocess
+m_bMods	mscorepam.h	/^	bool m_bMods;$/;"	m	class:mscoresap
+m_bN	mcleave.h	/^	bool m_bN; \/\/ if true, all residues in m_pNCleave can be N-temrinal to a cleavable bond$/;"	m	class:mcleave_single
+m_bN	mscorestate.h	/^	bool m_bN; \/\/ true if N terminal modification allowed$/;"	m	class:mscoreterm
+m_bNX	mcleave.h	/^	bool m_bNX;$/;"	m	class:mcleave_single
+m_bNetworkData	saxhandler.h	/^	bool m_bNetworkData;	\/\/ i.e. big endian$/;"	m	class:SAXSpectraHandler
+m_bNoCharge	loadmspectrum.h	/^	bool m_bNoCharge;$/;"	m	class:loadmatrix
+m_bOk	mscorepam.h	/^	bool m_bOk;$/;"	m	class:mscoresap
+m_bPeptide	saxbiomlhandler.h	/^	bool m_bPeptide;$/;"	m	class:SAXBiomlHandler
+m_bPermute	mprocess.h	/^	bool m_bPermute;$/;"	m	class:mprocess
+m_bPermuteHigh	mprocess.h	/^	bool m_bPermuteHigh;$/;"	m	class:mprocess
+m_bPhosphoBias	mscore.h	/^	bool m_bPhosphoBias;$/;"	m	class:mscore
+m_bPhosphoSerine	msequtilities.h	/^	bool m_bPhosphoSerine;$/;"	m	class:msequtilities
+m_bPhosphoThreonine	msequtilities.h	/^	bool m_bPhosphoThreonine;$/;"	m	class:msequtilities
+m_bPhosphoTyrosine	msequtilities.h	/^	bool m_bPhosphoTyrosine;$/;"	m	class:msequtilities
+m_bPos	mmotif.h	/^	bool m_bPos;$/;"	m	class:mmotifres
+m_bPotential	msemistate.h	/^	bool m_bPotential;$/;"	m	class:mpyrostate
+m_bPotential	msequtilities.h	/^	bool m_bPotential; \/\/ true if potential modifications are to be used$/;"	m	class:msequtilities
+m_bPotentialMotif	msequtilities.h	/^	bool m_bPotentialMotif;$/;"	m	class:msequtilities
+m_bPpm	mprocess.h	/^	bool m_bPpm;$/;"	m	class:merrors
+m_bPrompt	msequtilities.h	/^	bool m_bPrompt;$/;"	m	class:msequtilities
+m_bProtein	saxbiomlhandler.h	/^	bool m_bProtein;$/;"	m	class:SAXBiomlHandler
+m_bProtein	saxmodhandler.h	/^	bool m_bProtein;$/;"	m	class:SAXModHandler
+m_bProtein	saxsaphandler.h	/^	bool m_bProtein;$/;"	m	class:SAXSapHandler
+m_bPyro	msemistate.h	/^	bool m_bPyro;$/;"	m	class:mpyrostate
+m_bQuickAcetyl	mprocess.h	/^	bool m_bQuickAcetyl;$/;"	m	class:mprocess
+m_bQuickPyro	mprocess.h	/^	bool m_bQuickPyro;$/;"	m	class:mprocess
+m_bRefineCterm	mprocess.h	/^	bool m_bRefineCterm;  \/\/true if processing 'refine, potential C-terminus modifications'. Set in mrefine::refine and $/;"	m	class:mprocess
+m_bRepeat	mspectrum.h	/^	bool m_bRepeat; \/\/ a flag indicating that a better match for an individual peptide has already been found$/;"	m	class:mspectrum
+m_bRes	mmotif.h	/^	bool m_bRes;$/;"	m	class:mmotifres
+m_bRev	mscore.h	/^	bool m_bRev;$/;"	m	class:PermuteState
+m_bReversedOnly	mprocess.h	/^	bool m_bReversedOnly;$/;"	m	class:mprocess
+m_bSaps	mprocess.h	/^	bool m_bSaps;$/;"	m	class:mprocess
+m_bSavResolve	mprocess.h	/^	bool m_bSavResolve;$/;"	m	class:mprocess
+m_bSequenceMods	msequtilities.h	/^	bool m_bSequenceMods;$/;"	m	class:msequtilities
+m_bSerialize	mprocess.h	/^	bool m_bSerialize;$/;"	m	class:mprocess
+m_bSkyline	mprocess.h	/^	bool m_bSkyline;$/;"	m	class:mprocess
+m_bStart	msemistate.h	/^	  bool m_bStart;$/;"	m	class:msemistate
+m_bStarted	msequenceserver.h	/^	bool m_bStarted; \/\/ true if the server is processing files$/;"	m	class:msequenceServer
+m_bStateS	mscorestate.h	/^      bool m_bStateS; \/\/ true if there are more potential sequences$/;"	m	class:mscorestate
+m_bTax	saxtaxhandler.h	/^	bool m_bTax; \/\/true if current tax matches that from taxonomy.xml. $/;"	m	class:SAXTaxHandler
+m_bUn	mdomains.h	/^	bool m_bUn;$/;"	m	class:mdomain
+m_bUn	mprocess.h	/^	bool m_bUn; \/\/ if true, cleave at all residues. if false, use cleavage specification in data input.$/;"	m	class:mprocess
+m_bUseAllowedNeutralLosses	mspectrumcondition.h	/^	bool m_bUseAllowedNeutralLosses;$/;"	m	class:mspectrumcondition
+m_bUseChargeSuppression	mspectrumcondition.h	/^	bool m_bUseChargeSuppression; \/\/ enables the rejection of highly charge parent ions$/;"	m	class:mspectrumcondition
+m_bUseCrc	mprocess.h	/^	bool m_bUseCrc;$/;"	m	class:mprocess
+m_bUseDynamicRange	mspectrumcondition.h	/^	bool m_bUseDynamicRange; \/\/ enables using the dynamic range$/;"	m	class:mspectrumcondition
+m_bUseHomologManagement	mprocess.h	/^	bool m_bUseHomologManagement; \/\/ set to true to use homologue management $/;"	m	class:mprocess
+m_bUseLowestMass	mspectrumcondition.h	/^	bool m_bUseLowestMass; \/\/ enables the removal of very low m\/z peaks from a spectrum$/;"	m	class:mspectrumcondition
+m_bUseMaxPeaks	mspectrumcondition.h	/^	bool m_bUseMaxPeaks; \/\/ enables removing low intensity peaks$/;"	m	class:mspectrumcondition
+m_bUseMinMass	mspectrumcondition.h	/^	bool m_bUseMinMass; \/\/ sets the minimum parent ion mass allowed$/;"	m	class:mspectrumcondition
+m_bUseMinSize	mspectrumcondition.h	/^	bool m_bUseMinSize; \/\/ enables using the minimum number of peaks to exclude spectra$/;"	m	class:mspectrumcondition
+m_bUseNeutralLoss	mspectrumcondition.h	/^	bool m_bUseNeutralLoss;$/;"	m	class:mspectrumcondition
+m_bUsePam	mscore.h	/^	bool m_bUsePam; \/\/ true if the peptide will be checked for all possible point mutations$/;"	m	class:mscore
+m_bUseParent	mspectrumcondition.h	/^	bool m_bUseParent; \/\/ enables the exclusion of spectra by the parent ion mass$/;"	m	class:mspectrumcondition
+m_bUsePhosphoDetection	mspectrumcondition.h	/^	bool m_bUsePhosphoDetection;$/;"	m	class:mspectrumcondition
+m_bUseSaps	mscore.h	/^	bool m_bUseSaps; \/\/ true if the peptide will be checked for all known single amino acid polymorphisms$/;"	m	class:mscore
+m_cCurrent	mscorepam.h	/^	char m_cCurrent;$/;"	m	class:mscorepam
+m_cCurrent	mscorepam.h	/^	char m_cCurrent;$/;"	m	class:mscoresap
+m_cEol	loadmspectrum.h	/^	char m_cEol; \/\/ the character chosen to mark the end-of-line, 0X0A or 0X0D$/;"	m	class:loadmspectrum
+m_cMut	mdomains.h	/^	char m_cMut; \/\/ single letter abbreviation for a discovered point mutation$/;"	m	class:maa
+m_cMut	saxsaphandler.h	/^	char m_cMut;$/;"	m	class:SavInfo
+m_cRes	mdomains.h	/^	char m_cRes; \/\/ single letter abbreviation for the amino acid$/;"	m	class:maa
+m_cRes	msemistate.h	/^	char m_cRes;$/;"	m	class:mpyrostate
+m_cRes	saxsaphandler.h	/^	char m_cRes;$/;"	m	class:SavInfo
+m_calc	msequtilities.h	/^	masscalc m_calc;$/;"	m	class:msequtilities
+m_ccurrentRefGroupName	saxmzmlhandler.h	/^	string m_ccurrentRefGroupName;$/;"	m	class:SAXMzmlHandler
+m_chBCount	mspectrum.h	/^	count_mhistogram m_chBCount; \/\/ the histogram of b-ion counts$/;"	m	class:mspectrum
+m_chYCount	mspectrum.h	/^	count_mhistogram m_chYCount; \/\/ the histogram of y-ion counts$/;"	m	class:mspectrum
+m_cidLevel	saxhandler.h	/^	int	m_cidLevel;	\/\/ MS level$/;"	m	class:SAXSpectraHandler
+m_dA	msequtilities.h	/^	double m_dA; \/\/ mass to add to a peptide mass to obtain an a ion mass$/;"	m	class:msequtilities
+m_dAmmonia	msequtilities.h	/^	double m_dAmmonia; \/\/ mass of ammonia$/;"	m	class:msequtilities
+m_dB	msequtilities.h	/^	double m_dB; \/\/ mass to add to a peptide mass to obtain a b ion mass$/;"	m	class:msequtilities
+m_dC	msequtilities.h	/^	double m_dC; \/\/ mass to add to a peptide mass to obtain a c ion mass$/;"	m	class:msequtilities
+m_dCleaveC	msequtilities.h	/^	double m_dCleaveC; \/\/ mass added to the C-terminal residue by a cleavage reaction$/;"	m	class:msequtilities
+m_dCleaveCdefault	msequtilities.h	/^	double m_dCleaveCdefault; \/\/ 17 (hydrolysis)$/;"	m	class:msequtilities
+m_dCleaveN	msequtilities.h	/^	double m_dCleaveN; \/\/ mass added to the N-terminal residue by a cleavage reaction$/;"	m	class:msequtilities
+m_dCleaveNdefault	msequtilities.h	/^	double m_dCleaveNdefault; \/\/ 1 (hydrolysis)$/;"	m	class:msequtilities
+m_dComplexity	mscore.h	/^	double m_dComplexity;$/;"	m	class:mscore
+m_dDelta	mdomains.h	/^	double m_dDelta; \/\/ the mass difference between the mass of the peptide and the measured mass$/;"	m	class:mdomain
+m_dErr	mscore.h	/^	double m_dErr; \/\/ error for the fragment ions$/;"	m	class:mscore
+m_dEsum	mprocess.h	/^	double m_dEsum;$/;"	m	class:mprocess
+m_dExpect	msequence.h	/^	double m_dExpect; \/\/ the expectation value for the protein$/;"	m	class:msequence
+m_dExpect	mspectrum.h	/^	double m_dExpect; \/\/ the expectation value$/;"	m	class:mspectrum
+m_dFactor	saxhandler.h	/^	double m_dFactor;		\/\/ fI="192420"$/;"	m	class:SAXSpectraHandler
+m_dHomoError	mscore.h	/^	double m_dHomoError;$/;"	m	class:mscore
+m_dHydrogen	msequtilities.h	/^	double m_dHydrogen;$/;"	m	class:msequtilities
+m_dL	mscore.h	/^	double m_dL; \/\/ the M+H - error for an mspectrum$/;"	m	class:mspectrumdetails
+m_dLimit	mhistogram.h	/^	double m_dLimit;$/;"	m	class:mhistogram
+m_dM	mscore.h	/^	double m_dM; \/\/ the M+H + error for an mspectrum$/;"	m	class:mspectrumindex
+m_dMH	mdomains.h	/^	double m_dMH; \/\/ the mass of the peptide + a proton$/;"	m	class:mdomain
+m_dMH	mspectrum.h	/^	double m_dMH; \/\/ the parent ion mass + a proton$/;"	m	class:mspectrum
+m_dMax	saxhandler.h	/^	double m_dMax;			\/\/ maxI="1.9242e+007"$/;"	m	class:SAXSpectraHandler
+m_dMaxExpect	mrefine.h	/^	double m_dMaxExpect;$/;"	m	class:mrefine
+m_dMaxMass	mscore.h	/^	double m_dMaxMass;$/;"	m	class:mscore
+m_dMinMass	mscore.h	/^	double m_dMinMass;$/;"	m	class:mscore
+m_dMinus	mprocess.h	/^	double m_dMinus;$/;"	m	class:merrors
+m_dMod	mdomains.h	/^	float m_dMod; \/\/ mass of the modification$/;"	m	class:maa
+m_dMod	mscorepam.h	/^	double m_dMod;$/;"	m	class:mscoresap
+m_dMod	saxsaphandler.h	/^	double m_dMod;$/;"	m	class:SavInfo
+m_dModMass	msemistate.h	/^	double m_dModMass;$/;"	m	class:mpyrostate
+m_dNg	mprocess.h	/^	double m_dNg;$/;"	m	class:mprocess
+m_dNgAve	mprocess.h	/^	double m_dNgAve;$/;"	m	class:mprocess
+m_dNt	mprocess.h	/^	double m_dNt;$/;"	m	class:mprocess
+m_dNtAve	mprocess.h	/^	double m_dNtAve;$/;"	m	class:mprocess
+m_dParentErrMinus	mscore.h	/^	double m_dParentErrMinus; \/\/ error for the parent ion M+H (not m\/z)$/;"	m	class:mscore
+m_dParentErrPlus	mscore.h	/^	double m_dParentErrPlus; \/\/ error for the parent ion M+H (not m\/z)$/;"	m	class:mscore
+m_dPlus	mprocess.h	/^	double m_dPlus;$/;"	m	class:merrors
+m_dPrompt	mdomains.h	/^	float m_dPrompt; \/\/ prompt loss from modification mass$/;"	m	class:maa
+m_dProteinExpect	mspectrum.h	/^	double m_dProteinExpect; \/\/ the expectation value for the associated protein$/;"	m	class:mspectrum
+m_dProteinFactor	mhistogram.h	/^	double m_dProteinFactor; \/\/ a weighting factor$/;"	m	class:mhistogram
+m_dProton	msequtilities.h	/^	double m_dProton; \/\/ mass of proton$/;"	m	class:msequtilities
+m_dProton	saxhandler.h	/^	double m_dProton;$/;"	m	class:SAXSpectraHandler
+m_dRatio	mspectrum.h	/^	double m_dRatio;$/;"	m	class:mspectrum
+m_dRefineTime	mprocess.h	/^	double m_dRefineTime; \/\/ the time required to perform a refinement$/;"	m	class:mprocess
+m_dScale	mscore.h	/^	double m_dScale; \/\/ scale for use in hconvert$/;"	m	class:mscore
+m_dSearchTime	mprocess.h	/^	double m_dSearchTime; \/\/ total time elapsed during a protein modeling session process$/;"	m	class:mprocess
+m_dSeqMH	mscore.h	/^	double m_dSeqMH; \/\/ current sequence M+H - changed from m_fSeqMH to improve accuracy of parent ion mass calculations$/;"	m	class:mscore
+m_dSeqMHFailedS	mscorestate.h	/^      double m_dSeqMHFailedS; \/\/ the value of M+H that failed the check_parents test last time through$/;"	m	class:mscorestate
+m_dSeqMHS	mscorestate.h	/^      double m_dSeqMHS; \/\/ M+H mass of the unmodified peptide$/;"	m	class:mscorestate
+m_dSum	saxhandler.h	/^	double m_dSum;			\/\/ from <group> in GAML file sumI="8.41"$/;"	m	class:SAXSpectraHandler
+m_dThreshold	mprocess.h	/^	double m_dThreshold; \/\/ the current expectation value threshold$/;"	m	class:mprocess
+m_dTime	msequenceserver.h	/^	double m_dTime; \/\/ the elapsed time taken to read sequences$/;"	m	class:msequenceServer
+m_dU	mscore.h	/^	double m_dU; \/\/ the M+H + error for an mspectrum$/;"	m	class:mspectrumdetails
+m_dWE	mscore.h	/^	double m_dWE;$/;"	m	class:mscore
+m_dWater	msequtilities.h	/^	double m_dWater; \/\/ mass of water$/;"	m	class:msequtilities
+m_dWidth	mscore.h	/^	double m_dWidth; \/\/ current half-width of the entry for a single fragment ion in the m_vsmapMI map$/;"	m	class:mscore
+m_dX	msequtilities.h	/^	double m_dX; \/\/ mass to add to a peptide mass to obtain an x ion mass$/;"	m	class:msequtilities
+m_dY	msequtilities.h	/^	double m_dY; \/\/ mass to add to a peptide mass to obtain a y ion mass$/;"	m	class:msequtilities
+m_dZ	msequtilities.h	/^	double m_dZ; \/\/ mass to add to a peptide mass to obtain a z ion mass$/;"	m	class:msequtilities
+m_debug	mprocess.h	/^	vector<msequence> m_debug;$/;"	m	class:mprocess
+m_dstrFasta	msequenceserver.h	/^	deque<string> m_dstrFasta;	\/\/ List of FASTA files$/;"	m	class:msequenceServer
+m_errValues	mprocess.h	/^	merrors m_errValues;$/;"	m	class:mprocess
+m_fA0	mhistogram.h	/^	float m_fA0; \/\/ the intercept of the least-squares fit performed in model$/;"	m	class:mhistogram
+m_fA1	mhistogram.h	/^	float m_fA1; \/\/ the slope of the least-squares fit performed in model$/;"	m	class:mhistogram
+m_fCT	msequtilities.h	/^	float m_fCT; \/\/ mass to modify the C-terminal amino acid in a protein$/;"	m	class:msequtilities
+m_fDynamicRange	mspectrumcondition.h	/^	float m_fDynamicRange; \/\/ the normalized intensity of the most intense peak in a spectrum$/;"	m	class:mspectrumcondition
+m_fFactor	mspectrumcondition.h	/^	float m_fFactor;$/;"	m	class:mspectrumcondition
+m_fHyper	mdomains.h	/^	float m_fHyper; \/\/ the hyper score for the peptide $/;"	m	class:mdomain
+m_fHyper	mscore.h	/^	float m_fHyper; \/\/ current hyper score$/;"	m	class:mscore
+m_fHyper	msequence.h	/^	float m_fHyper; \/\/ the hyper score for the protein$/;"	m	class:msequence
+m_fHyper	mspectrum.h	/^	float m_fHyper; \/\/ the hyper score$/;"	m	class:mspectrum
+m_fHyperNext	mspectrum.h	/^	float m_fHyperNext; \/\/ next best hyper score$/;"	m	class:mspectrum
+m_fI	mscore.h	/^	float m_fI; \/\/ the M+H - error for an mspectrum$/;"	m	class:MIType
+m_fI	mspectrum.h	/^	float m_fI; \/\/ the intensity value$/;"	m	class:mi
+m_fI	mspectrum.h	/^	float m_fI; \/\/ the parent ion intensity (if available)$/;"	m	class:mspectrum
+m_fIntensity	msequence.h	/^	float m_fIntensity;$/;"	m	class:msequence
+m_fLog10	mscore_tandem.h	/^	float m_fLog10;$/;"	m	class:mscore_tandem
+m_fLog2	mscore_tandem.h	/^	float m_fLog2;$/;"	m	class:mscore_tandem
+m_fLowestMass	mspectrumcondition.h	/^	float m_fLowestMass; \/\/ the lowest m\/z in a spectrum$/;"	m	class:mspectrumcondition
+m_fM	mspectrum.h	/^	float m_fM; \/\/ the m\/z value$/;"	m	class:mi
+m_fMH	mscore.h	/^	double m_fMH; \/\/ the M+H value of an mspectrum$/;"	m	class:mspec
+m_fMass	mmotif.h	/^	float m_fMass;$/;"	m	class:mmotif
+m_fMassPrompt	mmotif.h	/^	float m_fMassPrompt;$/;"	m	class:mmotif
+m_fMaxMass	mprocess.h	/^	float m_fMaxMass;$/;"	m	class:mprocess
+m_fMaxZ	mprocess.h	/^	float m_fMaxZ;$/;"	m	class:mprocess
+m_fMaxZ	mspectrumcondition.h	/^	float m_fMaxZ;$/;"	m	class:mspectrumcondition
+m_fMinMass	mspectrumcondition.h	/^	float m_fMinMass; \/\/ the minimum parent ion mass in a spectrum$/;"	m	class:mspectrumcondition
+m_fNT	msequtilities.h	/^	float m_fNT; \/\/ mass to modify the N-terminal amino acid in a protein$/;"	m	class:msequtilities
+m_fNeutralLoss	mspectrumcondition.h	/^	float m_fNeutralLoss;$/;"	m	class:mspectrumcondition
+m_fNeutralLossWidth	mspectrumcondition.h	/^	float m_fNeutralLossWidth;$/;"	m	class:mspectrumcondition
+m_fParentLower	mspectrumcondition.h	/^	float m_fParentLower; \/\/ the low end of the mass window for excluding parent ion neutral losses$/;"	m	class:mspectrumcondition
+m_fParentUpper	mspectrumcondition.h	/^	float m_fParentUpper; \/\/ the high end of the mass window for excluding parent ion neutral losses (just passed the last C13 isotope peak)$/;"	m	class:mspectrumcondition
+m_fSavResolve	mprocess.h	/^	float m_fSavResolve;$/;"	m	class:mprocess
+m_fScale	mscore_tandem.h	/^	float m_fScale;$/;"	m	class:mscore_tandem
+m_fScore	mdomains.h	/^	float m_fScore; \/\/ the convolution score for the peptide$/;"	m	class:mdomain
+m_fScore	mscore.h	/^	float m_fScore; \/\/ current convolution score$/;"	m	class:mscore
+m_fScore	msequence.h	/^	float m_fScore; \/\/ the convolution score for the protein$/;"	m	class:msequence
+m_fScore	mspectrum.h	/^	float m_fScore; \/\/ the convolution score$/;"	m	class:mspectrum
+m_fScoreNext	mspectrum.h	/^	float m_fScoreNext; \/\/ next best convolution score$/;"	m	class:mspectrum
+m_fSeqTrue	mscorepam.h	/^	float m_fSeqTrue;$/;"	m	class:mscorepam
+m_fSeqTrue	mscorepam.h	/^	float m_fSeqTrue;$/;"	m	class:mscoresap
+m_fZ	mscore.h	/^	float m_fZ; \/\/ the charge value of an mspectrum$/;"	m	class:mspec
+m_fZ	mspectrum.h	/^	float m_fZ; \/\/ the parent ion charge$/;"	m	class:mspectrum
+m_hConvolute	mspectrum.h	/^	mhistogram m_hConvolute; \/\/ the histogram of convolution scores$/;"	m	class:mspectrum
+m_hHyper	mspectrum.h	/^	mhistogram m_hHyper; \/\/ the histogram of hyper scores$/;"	m	class:mspectrum
+m_hydro	mprocess.h	/^	vector<vector<hydrolyze_seq> > m_hydro;$/;"	m	class:mprocess
+m_iCharge	mscore.h	/^	int m_iCharge;$/;"	m	class:mscore
+m_iCurrentRound	mprocess.h	/^	int m_iCurrentRound;$/;"	m	class:mprocess
+m_iEnd	mscorepam.h	/^	int m_iEnd;$/;"	m	class:mscoresap
+m_iPos	mscorepam.h	/^	int m_iPos;$/;"	m	class:mscoresap
+m_iPos	saxsaphandler.h	/^	int m_iPos;$/;"	m	class:SavInfo
+m_iRound	msequence.h	/^	int m_iRound; \/\/ the identification round that generated this sequence$/;"	m	class:msequence
+m_iSTYlimit	msequtilities.h	/^	int m_iSTYlimit;$/;"	m	class:msequtilities
+m_iStart	mscorepam.h	/^	int m_iStart;$/;"	m	class:mscoresap
+m_iType	msemistate.h	/^	  int m_iType; \/\/0 - cleave both ways, 1 - cleave from the amino terminus, 2 - cleave from the carboxy terminus$/;"	m	class:msemistate
+m_iVersion	loadmspectrum.h	/^	int m_iVersion;$/;"	m	class:loadcmn
+m_ifIn	loadmspectrum.h	/^	ifstream m_ifIn; \/\/ the input file stream$/;"	m	class:loadmspectrum
+m_itAcc	mscorepam.h	/^	map<string,multimap<int,SavInfo> >::iterator m_itAcc;$/;"	m	class:mscoresap
+m_itEnd	mcleave.h	/^	vector<mcleave_single>::iterator m_itEnd;$/;"	m	class:mcleave
+m_itSap	mscorepam.h	/^	multimap<int,SavInfo>::iterator m_itSap;$/;"	m	class:mscoresap
+m_itSapEnd	mscorepam.h	/^	multimap<int,SavInfo>::iterator m_itSapEnd;$/;"	m	class:mscoresap
+m_itStart	mcleave.h	/^	vector<mcleave_single>::iterator m_itStart;$/;"	m	class:mcleave
+m_itValue	mcleave.h	/^	vector<mcleave_single>::iterator m_itValue;$/;"	m	class:mcleave
+m_lC	mscorestate.h	/^	long m_lC; \/\/ 0 if C-terminal not modified, 1 if C-terminal modified$/;"	m	class:mscoreterm
+m_lCStartMax	mprocess.h	/^	long m_lCStartMax;$/;"	m	class:mprocess
+m_lComplexity	mscore.h	/^	unsigned long m_lComplexity;$/;"	m	class:mscore
+m_lCount	mscore.h	/^	  unsigned long m_lCount;$/;"	m	class:mscore
+m_lCount	mscore.h	/^	unsigned long m_lCount;$/;"	m	class:theorSpectrum
+m_lCursorS	mscorestate.h	/^      unsigned long m_lCursorS; \/\/ cursor counting the position of the N-terminal modified residue$/;"	m	class:mscorestate
+m_lDetails	mscore.h	/^	long m_lDetails;$/;"	m	class:mscore
+m_lE	mdomains.h	/^	unsigned int m_lE; \/\/ the end position of the peptide in the protein sequence$/;"	m	class:mdomain
+m_lEligibleS	mscorestate.h	/^      long m_lEligibleS; \/\/ number of spectra with M+H <= the current modified peptide M+H$/;"	m	class:mscorestate
+m_lEnd	msemistate.h	/^	  long m_lEnd;$/;"	m	class:msemistate
+m_lEndI	msemistate.h	/^	  long m_lEndI;$/;"	m	class:msemistate
+m_lEqualsS	mdomains.h	/^	long m_lEqualsS;$/;"	m	class:mdomain
+m_lEqualsS	mscorestate.h	/^      long m_lEqualsS; \/\/ number of spectra with M+H within error of the current modified peptide M+H$/;"	m	class:mscorestate
+m_lErrorType	mscore.h	/^	unsigned long m_lErrorType; \/\/ current ion mass accuracy information - value from mscore_error$/;"	m	class:mscore
+m_lFileType	msequenceserver.h	/^	unsigned long m_lFileType;$/;"	m	class:msequenceServer
+m_lFilledS	mscorestate.h	/^      unsigned long m_lFilledS; \/\/ cursor index to the most C-terminal residue modified,$/;"	m	class:mscorestate
+m_lHigh	mhistogram.h	/^	int m_lHigh;$/;"	m	class:mhistogram
+m_lHistogramColumns	mreport.h	/^	long m_lHistogramColumns;$/;"	m	class:mreport
+m_lId	mscore.h	/^	size_t m_lId; \/\/ id of the current spectrum$/;"	m	class:mscore
+m_lIonCount	mprocess.h	/^	long m_lIonCount; \/\/ minimum sum of detected ions that are significant enough to store a sequence $/;"	m	class:mprocess
+m_lLastCleave	msemistate.h	/^	  long m_lLastCleave;$/;"	m	class:msemistate
+m_lLastS	mscorestate.h	/^      unsigned long m_lLastS; \/\/ cursor index to the most C-terminal residue modified in a peptide,$/;"	m	class:mscorestate
+m_lLength	mhistogram.h	/^	int m_lLength; \/\/ the length of the histogram$/;"	m	class:mhistogram
+m_lLength	mhistogram.h	/^	int m_lLength;$/;"	m	class:count_mhistogram
+m_lLimit	msemistate.h	/^	  long m_lLimit;$/;"	m	class:msemistate
+m_lLoaded	saxhandler.h	/^	long m_lLoaded; \/\/if greater than max, output '.' during spectra loading$/;"	m	class:SAXSpectraHandler
+m_lM	mscore.h	/^	unsigned long m_lM; \/\/ the M+H + error for an mspectrum$/;"	m	class:MIType
+m_lMILength	mscore.h	/^	unsigned long m_lMILength; \/\/ current length of the mi vector$/;"	m	class:mscore
+m_lMaxAa	msemistate.h	/^	  long m_lMaxAa;$/;"	m	class:msemistate
+m_lMaxCharge	mscore.h	/^	long m_lMaxCharge; \/\/ current parent ion charge$/;"	m	class:mscore
+m_lMaxCharge	mspectrumcondition.h	/^	long m_lMaxCharge; \/\/ the maximum parent ion charge allowed$/;"	m	class:mspectrumcondition
+m_lMaxPeaks	mscore.h	/^	unsigned long m_lMaxPeaks; \/\/ if > 0, the m_lMaxPeaks most intense peaks will be used$/;"	m	class:mscore
+m_lMaxSeqLength	mscore.h	/^	unsigned long m_lMaxSeqLength; \/\/ current sequence length$/;"	m	class:mscore
+m_lMinSeqLength	mscore.h	/^	unsigned long m_lMinSeqLength; \/\/ current sequence length$/;"	m	class:mscore
+m_lMinSize	mspectrumcondition.h	/^	long m_lMinSize; \/\/ the minimum number of peaks in a spectrum$/;"	m	class:mspectrumcondition
+m_lMissedCleaves	mdomains.h	/^	unsigned char m_lMissedCleaves; \/\/ missed cleavages$/;"	m	class:mdomain
+m_lN	mscorestate.h	/^	long m_lN; \/\/ 0 if N-terminal not modified, 1 if N-terminal modified$/;"	m	class:mscoreterm
+m_lPos	mdomains.h	/^	unsigned int m_lPos; \/\/ the sequence position of the residue (N-terminal = 0)$/;"	m	class:maa
+m_lReversed	mprocess.h	/^	long m_lReversed; \/\/ the total number of peptides found where the reversed sequence was better than the forward sequence$/;"	m	class:mprocess
+m_lS	mdomains.h	/^	unsigned int m_lS; \/\/ the start position of the peptide in the protein sequence (N-terminus = 0)$/;"	m	class:mdomain
+m_lSeqLength	mscore.h	/^	unsigned long m_lSeqLength; \/\/ current sequence length$/;"	m	class:mscore
+m_lSize	mscore.h	/^	unsigned long m_lSize; \/\/ maximum sequence length - this can be adjusted on the fly$/;"	m	class:mscore
+m_lSize	mscore.h	/^	unsigned long m_lSize;$/;"	m	class:PermuteState
+m_lSize	mscore.h	/^	unsigned long m_lSize;$/;"	m	class:theorSpectrum
+m_lSize	msequenceserver.h	/^	unsigned long m_lSize;$/;"	m	class:msequenceServer
+m_lSizeEqualsS	mscorestate.h	/^      long m_lSizeEqualsS; \/\/ maximum length of EqualS array$/;"	m	class:mscorestate
+m_lSizeS	mscorestate.h	/^	  long m_lSizeS; \/\/ maximum peptide length$/;"	m	class:mscorestate
+m_lSpectra	mscore.h	/^	long m_lSpectra; \/\/ current length of the m_vSpec vector$/;"	m	class:mscore
+m_lStart	msemistate.h	/^	  long m_lStart;$/;"	m	class:msemistate
+m_lStartI	msemistate.h	/^	  long m_lStartI;$/;"	m	class:msemistate
+m_lStartMax	mprocess.h	/^	long m_lStartMax; \/\/ set the maximum distance from N-terminus for a peptide$/;"	m	class:mprocess
+m_lState	mscorestate.h	/^	long m_lState; \/\/ Tracks the current state of the machine: value is the binary number formed by$/;"	m	class:mscoreterm
+m_lStates	mscorestate.h	/^      unsigned long m_lStates;	\/\/number of states checked in the current session$/;"	m	class:mscorestate
+m_lStatesT	mscorestate.h	/^	  unsigned long m_lStatesT;	\/\/number of states checked in the current session$/;"	m	class:mscorestate
+m_lSum	mhistogram.h	/^	int m_lSum;$/;"	m	class:mhistogram
+m_lThread	mprocess.h	/^	unsigned long m_lThread; \/\/ thread number of this object$/;"	m	class:mprocess
+m_lThreads	mprocess.h	/^	unsigned long m_lThreads; \/\/ the total number of threads current active$/;"	m	class:mprocess
+m_lType	mcleave.h	/^	unsigned long m_lType;$/;"	m	class:mcleave
+m_lType	mcleave.h	/^	unsigned long m_lType;$/;"	m	class:mcleave_single
+m_lType	mscore.h	/^	unsigned long m_lType; \/\/ current ion type - value from mscore_type$/;"	m	class:mscore
+m_mapAnnotation	mprocess.h	/^	map<string,string> m_mapAnnotation;$/;"	m	class:mprocess
+m_mapCount	mspectrum.h	/^	map<unsigned char,unsigned int> m_mapCount; \/\/ a map of the number of ions detected for each ion type$/;"	m	class:mspectrum
+m_mapCrc	mprocess.h	/^	unordered_map<uint64_t,size_t> m_mapCrc;$/;"	m	class:mprocess
+m_mapDesc	p3mprocess.h	/^	DESMAP m_mapDesc;$/;"	m	class:p3mprocess
+m_mapDups	mprocess.h	/^	MSEQMAP m_mapDups;$/;"	m	class:mprocess
+m_mapFactories	mplugin.h	/^	map<string, mpluginfactory*> m_mapFactories;	\/\/ map from type to factory$/;"	m	class:mpluginmanager
+m_mapIdsToPeptides	mzid_report.h	/^	map<string,string> m_mapIdsToPeptides;$/;"	m	class:mzid_report
+m_mapItem	saxsaphandler.h	/^	multimap <int,SavInfo> m_mapItem;$/;"	m	class:SAXSapHandler
+m_mapMod	saxmodhandler.h	/^	map <string,string> m_mapMod;$/;"	m	class:SAXModHandler
+m_mapMods	msequence.h	/^	SMap m_mapMods;  \/\/ a hash map containing fixed modification information$/;"	m	class:msequence
+m_mapMods	msequtilities.h	/^	SMap m_mapMods;$/;"	m	class:msequtilities
+m_mapMotifMods	msequtilities.h	/^	map<char,size_t> m_mapMotifMods;$/;"	m	class:msequtilities
+m_mapMotifs	msequtilities.h	/^	map<size_t,size_t> m_mapMotifs;$/;"	m	class:msequtilities
+m_mapNeutralLoss	msequtilities.h	/^	nMap m_mapNeutralLoss;$/;"	m	class:msequtilities
+m_mapParam	saxtandeminputhandler.h	/^	xMap* m_mapParam;$/;"	m	class:SAXTandemInputHandler
+m_mapParam	xmlparameter.h	/^	xMap m_mapParam; \/\/ a string-string map type, defined in stdafx.h$/;"	m	class:XmlParameter
+m_mapSap	mscorepam.h	/^	map<string,multimap<int,SavInfo> > m_mapSap;$/;"	m	class:mscoresap
+m_mapSap	saxsaphandler.h	/^	map <string,multimap <int,SavInfo> > m_mapSap;$/;"	m	class:SAXSapHandler
+m_mapScore	mspectrum.h	/^	map<unsigned char,float> m_mapScore; \/\/ a map of the convolution scores for each ion type$/;"	m	class:mspectrum
+m_mapSequences	mprocess.h	/^	SEQMAP m_mapSequences; \/\/ a map containing all of the protein sequences discovered, indexed by their m_tUid value$/;"	m	class:mprocess
+m_mapUnimod	mzid_report.h	/^	map<int,string> m_mapUnimod;$/;"	m	class:mzid_report
+m_mapUnimodDescriptions	mzid_report.h	/^	map<int,string> m_mapUnimodDescriptions;$/;"	m	class:mzid_report
+m_mapUsed	xmlparameter.h	/^	bMap m_mapUsed; \/\/ a string-bool map type, defined in stdafx.h$/;"	m	class:XmlParameter
+m_maptUids	mreport.h	/^	map<size_t,bool> m_maptUids;$/;"	m	class:mreport
+m_massType	masscalc.h	/^	massType m_massType;$/;"	m	class:masscalc
+m_masses	masscalc.h	/^	map<string, massPair> m_masses;$/;"	m	class:masscalc
+m_ofLog	mprocess.h	/^	ofstream m_ofLog;$/;"	m	class:mprocesslog
+m_ofOut	mreport.h	/^	ofstream m_ofOut; \/\/ the output file stream$/;"	m	class:mreport
+m_ofOut	mzid_report.h	/^	ofstream m_ofOut; \/\/ the output file stream$/;"	m	class:mzid_report
+m_pAa	mscorepam.h	/^	char *m_pAa;$/;"	m	class:mscorepam
+m_pCCleave	mcleave.h	/^	char m_pCCleave[32]; \/\/ residues that are valid cleavage sites (or invalid if m_bC = false)$/;"	m	class:mcleave_single
+m_pCol	msequenceserver.h	/^	msequenceCollection *m_pCol;   \/\/ Sequence collection ring$/;"	m	class:msequenceServer
+m_pCrcTable	mprocess.h	/^	uint64_t *m_pCrcTable;$/;"	m	class:mprocess
+m_pFactorial	mscore_tandem.h	/^	double *m_pFactorial;$/;"	m	class:mscore_tandem
+m_pFile	loadmspectrum.h	/^    FILE *m_pFile;$/;"	m	class:loadcmn
+m_pInput	msequenceserver.h	/^	FILE *m_pInput; \/\/ a pointer to an input file$/;"	m	class:msequenceServer
+m_pLine	msequenceserver.h	/^	char *m_pLine;$/;"	m	class:msequenceServer
+m_pList	mhistogram.h	/^	int m_pList[8]; \/\/ the histogram array$/;"	m	class:count_mhistogram
+m_pList	mhistogram.h	/^	int* m_pList; \/\/ doubling buffer$/;"	m	class:mhistogram
+m_pManager	mplugin.cpp	/^mpluginmanager* mpluginmanager::m_pManager = NULL;$/;"	m	class:mpluginmanager	file:
+m_pManager	mplugin.h	/^	static mpluginmanager* m_pManager;	\/\/ single instance$/;"	m	class:mpluginmanager
+m_pMotif	mmotif.h	/^	char m_pMotif[32];$/;"	m	class:mmotifres
+m_pNCleave	mcleave.h	/^	char m_pNCleave[32]; \/\/ residues that are valid cleavage sites (or invalid if m_bN = false)$/;"	m	class:mcleave_single
+m_pPMods	mrefine.h	/^	mpmods *m_pPMods; \/\/ the object that is used to process potential modifications$/;"	m	class:mrefine
+m_pPam	mrefine.h	/^	mpam *m_pPam; \/\/ the object that is used to process point mutations$/;"	m	class:mrefine
+m_pPerm	mscore.h	/^	char *m_pPerm;$/;"	m	class:PermuteState
+m_pProcess	mpam.h	/^	mprocess *m_pProcess;	\/\/pointer to the parent mprocess class$/;"	m	class:mpam
+m_pProcess	mpmods.h	/^	mprocess *m_pProcess;	\/\/pointer to the parent mprocess class$/;"	m	class:mpmods
+m_pProcess	mrefine.h	/^	mprocess *m_pProcess; \/\/initialized with the current mprocess object and used to set the mprocess object for each plugin refinement object$/;"	m	class:mrefine
+m_pProcess	mtermmods.h	/^	mprocess *m_pProcess;	\/\/pointer to the parent mprocess class$/;"	m	class:mtermmods
+m_pProcess	mxxcleavage.h	/^	mprocess *m_pProcess;	\/\/pointer to the parent mprocess class$/;"	m	class:mxxcleavage
+m_pRefine	mprocess.h	/^	mrefine* m_pRefine; \/\/ the object that is used to refine models$/;"	m	class:mprocess
+m_pScore	mprocess.h	/^	mscore* m_pScore; \/\/ the object that is used to score sequences and spectra$/;"	m	class:mprocess
+m_pScore	saxhandler.h	/^	mscore* m_pScore; \/\/ the object that is used to score sequences and spectra$/;"	m	class:SAXSpectraHandler
+m_pSeq	mprocess.h	/^	char *m_pSeq; \/\/ a character pointer, used for temporary sequence information$/;"	m	class:mprocess
+m_pSeq	mscore.h	/^	char *m_pSeq; \/\/ the current sequence$/;"	m	class:mscore
+m_pSeq	mscore.h	/^	char *m_pSeq;$/;"	m	class:PermuteState
+m_pSeqS	mscorestate.h	/^      char *m_pSeqS; \/\/ the unmodified peptide sequence$/;"	m	class:mscorestate
+m_pSeqTrue	mscorepam.h	/^	char *m_pSeqTrue;$/;"	m	class:mscorepam
+m_pSeqTrue	mscorepam.h	/^	char *m_pSeqTrue;$/;"	m	class:mscoresap
+m_pSeqUtilFrag	mscore.h	/^	msequtilities* m_pSeqUtilFrag; \/\/ pointer to the msequtilities object to use for fragment ion masses$/;"	m	class:mscore
+m_pSpecCond	saxhandler.h	/^	mspectrumcondition* m_pSpecCond; \/\/Doit pointer sur m_specCondition$/;"	m	class:SAXSpectraHandler
+m_pTermMods	mrefine.h	/^	mtermmods *m_pTermMods; \/\/ the object that is used to process terminal modifications$/;"	m	class:mrefine
+m_pUid	msequence.h	/^	size_t m_pUid;$/;"	m	class:msequence
+m_pXXCleavage	mrefine.h	/^	mxxcleavage *m_pXXCleavage; \/\/ the object that is used to process unanticipated cleavages$/;"	m	class:mrefine
+m_pafI	mscore_tandem.h	/^	float __attribute__ ((aligned(32))) m_pafI[256];$/;"	m	class:mscore_tandem
+m_pafI	mscore_tandem.h	/^	float_16 m_pafI[256];$/;"	m	class:mscore_tandem
+m_pafSeq	mscore_tandem.h	/^	float __attribute__ ((aligned(32))) m_pafSeq[256];$/;"	m	class:mscore_tandem
+m_pafSeq	mscore_tandem.h	/^	float_16 m_pafSeq[256];$/;"	m	class:mscore_tandem
+m_pafSum	mscore_tandem.h	/^	float_16 m_pafSum[256];$/;"	m	class:mscore_tandem
+m_pairItem	saxsaphandler.h	/^	pair <int,SavInfo> m_pairItem;$/;"	m	class:SAXSapHandler
+m_parser	saxhandler.h	/^	XML_Parser m_parser;$/;"	m	class:SAXHandler
+m_pdAaFullMod	msequtilities.h	/^	double *m_pdAaFullMod; \/\/ array of residue modification masses, indexed by residue character code$/;"	m	class:msequtilities
+m_pdAaMass	msequtilities.h	/^	double *m_pdAaMass; \/\/ array of residue masses (less water), indexed by residue character code$/;"	m	class:msequtilities
+m_pdAaMod	msequtilities.h	/^	double *m_pdAaMod; \/\/ array of residue modification masses, indexed by residue character code$/;"	m	class:msequtilities
+m_pdAaPrompt	msequtilities.h	/^	double *m_pdAaPrompt; \/\/ array of residue modification masses, indexed by residue character code$/;"	m	class:msequtilities
+m_peaksCount	saxhandler.h	/^	int	m_peaksCount;	\/\/ Count of peaks in spectrum$/;"	m	class:SAXSpectraHandler
+m_pfA17Score	msequtilities.h	/^	float *m_pfA17Score; \/\/ array of residue scores for a-17 ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfA18Score	msequtilities.h	/^	float *m_pfA18Score; \/\/ array of residue scores for a-18 ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfAScore	msequtilities.h	/^	float *m_pfAScore; \/\/ array of residue scores for a ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfAaMass	msequtilities.h	/^	float *m_pfAaMass; \/\/ array of residue masses (less water), indexed by residue character code$/;"	m	class:msequtilities
+m_pfB17Score	msequtilities.h	/^	float *m_pfB17Score; \/\/ array of residue scores for b-17 ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfB18Score	msequtilities.h	/^	float *m_pfB18Score; \/\/ array of residue scores for b-18 ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfBScore	msequtilities.h	/^	float *m_pfBScore; \/\/ array of residue scores for b ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfLogs	mscore_tandem.h	/^	float *m_pfLogs;$/;"	m	class:mscore_tandem
+m_pfScore	mscore.h	/^	float m_pfScore[16];\/\/ convolute score information, indexed using the mscore_type_a enum$/;"	m	class:mscore
+m_pfSeq	mscore.h	/^	float *m_pfSeq; \/\/ residue masses corresponding to the current sequence in daltons$/;"	m	class:mscore
+m_pfSeq	mscore.h	/^	vector<float> m_pfSeq;$/;"	m	class:theorSpectrum
+m_pfX17Score	msequtilities.h	/^	float *m_pfX17Score;  \/\/ array of residue scores for x-17 ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfX18Score	msequtilities.h	/^	float *m_pfX18Score; \/\/ array of residue scores for x-18 ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfXScore	msequtilities.h	/^	float *m_pfXScore; \/\/ array of residue scores for x ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfY17Score	msequtilities.h	/^	float *m_pfY17Score; \/\/ array of residue scores for y-17 ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfY18Score	msequtilities.h	/^	float *m_pfY18Score; \/\/ array of residue scores for y-18 ions, indexed by residue character code$/;"	m	class:msequtilities
+m_pfYScore	msequtilities.h	/^	float *m_pfYScore; \/\/ array of residue scores for y ions, indexed by residue character code$/;"	m	class:msequtilities
+m_piAA	mscore.h	/^	int *m_piAA;$/;"	m	class:mscore
+m_piAaDepth	msequtilities.h	/^	int *m_piAaDepth; \/\/ array of modification depth, indexed by residue character code$/;"	m	class:msequtilities
+m_piCtMod	msequtilities.h	/^	int *m_piCtMod; \/\/ array of modification depth, indexed by residue character code$/;"	m	class:msequtilities
+m_piMods	mscorestate.h	/^      unsigned long *m_piMods;$/;"	m	class:mscorestate
+m_plCount	mscore.h	/^	unsigned long m_plCount[16];\/\/ ion count information, indexed using the mscore_type_a enum$/;"	m	class:mscore
+m_plEqualsS	mprocess.h	/^	vector<size_t> m_plEqualsS;$/;"	m	class:singleSpectrum
+m_plEqualsS	mscorestate.h	/^      size_t *m_plEqualsS; \/\/ indexes of spectra with M+H within error of the current modified peptide M+H$/;"	m	class:mscorestate
+m_plRes	mprocess.h	/^	vector<unit> m_plRes;$/;"	m	class:singleSpectrum
+m_plSeq	mscore.h	/^	unsigned long *m_plSeq; \/\/ residue masses corresponding to the current sequence, converted into integers$/;"	m	class:mscore
+m_plSeq	mscore.h	/^	vector<unsigned long> m_plSeq;$/;"	m	class:theorSpectrum
+m_pmapAnnotation	mprocess.h	/^	map<string,string>* m_pmapAnnotation;$/;"	m	class:mprocess
+m_pmapSap	mscorepam.h	/^	map<string, multimap<int, SavInfo> >* m_pmapSap;$/;"	m	class:mscoresap
+m_ppModsS	mscorestate.h	/^      char **m_ppModsS; \/\/ pointers to the potentially modified peptide residues$/;"	m	class:mscorestate
+m_pplType	mscore_tandem.h	/^	unsigned long **m_pplType;$/;"	m	class:mscore_tandem
+m_prcLog	mprocess.h	/^	mprocesslog m_prcLog;$/;"	m	class:mprocess
+m_precursorCharge	saxhandler.h	/^	int	m_precursorCharge;	\/\/ Precursor charge$/;"	m	class:SAXSpectraHandler
+m_precursorMz	saxhandler.h	/^	double m_precursorMz;	\/\/ Precursor M\/Z$/;"	m	class:SAXSpectraHandler
+m_psPermute	mscore.h	/^	PermuteState m_psPermute;$/;"	m	class:mscore
+m_pvSpec	saxhandler.h	/^	vector<mspectrum>* m_pvSpec; \/\/Doit pointer sur le m_vSpectra de mprocess$/;"	m	class:SAXSpectraHandler
+m_pyroState	mprocess.h	/^	mpyrostate m_pyroState; \/\/ maintains the state of the pyrolidone carboxylic acid detection state machine$/;"	m	class:mprocess
+m_refGroupCvParams	saxmzmlhandler.h	/^	vector <cvParam> m_refGroupCvParams;$/;"	m	class:SAXMzmlHandler
+m_sId	saxmzdatahandler.h	/^	set<size_t> m_sId;$/;"	m	class:SAXMzdataHandler
+m_sId	saxmzmlhandler.h	/^	set<size_t> m_sId;$/;"	m	class:SAXMzmlHandler
+m_sId	saxmzxmlhandler.h	/^	set<size_t> m_sId;$/;"	m	class:SAXMzxmlHandler
+m_sIndex	mscore.h	/^	set<mspectrumindex> m_sIndex;$/;"	m	class:mscore
+m_scanNum	saxhandler.h	/^	int	m_scanNum;	\/\/ Scan number$/;"	m	class:SAXSpectraHandler
+m_semiState	mprocess.h	/^	msemistate m_semiState; \/\/ maintains the state of the semi-enzymatic cleavage state machine$/;"	m	class:mprocess
+m_seqCurrent	mprocess.h	/^	msequence m_seqCurrent; \/\/ the msequence object that is currently being scored$/;"	m	class:mprocess
+m_seqCurrent	saxbiomlhandler.h	/^	msequence m_seqCurrent;$/;"	m	class:SAXBiomlHandler
+m_seqUtil	mscore.h	/^	msequtilities m_seqUtil; \/\/ class contains variables and constants for calculating sequence and$/;"	m	class:mscore
+m_seqUtilAvg	mscore.h	/^	msequtilities m_seqUtilAvg; \/\/ class contains variables and constants for calculating fragment masses$/;"	m	class:mscore
+m_setAllowed	mscorepam.h	/^	set<char> m_setAllowed;$/;"	m	class:mscoresap
+m_setPaths	saxbiomlhandler.h	/^	set<string> m_setPaths;$/;"	m	class:SAXBiomlHandler
+m_setPaths	saxtaxhandler.h	/^	set<string> m_setPaths;$/;"	m	class:SAXTaxHandler
+m_setProteins	mreport.h	/^	set<size_t> m_setProteins;$/;"	m	class:mreport
+m_setRound	mprocess.h	/^	set<size_t> m_setRound;$/;"	m	class:mprocess
+m_setSeq	saxbiomlhandler.h	/^	set<size_t> m_setSeq;$/;"	m	class:SAXBiomlHandler
+m_setTax	saxtaxhandler.h	/^	set<string> m_setTax;$/;"	m	class:SAXTaxHandler
+m_siPath	msequence.h	/^	short int m_siPath; \/\/ the path name for the file that contained this sequence$/;"	m	class:msequence
+m_smapOld	mscorepam.h	/^	SMap m_smapOld;$/;"	m	class:mscoresap
+m_specCondition	mprocess.h	/^	mspectrumcondition m_specCondition; \/\/ the mspectrumcondition object that cleans up and normalized$/;"	m	class:mprocess
+m_specCurrent	saxhandler.h	/^	mspectrum m_specCurrent; \/\/Usage temporaire dans startElement et endElement$/;"	m	class:SAXSpectraHandler
+m_strActivation	saxhandler.h	/^	string m_strActivation;$/;"	m	class:SAXSpectraHandler
+m_strCleave	mcleave.h	/^	string m_strCleave;$/;"	m	class:mcleave
+m_strCleave	mcleave.h	/^	string m_strCleave;$/;"	m	class:mcleave_single
+m_strData	saxhandler.h	/^	string m_strData;	\/\/ For collecting character data.$/;"	m	class:SAXSpectraHandler
+m_strDefaultMaybe	msequtilities.h	/^	string m_strDefaultMaybe;$/;"	m	class:msequtilities
+m_strDes	msequence.h	/^	string m_strDes; \/\/ a description of the protein$/;"	m	class:msequence
+m_strDesc	saxhandler.h	/^	string m_strDesc;		\/\/ description from GAML file <note label="Description">.....<\/note> or filename.scanid.charge$/;"	m	class:SAXSpectraHandler
+m_strDescription	mspectrum.h	/^	string m_strDescription;$/;"	m	class:mspectrum
+m_strFileName	saxhandler.h	/^	string  m_strFileName;$/;"	m	class:SAXHandler
+m_strFirst	msequenceserver.h	/^	string m_strFirst;$/;"	m	class:msequenceServer
+m_strId	mdomains.h	/^	string m_strId; \/\/ character string representing an external accession number for a mutation\/modification$/;"	m	class:maa
+m_strId	mscorepam.h	/^	string m_strId;$/;"	m	class:mscoresap
+m_strId	saxmodhandler.h	/^	string m_strId;$/;"	m	class:SAXModHandler
+m_strId	saxsaphandler.h	/^	string m_strId;$/;"	m	class:SAXSapHandler
+m_strId	saxsaphandler.h	/^	string m_strId;$/;"	m	class:SavInfo
+m_strInt	saxhandler.h	/^	string m_strInt;$/;"	m	class:SAXSpectraHandler
+m_strKey	saxtandeminputhandler.h	/^	string m_strKey;$/;"	m	class:SAXTandemInputHandler
+m_strLastMods	mprocess.h	/^	string m_strLastMods;$/;"	m	class:mprocess
+m_strMods	saxmodhandler.h	/^	string m_strMods;$/;"	m	class:SAXModHandler
+m_strNumpress	saxhandler.h	/^	string m_strNumpress;$/;"	m	class:SAXSpectraHandler
+m_strOutputPath	mprocess.h	/^	string m_strOutputPath; \/\/ the path name of the XML output file$/;"	m	class:mprocess
+m_strPath	loadmspectrum.h	/^	string m_strPath; \/\/ the path information for the data file$/;"	m	class:loadmspectrum
+m_strPath	mbiomlreport.h	/^	string m_strPath;$/;"	m	class:mbiomlreport
+m_strPath	msequenceserver.h	/^	string m_strPath;		\/\/ Full path name to the current FASTA file$/;"	m	class:msequenceServer
+m_strPath	mzid_report.h	/^	string m_strPath; \/\/ output file path$/;"	m	class:mzid_report
+m_strPath	saxtaxhandler.h	/^	string m_strPath; \/\/ the path to the taxonomy.xml$/;"	m	class:SAXTaxHandler
+m_strRegex	mzid_report.h	/^	string m_strRegex;$/;"	m	class:mzid_report
+m_strRt	mspectrum.h	/^	string m_strRt;$/;"	m	class:mspectrum
+m_strRt	saxhandler.h	/^	string m_strRt;$/;"	m	class:SAXSpectraHandler
+m_strSeq	msequence.h	/^	string m_strSeq; \/\/ the sequence of the protein in single-letter code$/;"	m	class:msequence
+m_strSkyline	mprocess.h	/^	string m_strSkyline;$/;"	m	class:mprocess
+m_strStatus	msequenceserver.h	/^	string m_strStatus;    \/\/ Status string for debugging$/;"	m	class:msequenceServer
+m_strTax	saxtaxhandler.h	/^	string m_strTax; \/\/the current taxonomy  $/;"	m	class:SAXTaxHandler
+m_strTaxon	msequenceserver.h	/^	string m_strTaxon;		\/\/ Taxon to model$/;"	m	class:msequenceServer
+m_strTaxon	xmltaxonomy.h	/^	string m_strTaxon; \/\/ the name of the desired taxon$/;"	m	class:XmlTaxonomy
+m_strTaxonPath	msequenceserver.h	/^	string m_strTaxonPath;	\/\/ Path to the taxonomy translation file$/;"	m	class:msequenceServer
+m_strTaxonPath	xmltaxonomy.h	/^	string m_strTaxonPath; \/\/ the path to the taxonomy file$/;"	m	class:XmlTaxonomy
+m_strTest	loadmspectrum.h	/^	string m_strTest;$/;"	m	class:loadmspectrum
+m_strType	saxtaxhandler.h	/^	string m_strType;$/;"	m	class:SAXTaxHandler
+m_strXmlPath	saxtandeminputhandler.h	/^	string m_strXmlPath;$/;"	m	class:SAXTandemInputHandler
+m_strXmlPath	xmlparameter.h	/^	string m_strXmlPath; \/\/ the path to the input file$/;"	m	class:XmlParameter
+m_svrSequences	mprocess.h	/^	msequenceServer m_svrSequences; \/\/ the msequenceServer object that provides msequences to msequenceCollection$/;"	m	class:mprocess
+m_svrSequences	mprocess.h	/^	p3msequenceServer m_svrSequences; \/\/ the msequenceServer object that provides msequences to msequenceCollection$/;"	m	class:mprocess
+m_tA	mscore.h	/^	size_t m_tA; \/\/ the index number for an mspectrum, in the m_vSpectra vector$/;"	m	class:mspectrumdetails
+m_tA	mscore.h	/^	size_t m_tA; \/\/ the index number for an mspectrum, in the m_vSpectra vector$/;"	m	class:mspectrumindex
+m_tA_begin	mscore.h	/^	size_t m_tA_begin;$/;"	m	class:mscore
+m_tA_end	mscore.h	/^	size_t m_tA_end;$/;"	m	class:mscore
+m_tAa	mscorepam.h	/^	size_t m_tAa;$/;"	m	class:mscorepam
+m_tAaTotal	mscorepam.h	/^	size_t m_tAaTotal;$/;"	m	class:mscorepam
+m_tActive	mprocess.h	/^	size_t m_tActive;	\/\/ total number of models remaining after each refinement step$/;"	m	class:mprocess
+m_tColMax	msequenceserver.h	/^	size_t m_tColMax;		\/\/ Maximum size of a sequence collection$/;"	m	class:msequenceServer
+m_tContrasted	mprocess.h	/^	double m_tContrasted; \/\/ the number of spectra subtracted using contrast angle redundancy detection$/;"	m	class:mprocess
+m_tCount	mscorepam.h	/^	size_t m_tCount;$/;"	m	class:mscorepam
+m_tCount	mscorepam.h	/^	size_t m_tCount;$/;"	m	class:mscoresap
+m_tCurrentSequence	mspectrum.h	/^	size_t	m_tCurrentSequence; \/\/ an identifier for the current sequence (used in mprocess)$/;"	m	class:mspectrum
+m_tDuplicateIds	mprocess.h	/^	size_t m_tDuplicateIds;$/;"	m	class:mprocess
+m_tDuplicates	mprocess.h	/^	size_t m_tDuplicates;$/;"	m	class:mprocess
+m_tEnd	mscore.h	/^	size_t m_tEnd;$/;"	m	class:PermuteState
+m_tId	loadmspectrum.h	/^	size_t m_tId; \/\/ the id number of a spectrum$/;"	m	class:loadmspectrum
+m_tId	mspectrum.h	/^	size_t m_tId; \/\/ an identification number$/;"	m	class:mspectrum
+m_tId	saxhandler.h	/^	size_t m_tId; \/\/ the id number of a spectrum$/;"	m	class:SAXSpectraHandler
+m_tLength	mscorepam.h	/^	size_t m_tLength;$/;"	m	class:mscorepam
+m_tLength	mscorepam.h	/^	size_t m_tLength;$/;"	m	class:mscoresap
+m_tLength	msequencecollection.h	/^	size_t m_tLength;$/;"	m	class:msequenceCollection
+m_tMax	mmotif.h	/^	size_t m_tMax;$/;"	m	class:mmotifres
+m_tMax	msequencecollection.h	/^	size_t m_tMax; \/\/ maximum number of sequences to be stored in the m_vASequences vector$/;"	m	class:msequenceCollection
+m_tMaxPeaks	mspectrumcondition.h	/^	size_t m_tMaxPeaks; \/\/ the maximum number of peaks in a spectrum$/;"	m	class:mspectrumcondition
+m_tMaxResidues	mprocess.h	/^	size_t m_tMaxResidues; \/\/ the maximum peptide length that will be scored$/;"	m	class:mprocess
+m_tMinResidues	mprocess.h	/^	size_t m_tMinResidues; \/\/ the minimum peptide length that will be scored$/;"	m	class:mprocess
+m_tMissedCleaves	mprocess.h	/^	size_t m_tMissedCleaves; \/\/ the maximum number of cleavage sites that can be missed$/;"	m	class:mprocess
+m_tPeptideCount	mprocess.h	/^	size_t m_tPeptideCount; \/\/ the total number of peptide sequences generated during a process$/;"	m	class:mprocess
+m_tPeptideScoredCount	mprocess.h	/^	size_t m_tPeptideScoredCount; \/\/ the total number of peptide sequences scored during a process$/;"	m	class:mprocess
+m_tPos	mmotif.h	/^	size_t m_tPos;$/;"	m	class:mmotif
+m_tPos	mscore.h	/^	size_t m_tPos;$/;"	m	class:PermuteState
+m_tPos	mscorepam.h	/^	size_t m_tPos;$/;"	m	class:mscorepam
+m_tPos	mscorepam.h	/^	size_t m_tPos;$/;"	m	class:mscoresap
+m_tProteinCount	mprocess.h	/^	size_t m_tProteinCount; \/\/ the total number of protein sequences considered during a process$/;"	m	class:mprocess
+m_tRefineCterminal	mprocess.h	/^	size_t m_tRefineCterminal; \/\/ the number of models discovered to have modified C-terminii$/;"	m	class:mprocess
+m_tRefineInput	mprocess.h	/^	size_t m_tRefineInput; \/\/ total number of sequences included in a refinement session$/;"	m	class:mprocess
+m_tRefineModels	mprocess.h	/^	size_t m_tRefineModels; \/\/ total number of models generated by refinement$/;"	m	class:mprocess
+m_tRefineNterminal	mprocess.h	/^	size_t m_tRefineNterminal; \/\/ the number of models discovered to have modified N-terminii$/;"	m	class:mprocess
+m_tRefinePam	mprocess.h	/^	size_t m_tRefinePam; \/\/ the number of models discovered to have point mutations$/;"	m	class:mprocess
+m_tRefinePartial	mprocess.h	/^	size_t m_tRefinePartial; \/\/ the number of models discovered to have partial cleavage$/;"	m	class:mprocess
+m_tRefineUnanticipated	mprocess.h	/^	size_t m_tRefineUnanticipated; \/\/ the number of models discovered to have unanticpated cleavage$/;"	m	class:mprocess
+m_tScored	mscore.h	/^	size_t m_tScored;$/;"	m	class:mscore
+m_tSeqPos	mscore.h	/^	size_t m_tSeqPos; \/\/ zero-based absolute position of the current peptide in the protein sequence$/;"	m	class:mscore
+m_tSeqSize	mprocess.h	/^	size_t m_tSeqSize; \/\/ current length of the m_pSeq character array$/;"	m	class:mprocess
+m_tSeqTrue	mscorepam.h	/^	size_t m_tSeqTrue;$/;"	m	class:mscorepam
+m_tSeqTrue	mscorepam.h	/^	size_t m_tSeqTrue;$/;"	m	class:mscoresap
+m_tSize	loadmspectrum.h	/^	std::streamsize m_tSize;$/;"	m	class:loadmspectrum
+m_tSpectra	mprocess.h	/^	size_t m_tSpectra; \/\/ the total number of spectra being modeled$/;"	m	class:mprocess
+m_tSpectraTotal	mprocess.h	/^	size_t m_tSpectraTotal; \/\/ the total number of spectra in the input file$/;"	m	class:mprocess
+m_tStartAt	msequenceserver.h	/^	size_t m_tStartAt;	\/\/ Ordinal number of the first sequence retreived$/;"	m	class:msequenceServer
+m_tTemp	mprocess.h	/^	size_t m_tTemp;$/;"	m	class:mprocess
+m_tTotalResidues	mprocess.h	/^	size_t m_tTotalResidues; \/\/ the number of residues read$/;"	m	class:mprocess
+m_tUid	msequence.h	/^	size_t m_tUid; \/\/ an identification number$/;"	m	class:msequence
+m_tUnique	mprocess.h	/^	size_t m_tUnique; \/\/ the number of unique peptides found in a result$/;"	m	class:mprocess
+m_tValid	mprocess.h	/^	size_t m_tValid; \/\/ the number of valid peptide models$/;"	m	class:mprocess
+m_uiSimd	mscore_tandem.h	/^	unsigned int m_uiSimd;$/;"	m	class:mscore_tandem
+m_uiType	mscore.h	/^	unsigned int m_uiType; \/\/ the type of fragmentation$/;"	m	class:mspec
+m_uiType	mspectrum.h	/^	unsigned int m_uiType;$/;"	m	class:mspectrum
+m_ulCount	mhistogram.h	/^	int m_ulCount;$/;"	m	class:mhistogram
+m_ulMax	mhistogram.h	/^	int m_ulMax;$/;"	m	class:mhistogram
+m_um128	mscore_tandem.h	/^    } m_um128;$/;"	m	class:mscore_tandem	typeref:union:mscore_tandem::u_m128
+m_vASequences	msequencecollection.h	/^	vector<msequence> m_vASequences; \/\/ a vector of msequence objects$/;"	m	class:msequenceCollection
+m_vAa	mdomains.h	/^	vector<maa> m_vAa; \/\/ vector of modified amino acids$/;"	m	class:mdomain
+m_vCleaves	mcleave.h	/^	vector<mcleave_single> m_vCleaves;$/;"	m	class:mcleave
+m_vDetails	mscore.h	/^	vector<mspectrumdetails> m_vDetails; \/\/ vector of mspectrumdetails objects, for looking up parent ion M+H$/;"	m	class:mscore
+m_vDomains	msequence.h	/^	vector<mdomain>	m_vDomains; \/\/ a vector of identified domains$/;"	m	class:msequence
+m_vMI	mspectrum.h	/^	vector<mi> m_vMI; \/\/ a vector containing the m\/z - intensity information for fragment ions $/;"	m	class:mspectrum
+m_vMINeutral	mspectrum.h	/^	vector<mi> m_vMINeutral; \/\/ a vector containing the m\/z - intensity information for fragment ions $/;"	m	class:mspectrum
+m_vMotifs	msequtilities.h	/^	vector<mmotif> m_vMotifs;$/;"	m	class:msequtilities
+m_vSpec	mscore.h	/^	vector<mspec> m_vSpec; \/\/ vector of all spectra being considered$/;"	m	class:mscore
+m_vSpectra	mprocess.h	/^	vector<mspectrum> m_vSpectra; \/\/ store spectra to be analyzed$/;"	m	class:mprocess
+m_vdNeutralLosses	mspectrumcondition.h	/^	vector<double> m_vdNeutralLosses;$/;"	m	class:mspectrumcondition
+m_vdStats	mspectrum.h	/^	vector<double> m_vdStats;$/;"	m	class:mspectrum
+m_vfI	saxhandler.h	/^	vector<float> m_vfM, m_vfI;	\/\/ Peak list vectors (masses and charges)$/;"	m	class:SAXSpectraHandler
+m_vfM	saxhandler.h	/^	vector<float> m_vfM, m_vfI;	\/\/ Peak list vectors (masses and charges)$/;"	m	class:SAXSpectraHandler
+m_viQuality	mprocess.h	/^	vector<int> m_viQuality; \/\/ contains the data quality scoring vector$/;"	m	class:mprocess
+m_vlSurvive	mhistogram.h	/^	vector<int> m_vlSurvive; \/\/ the survival function array, reduced to [96] from [256]$/;"	m	class:mhistogram
+m_vmiType	mscore_tandem.h	/^	vector<vmiType> m_vmiType;$/;"	m	class:mscore_tandem
+m_vresMotifs	mmotif.h	/^	vector<mmotifres> m_vresMotifs;$/;"	m	class:mmotif
+m_vseqBest	mprocess.h	/^	vector<msequence> m_vseqBest; \/\/ a vector of msequences used in the model refinement process$/;"	m	class:mprocess
+m_vseqBest	mspectrum.h	/^	vector<msequence> m_vseqBest; \/\/ a vector containing the highest scoring msequence objects$/;"	m	class:mspectrum
+m_vseqBest	saxbiomlhandler.h	/^	vector<msequence> m_vseqBest; \/\/ a vector of msequences used in the model refinement process$/;"	m	class:SAXBiomlHandler
+m_vstrDesc	msequenceserver.h	/^	vector<string> m_vstrDesc;$/;"	m	class:msequenceServer
+m_vstrFasta	msequenceserver.h	/^	vector<string> m_vstrFasta;$/;"	m	class:msequenceServer
+m_vstrModifications	mprocess.h	/^	vector<string> m_vstrModifications; \/\/a vector containing the strings defining fixed modifications for a protein$/;"	m	class:mprocess
+m_vstrMods	mprocess.h	/^	vector<string> m_vstrMods;$/;"	m	class:mprocess
+m_vstrPaths	mprocess.h	/^	vector<string> m_vstrPaths;$/;"	m	class:mprocess
+m_vstrPaths	msequenceserver.h	/^	vector<string> m_vstrPaths;$/;"	m	class:msequenceServer
+m_vstrPaths	saxbiomlhandler.h	/^	vector<string> m_vstrPaths;$/;"	m	class:SAXBiomlHandler
+m_vstrPaths	saxtaxhandler.h	/^	vector<string>* m_vstrPaths; \/\/the vector of paths$/;"	m	class:SAXTaxHandler
+m_vstrPaths	xmltaxonomy.h	/^	vector<string> m_vstrPaths; \/\/ the path names associated with a taxon$/;"	m	class:XmlTaxonomy
+m_vstrSaps	mprocess.h	/^	vector<string> m_vstrSaps;$/;"	m	class:mprocess
+m_xmlPerformance	mprocess.h	/^	XmlParameter m_xmlPerformance; \/\/ stores process performance parameters$/;"	m	class:mprocess
+m_xmlValues	mprocess.h	/^	XmlParameter m_xmlValues; \/\/ store process input parameters$/;"	m	class:mprocess
+maa	mdomains.h	/^	maa(void) { m_cRes = '\\0'; m_lPos = 0; m_dMod = 0.0; m_cMut = '\\0'; m_dPrompt = 0.0; m_strId.clear();}$/;"	f	class:maa
+maa	mdomains.h	/^class maa$/;"	c
+mac_rev	msequenceserver.cpp	/^unsigned long msequenceServer::mac_rev(const unsigned long _l)$/;"	f	class:msequenceServer
+main	p3.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	tandem.cpp	/^int main(int argc, char* argv[])$/;"	f
+major	expat.h	/^  int major;$/;"	m	struct:__anon4
+major	expat_old.h	/^  int major;$/;"	m	struct:__anon14
+malloc_fcn	expat.h	/^  void *(*malloc_fcn)(size_t size);$/;"	m	struct:__anon1
+malloc_fcn	expat_old.h	/^  void *(*malloc_fcn)(size_t size);$/;"	m	struct:__anon11
+map	expat.h	/^  int map[256];$/;"	m	struct:__anon2
+map	expat_old.h	/^  int map[256];$/;"	m	struct:__anon12
+mark_repeats	mprocess.cpp	/^bool mprocess::mark_repeats()$/;"	f	class:mprocess
+massPair	masscalc.h	/^	struct massPair$/;"	s	class:masscalc
+massType	masscalc.h	/^	enum massType$/;"	g	class:masscalc
+masscalc	masscalc.cpp	/^masscalc::masscalc(massType _t)$/;"	f	class:masscalc
+masscalc	masscalc.h	/^class masscalc$/;"	c
+masses	mreport.cpp	/^bool mreport::masses(msequtilities &_p)$/;"	f	class:mreport
+mbiomlreport	mbiomlreport.cpp	/^mbiomlreport::mbiomlreport( )$/;"	f	class:mbiomlreport
+mbiomlreport	mbiomlreport.h	/^class mbiomlreport$/;"	c
+mcleave	mcleave.h	/^	mcleave(void)	{$/;"	f	class:mcleave
+mcleave	mcleave.h	/^class mcleave$/;"	c
+mcleave_single	mcleave.h	/^	mcleave_single(void)	{$/;"	f	class:mcleave_single
+mcleave_single	mcleave.h	/^class mcleave_single$/;"	c
+mconvert	mscore.cpp	/^__inline__ unsigned long mscore::mconvert(double _m, const double _z)$/;"	f	class:mscore
+mconvert	mscore.cpp	/^__inline__ unsigned long mscore::mconvert(double _m, const long _c)$/;"	f	class:mscore
+mdomain	mdomains.h	/^	mdomain(void) {$/;"	f	class:mdomain
+mdomain	mdomains.h	/^class mdomain$/;"	c
+merge_map	mprocess.cpp	/^bool mprocess::merge_map(SEQMAP &_s)$/;"	f	class:mprocess
+merge_map	p3mprocess.cpp	/^bool p3mprocess::merge_map(SEQMAP &_s)$/;"	f	class:p3mprocess
+merge_map	p3mprocess.cpp	/^bool p3mprocess::merge_map(SEQMAP &_s,DESMAP &_d)$/;"	f	class:p3mprocess
+merge_spectra	mprocess.cpp	/^bool mprocess::merge_spectra()$/;"	f	class:mprocess
+merge_spectra	mprocess.cpp	/^bool mprocess::merge_spectra(vector<mspectrum> &_s)$/;"	f	class:mprocess
+merge_spectra	p3mprocess.cpp	/^bool p3mprocess::merge_spectra()$/;"	f	class:p3mprocess
+merge_spectra	p3mprocess.cpp	/^bool p3mprocess::merge_spectra(vector<mspectrum> &_s)$/;"	f	class:p3mprocess
+merge_statistics	mprocess.cpp	/^bool mprocess::merge_statistics(const mprocess *_p)$/;"	f	class:mprocess
+merrors	mprocess.h	/^	merrors(void) { $/;"	f	class:merrors
+merrors	mprocess.h	/^class merrors$/;"	c
+mfiletypes	msequenceserver.h	/^	} mfiletypes;$/;"	m	class:msequenceServer	typeref:enum:msequenceServer::__anon21
+mhistogram	mhistogram.h	/^	mhistogram(const mhistogram& rhs) {$/;"	f	class:mhistogram
+mhistogram	mhistogram.h	/^	mhistogram(void) {$/;"	f	class:mhistogram
+mhistogram	mhistogram.h	/^class mhistogram	{$/;"	c
+mi	mspectrum.h	/^	mi(void) {$/;"	f	class:mi
+mi	mspectrum.h	/^class mi$/;"	c
+micro	expat.h	/^  int micro;$/;"	m	struct:__anon4
+micro	expat_old.h	/^  int micro;$/;"	m	struct:__anon14
+minor	expat.h	/^  int minor;$/;"	m	struct:__anon4
+minor	expat_old.h	/^  int minor;$/;"	m	struct:__anon14
+missedCleaves	mprocess.h	/^	long missedCleaves;$/;"	m	class:onePeptide
+mmotif	mmotif.h	/^	mmotif(void)$/;"	f	class:mmotif
+mmotif	mmotif.h	/^class mmotif$/;"	c
+mmotifres	mmotif.h	/^	mmotifres(void)$/;"	f	class:mmotifres
+mmotifres	mmotif.h	/^class mmotifres$/;"	c
+model	mhistogram.h	/^	bool model()$/;"	f	class:mhistogram
+modify	mprocess.cpp	/^bool mprocess::modify()$/;"	f	class:mprocess
+modify_all	msequtilities.cpp	/^bool msequtilities::modify_all(string &_s)$/;"	f	class:msequtilities
+modify_annotation	msequtilities.cpp	/^bool msequtilities::modify_annotation(string &_s)$/;"	f	class:msequtilities
+modify_c	msequtilities.cpp	/^bool msequtilities::modify_c(const float _f)$/;"	f	class:msequtilities
+modify_maybe	msequtilities.cpp	/^bool msequtilities::modify_maybe(string &_s)$/;"	f	class:msequtilities
+modify_motif	msequtilities.cpp	/^bool msequtilities::modify_motif(const string &_s)$/;"	f	class:msequtilities
+modify_n	msequtilities.cpp	/^bool msequtilities::modify_n(const float _f)$/;"	f	class:msequtilities
+monoisotopic	masscalc.h	/^		double monoisotopic;$/;"	m	struct:masscalc::massPair
+monoisotopic	masscalc.h	/^	{	monoisotopic, average };$/;"	e	enum:masscalc::massType
+motif_set	msequtilities.cpp	/^bool msequtilities::motif_set(const msequence &_s)$/;"	f	class:msequtilities
+mpam	mpam.cpp	/^mpam::mpam(){$/;"	f	class:mpam
+mpam	mpam.h	/^class mpam : public mrefine$/;"	c
+mpamfactory_tandem	mpam.cpp	/^mpamfactory_tandem::mpamfactory_tandem()$/;"	f	class:mpamfactory_tandem
+mpamfactory_tandem	mpam.h	/^class mpamfactory_tandem : public mpluginfactory$/;"	c
+mpammanager	mpam.h	/^class mpammanager$/;"	c
+mplugin	mplugin.h	/^class mplugin$/;"	c
+mpluginfactory	mplugin.h	/^class mpluginfactory$/;"	c
+mpluginmanager	mplugin.cpp	/^mpluginmanager::mpluginmanager()$/;"	f	class:mpluginmanager
+mpluginmanager	mplugin.h	/^class mpluginmanager$/;"	c
+mpmods	mpmods.cpp	/^mpmods::mpmods(){$/;"	f	class:mpmods
+mpmods	mpmods.h	/^class mpmods : public mrefine$/;"	c
+mpmodsfactory_tandem	mpmods.cpp	/^mpmodsfactory_tandem::mpmodsfactory_tandem()$/;"	f	class:mpmodsfactory_tandem
+mpmodsfactory_tandem	mpmods.h	/^class mpmodsfactory_tandem : public mpluginfactory$/;"	c
+mpmodsmanager	mpmods.h	/^class mpmodsmanager$/;"	c
+mprocess	mprocess.cpp	/^mprocess::mprocess(void)$/;"	f	class:mprocess
+mprocess	mprocess.h	/^class mprocess$/;"	c
+mprocesslog	mprocess.h	/^	mprocesslog() { }$/;"	f	class:mprocesslog
+mprocesslog	mprocess.h	/^class mprocesslog$/;"	c
+mpyrostate	msemistate.h	/^	mpyrostate(void)	{$/;"	f	class:mpyrostate
+mpyrostate	msemistate.h	/^class mpyrostate$/;"	c
+mrefine	mrefine.cpp	/^mrefine::mrefine()$/;"	f	class:mrefine
+mrefine	mrefine.h	/^class mrefine : public mplugin$/;"	c
+mrefinefactory_tandem	mrefine.cpp	/^mrefinefactory_tandem::mrefinefactory_tandem()$/;"	f	class:mrefinefactory_tandem
+mrefinefactory_tandem	mrefine.h	/^class mrefinefactory_tandem : public mpluginfactory$/;"	c
+mrefinemanager	mrefine.h	/^class mrefinemanager$/;"	c
+mreport	mreport.cpp	/^mreport::mreport(mscore& score)$/;"	f	class:mreport
+mreport	mreport.h	/^class mreport$/;"	c
+ms	MSNumpress.cpp	/^namespace ms {$/;"	n	file:
+ms	MSNumpress.hpp	/^namespace ms {$/;"	n
+mscore	mscore.cpp	/^mscore::mscore(void) :$/;"	f	class:mscore
+mscore	mscore.h	/^class mscore : public mplugin$/;"	c
+mscore_error	mscore.h	/^	} mscore_error; \/\/ enum for referencing information about ion mass measurement accuracy.$/;"	m	class:mscore	typeref:enum:mscore::__anon20
+mscore_tandem	mscore_tandem.cpp	/^mscore_tandem::mscore_tandem(void)$/;"	f	class:mscore_tandem
+mscore_tandem	mscore_tandem.h	/^class mscore_tandem : public mscore$/;"	c
+mscore_type	mscore.h	/^	} mscore_type; \/\/ enum for referencing information about specific ion types.$/;"	m	class:mscore	typeref:enum:mscore::__anon18
+mscore_type_a	mscore.h	/^	} mscore_type_a; \/\/ enum for referencing information about specific ion types.$/;"	m	class:mscore	typeref:enum:mscore::__anon19
+mscorefactory_tandem	mscore_tandem.cpp	/^mscorefactory_tandem::mscorefactory_tandem()$/;"	f	class:mscorefactory_tandem
+mscorefactory_tandem	mscore_tandem.h	/^class mscorefactory_tandem : public mpluginfactory$/;"	c
+mscoremanager	mscore.h	/^class mscoremanager$/;"	c
+mscorepam	mscorepam.h	/^	mscorepam(const mscorepam& _mpam){$/;"	f	class:mscorepam
+mscorepam	mscorepam.h	/^	mscorepam(void)$/;"	f	class:mscorepam
+mscorepam	mscorepam.h	/^class mscorepam$/;"	c
+mscoresap	mscorepam.h	/^	mscoresap(const mscoresap& _msap){$/;"	f	class:mscoresap
+mscoresap	mscorepam.h	/^	mscoresap(void)	{$/;"	f	class:mscoresap
+mscoresap	mscorepam.h	/^class mscoresap$/;"	c
+mscorestate	mscorestate.h	/^	mscorestate(const mscorestate& _state) {$/;"	f	class:mscorestate
+mscorestate	mscorestate.h	/^      mscorestate(void) {    $/;"	f	class:mscorestate
+mscorestate	mscorestate.h	/^class mscorestate$/;"	c
+mscoreterm	mscorestate.h	/^	mscoreterm(void) { 	$/;"	f	class:mscoreterm
+mscoreterm	mscorestate.h	/^class mscoreterm$/;"	c
+msemistate	msemistate.h	/^      msemistate(void) { $/;"	f	class:msemistate
+msemistate	msemistate.h	/^class msemistate$/;"	c
+mseqCol	tandem.cpp	/^vector<msequenceCollection> mseqCol;$/;"	v
+msequence	msequence.h	/^	msequence(void)	{$/;"	f	class:msequence
+msequence	msequence.h	/^class msequence $/;"	c
+msequenceCollection	msequencecollection.cpp	/^msequenceCollection::msequenceCollection(void)$/;"	f	class:msequenceCollection
+msequenceCollection	msequencecollection.h	/^class msequenceCollection$/;"	c
+msequenceServer	msequenceserver.cpp	/^msequenceServer::msequenceServer(const msequenceServer& _m)$/;"	f	class:msequenceServer
+msequenceServer	msequenceserver.cpp	/^msequenceServer::msequenceServer(void)$/;"	f	class:msequenceServer
+msequenceServer	msequenceserver.h	/^class msequenceServer$/;"	c
+msequtilities	msequtilities.cpp	/^msequtilities::msequtilities(masscalc::massType _t)$/;"	f	class:msequtilities
+msequtilities	msequtilities.h	/^	msequtilities(const msequtilities& _util){$/;"	f	class:msequtilities
+msequtilities	msequtilities.h	/^class msequtilities$/;"	c
+mspec	mscore.h	/^	mspec() { m_fMH = 0.0; m_fZ = 1.0; m_uiType = 0;}$/;"	f	class:mspec
+mspec	mscore.h	/^class mspec$/;"	c
+mspectrum	mspectrum.h	/^	mspectrum(void) {$/;"	f	class:mspectrum
+mspectrum	mspectrum.h	/^class mspectrum	{$/;"	c
+mspectrumcondition	mspectrumcondition.cpp	/^mspectrumcondition::mspectrumcondition(void)$/;"	f	class:mspectrumcondition
+mspectrumcondition	mspectrumcondition.h	/^class mspectrumcondition$/;"	c
+mspectrumdetails	mscore.h	/^	mspectrumdetails() { }$/;"	f	class:mspectrumdetails
+mspectrumdetails	mscore.h	/^class mspectrumdetails$/;"	c
+mspectrumindex	mscore.h	/^	mspectrumindex() { }$/;"	f	class:mspectrumindex
+mspectrumindex	mscore.h	/^class mspectrumindex$/;"	c
+mtermmods	mtermmods.cpp	/^mtermmods::mtermmods(){$/;"	f	class:mtermmods
+mtermmods	mtermmods.h	/^class mtermmods : public mrefine$/;"	c
+mtermmodsfactory_tandem	mtermmods.cpp	/^mtermmodsfactory_tandem::mtermmodsfactory_tandem()$/;"	f	class:mtermmodsfactory_tandem
+mtermmodsfactory_tandem	mtermmods.h	/^class mtermmodsfactory_tandem : public mpluginfactory$/;"	c
+mtermmodsmanager	mtermmods.h	/^class mtermmodsmanager$/;"	c
+mtx	mprocess.h	/^	std::mutex mtx;$/;"	m	class:item
+mtx_seqmap	tandem.cpp	/^pthread_mutex_t mtx_seqmap = PTHREAD_MUTEX_INITIALIZER; $/;"	v
+multi_t	mprocess.h	/^	double multi_t;$/;"	m	class:mprocess
+multiplex	mprocess.cpp	/^bool mprocess::multiplex(const msequence &_s)$/;"	f	class:mprocess
+multiplex_create_score	mprocess.cpp	/^bool mprocess::multiplex_create_score(const msequence &_s,const size_t _v,const size_t _w,const long _m,bool _p,const vector<unit> &_plRes)$/;"	f	class:mprocess
+multiplex_overhead	tandem.cpp	/^	vector<double> multiplex_overhead;$/;"	m	class:overheadDetail	file:
+multiplex_single	mprocess.cpp	/^bool mprocess::multiplex_single(const msequence &_s)$/;"	f	class:mprocess
+mutex	tandem.cpp	/^	pthread_mutex_t mutex;$/;"	m	class:sequenceControl	file:
+mxxcleavage	mxxcleavage.cpp	/^mxxcleavage::mxxcleavage(){$/;"	f	class:mxxcleavage
+mxxcleavage	mxxcleavage.h	/^class mxxcleavage : public mrefine$/;"	c
+mxxcleavagefactory_tandem	mxxcleavage.cpp	/^mxxcleavagefactory_tandem::mxxcleavagefactory_tandem()$/;"	f	class:mxxcleavagefactory_tandem
+mxxcleavagefactory_tandem	mxxcleavage.h	/^class mxxcleavagefactory_tandem : public mpluginfactory$/;"	c
+mxxcleavagemanager	mxxcleavage.h	/^class mxxcleavagemanager$/;"	c
+myPow	msequtilities.h	/^	int myPow(int x, int p)$/;"	f	class:msequtilities
+mzid_report	mzid_report.cpp	/^mzid_report::mzid_report(mscore& score)$/;"	f	class:mzid_report
+mzid_report	mzid_report.h	/^class mzid_report$/;"	c
+mztomh	msequtilities.h	/^	double mztomh(double mz, float z)$/;"	f	class:msequtilities
+nMap	msequtilities.h	/^typedef map<size_t,float> nMap;$/;"	t
+name	expat.h	/^  XML_Char *                    name;$/;"	m	struct:XML_cp
+name	expat.h	/^  const XML_LChar       *name;$/;"	m	struct:__anon5
+name	expat_old.h	/^  XML_Char *                    name;$/;"	m	struct:XML_cp
+name	expat_old.h	/^  const XML_LChar       *name;$/;"	m	struct:__anon15
+name	saxmzmlhandler.h	/^		string name;$/;"	m	class:SAXMzmlHandler::cvParam
+next	mscorepam.h	/^	bool next(void)$/;"	f	class:mscoresap
+next	msemistate.h	/^	  bool next(long &_s,long &_e)	{$/;"	f	class:msemistate
+next	msequenceserver.cpp	/^unsigned long msequenceServer::next(const bool _f)$/;"	f	class:msequenceServer
+next_l	msequenceserver.cpp	/^unsigned long msequenceServer::next_l(void)$/;"	f	class:msequenceServer
+next_pro	msequenceserver.cpp	/^unsigned long msequenceServer::next_pro(const bool _f)$/;"	f	class:msequenceServer
+numDepress	saxhandler.cpp	/^void SAXSpectraHandler::numDepress(char* indata, size_t indataLength, bool bM \/*= true*\/, bool bI \/*= true*\/)$/;"	f	class:SAXSpectraHandler
+numchildren	expat.h	/^  unsigned int                  numchildren;$/;"	m	struct:XML_cp
+numchildren	expat_old.h	/^  unsigned int                  numchildren;$/;"	m	struct:XML_cp
+numpress	MSNumpress.cpp	/^namespace numpress {$/;"	n	namespace:ms	file:
+numpress	MSNumpress.hpp	/^namespace numpress {$/;"	n	namespace:ms
+of_profile	mprocess.h	/^	ofstream of_profile;$/;"	m	class:mprocess
+ok	msemistate.h	/^	  bool ok(void)	{$/;"	f	class:msemistate
+onePeptide	mprocess.h	/^	onePeptide(void) {$/;"	f	class:onePeptide
+onePeptide	mprocess.h	/^class onePeptide {$/;"	c
+open	loadmspectrum.cpp	/^bool loadcmn::open(string &_s)$/;"	f	class:loadcmn
+open	loadmspectrum.cpp	/^bool loaddta::open(string &_s)$/;"	f	class:loaddta
+open	loadmspectrum.cpp	/^bool loadgaml::open(string &_s)$/;"	f	class:loadgaml
+open	loadmspectrum.cpp	/^bool loadmatrix::open(string &_s)$/;"	f	class:loadmatrix
+open	loadmspectrum.cpp	/^bool loadmzdata::open(string &_s)$/;"	f	class:loadmzdata
+open	loadmspectrum.cpp	/^bool loadmzml::open(string &_s)$/;"	f	class:loadmzml
+open	loadmspectrum.cpp	/^bool loadmzxml::open(string &_s)$/;"	f	class:loadmzxml
+open	loadmspectrum.cpp	/^bool loadpkl::open(string &_s)$/;"	f	class:loadpkl
+open	loadmspectrum.h	/^	virtual bool open(string &_s) {return true; } \/\/ attaches the data file to m_ifIn and checks formats$/;"	f	class:loadmspectrum
+open	mprocess.h	/^	bool open(string &_s)	{$/;"	f	class:mprocesslog
+open_force	loadmspectrum.cpp	/^bool loadcmn::open_force(string &_s)$/;"	f	class:loadcmn
+open_force	loadmspectrum.cpp	/^bool loaddta::open_force(string &_s)$/;"	f	class:loaddta
+open_force	loadmspectrum.cpp	/^bool loadgaml::open_force(string &_s)$/;"	f	class:loadgaml
+open_force	loadmspectrum.cpp	/^bool loadmatrix::open_force(string &_s)$/;"	f	class:loadmatrix
+open_force	loadmspectrum.cpp	/^bool loadmzdata::open_force(string &_s)$/;"	f	class:loadmzdata
+open_force	loadmspectrum.cpp	/^bool loadmzml::open_force(string &_s)$/;"	f	class:loadmzml
+open_force	loadmspectrum.cpp	/^bool loadmzxml::open_force(string &_s)$/;"	f	class:loadmzxml
+open_force	loadmspectrum.cpp	/^bool loadpkl::open_force(string &_s)$/;"	f	class:loadpkl
+open_force	loadmspectrum.h	/^	virtual bool open_force(string &_s) {return true; } \/\/ attaches the data file to m_ifIn and checks formats$/;"	f	class:loadmspectrum
+operator *=	mspectrum.h	/^	mspectrum& operator*=(const mspectrum &rhs)	{$/;"	f	class:mspectrum
+operator +=	mhistogram.h	/^	count_mhistogram& operator+=(const count_mhistogram &rhs)	{$/;"	f	class:count_mhistogram
+operator +=	mhistogram.h	/^	mhistogram& operator+=(const mhistogram &rhs)	{$/;"	f	class:mhistogram
+operator +=	mspectrum.h	/^	mspectrum& operator+=(const mspectrum &rhs)	{$/;"	f	class:mspectrum
+operator <	mscore.h	/^	bool operator<(const double &rhs)$/;"	f	class:mspectrumdetails
+operator <	mscore.h	/^	bool operator<(const mspectrumindex &rhs) const$/;"	f	class:mspectrumindex
+operator <=	mscore.h	/^	bool operator<=(const mspectrumindex &rhs) const$/;"	f	class:mspectrumindex
+operator =	mcleave.h	/^	mcleave& operator=(const mcleave &rhs)	{$/;"	f	class:mcleave
+operator =	mcleave.h	/^	mcleave_single& operator=(const mcleave_single &rhs)	{$/;"	f	class:mcleave_single
+operator =	mdomains.h	/^	maa& operator=(const maa &rhs)	{$/;"	f	class:maa
+operator =	mdomains.h	/^	mdomain& operator=(const mdomain &rhs)	{$/;"	f	class:mdomain
+operator =	mhistogram.h	/^	count_mhistogram& operator=(const count_mhistogram &rhs)	{$/;"	f	class:count_mhistogram
+operator =	mhistogram.h	/^	mhistogram& operator=(const mhistogram &rhs)	{$/;"	f	class:mhistogram
+operator =	mmotif.h	/^	mmotif& operator=(const mmotif &rhs)	{$/;"	f	class:mmotif
+operator =	mmotif.h	/^	mmotifres& operator=(const mmotifres &rhs)	{$/;"	f	class:mmotifres
+operator =	mprocess.h	/^	orderEle& operator= (const orderEle& _mpl){$/;"	f	class:orderEle
+operator =	mprocess.h	/^	unit& operator= (const unit &_rhs){$/;"	f	class:unit
+operator =	mscore.h	/^	MIType& operator=(const MIType &rhs)$/;"	f	class:MIType
+operator =	mscore.h	/^	mspec& operator=(const mspec &rhs)$/;"	f	class:mspec
+operator =	mscore.h	/^	mspec& operator=(const mspectrum &rhs)$/;"	f	class:mspec
+operator =	mscore.h	/^	mspectrumdetails& operator=(const mspectrumdetails &rhs)$/;"	f	class:mspectrumdetails
+operator =	mscore.h	/^	mspectrumindex& operator=(const mspectrumindex &rhs)$/;"	f	class:mspectrumindex
+operator =	mscore.h	/^	theorSpectrum& operator=(const theorSpectrum &rhs){$/;"	f	class:theorSpectrum
+operator =	mscorepam.h	/^	mscorepam& operator=(const mscorepam& _mpam){$/;"	f	class:mscorepam
+operator =	mscorepam.h	/^	mscoresap& operator=(const mscoresap& _msap){$/;"	f	class:mscoresap
+operator =	mscorestate.h	/^	mscorestate& operator=(const mscorestate& _state) {$/;"	f	class:mscorestate
+operator =	msequence.h	/^	msequence& operator=(const msequence &rhs)	{$/;"	f	class:msequence
+operator =	msequencecollection.h	/^	msequenceCollection& operator=(const msequenceCollection& _rhs){$/;"	f	class:msequenceCollection
+operator =	msequenceserver.cpp	/^msequenceServer& msequenceServer::operator=(const msequenceServer& _m)$/;"	f	class:msequenceServer
+operator =	msequtilities.h	/^	msequtilities& operator=(const msequtilities& _util){$/;"	f	class:msequtilities
+operator =	mspectrum.h	/^	mi& operator=(const mi &rhs)	{$/;"	f	class:mi
+operator =	mspectrum.h	/^	mspectrum& operator=(const mspectrum &rhs)	{$/;"	f	class:mspectrum
+operator =	mspectrumcondition.h	/^mspectrumcondition& operator=(const mspectrumcondition& _rhs){$/;"	f	class:mspectrumcondition
+operator =	saxsaphandler.h	/^	SavInfo& operator=(const SavInfo &rhs)	{$/;"	f	class:SavInfo
+operator ==	mdomains.h	/^	bool operator==(const mdomain &rhs)$/;"	f	class:mdomain
+operator ==	mscore.h	/^	bool operator ==(const double &rhs)$/;"	f	class:mspectrumdetails
+operator ==	mscore.h	/^	bool operator ==(const mspectrumindex &rhs) const$/;"	f	class:mspectrumindex
+operator >	mscore.h	/^	bool operator>(const double &rhs)$/;"	f	class:mspectrumdetails
+operator >	mscore.h	/^	bool operator>(const mspectrumindex &rhs) const$/;"	f	class:mspectrumindex
+operator >=	mscore.h	/^	bool operator>=(const mspectrumindex &rhs) const$/;"	f	class:mspectrumindex
+optimalLinearFixedPoint	MSNumpress.cpp	/^double optimalLinearFixedPoint($/;"	f	namespace:ms::numpress::MSNumpress
+optimalSlofFixedPoint	MSNumpress.cpp	/^double optimalSlofFixedPoint($/;"	f	namespace:ms::numpress::MSNumpress
+orderEle	mprocess.h	/^	orderEle(void) {$/;"	f	class:orderEle
+orderEle	mprocess.h	/^class orderEle {$/;"	c
+overheadDetail	tandem.cpp	/^	overheadDetail(void){$/;"	f	class:overheadDetail
+overheadDetail	tandem.cpp	/^class overheadDetail {$/;"	c	file:
+overheadTable	tandem.cpp	/^overheadDetail *overheadTable = NULL;$/;"	v
+p3mprocess	p3mprocess.cpp	/^p3mprocess::p3mprocess(void)$/;"	f	class:p3mprocess
+p3mprocess	p3mprocess.h	/^class p3mprocess : public mprocess$/;"	c
+p3msequenceServer	p3msequenceserver.cpp	/^p3msequenceServer::p3msequenceServer(void)$/;"	f	class:p3msequenceServer
+p3msequenceServer	p3msequenceserver.h	/^class p3msequenceServer : public msequenceServer$/;"	c
+pBatchWL	tandem.cpp	/^divideBatch *pBatchWL;$/;"	v
+pList	mscore.cpp	/^pList::pList(void)$/;"	f	class:pList
+pProCnt	tandem.cpp	/^int pProCnt = 0;\/\/ count mprocess numbers$/;"	v
+pProcess	tandem.cpp	/^mprocess **pProcess = NULL;$/;"	v
+pSerializesArray	tandem.cpp	/^orderEle pSerializesArray[1<<16];$/;"	v
+p_batch	mprocess.h	/^	vector<vector<hydrolyze_seq> > *p_batch;$/;"	m	class:orderEle
+p_hydro	mprocess.h	/^	vector<vector<hydrolyze_seq> > *p_hydro;$/;"	m	class:mprocess
+p_item	mprocess.h	/^	item *p_item;$/;"	m	class:buf
+pad01	mprocess.h	/^	int pad01;$/;"	m	class:item
+pad01	mprocess.h	/^	size_t pad01;$/;"	m	class:orderEle
+pad01	mprocess.h	/^	unsigned long pad01;$/;"	m	class:buf
+pad02	mprocess.h	/^	int pad02;$/;"	m	class:item
+pad02	mprocess.h	/^	size_t pad02;$/;"	m	class:orderEle
+pad02	mprocess.h	/^	unsigned long pad02;$/;"	m	class:buf
+pad03	mprocess.h	/^	int pad03;$/;"	m	class:item
+pad03	mprocess.h	/^	size_t pad03;$/;"	m	class:orderEle
+pad03	mprocess.h	/^	unsigned long pad03;$/;"	m	class:buf
+pad04	mprocess.h	/^	int pad04;$/;"	m	class:item
+pad04	mprocess.h	/^	size_t pad04;$/;"	m	class:orderEle
+pad04	mprocess.h	/^	unsigned long pad04;$/;"	m	class:buf
+pad05	mprocess.h	/^	int pad05;$/;"	m	class:item
+pad05	mprocess.h	/^	size_t pad05;$/;"	m	class:orderEle
+pad05	mprocess.h	/^	unsigned long pad05;$/;"	m	class:buf
+pad06	mprocess.h	/^	int pad06;$/;"	m	class:item
+pad06	mprocess.h	/^	size_t pad06;$/;"	m	class:orderEle
+pad06	mprocess.h	/^	unsigned long pad06;$/;"	m	class:buf
+pad07	mprocess.h	/^	int pad07;$/;"	m	class:item
+pad07	mprocess.h	/^	size_t pad07;$/;"	m	class:orderEle
+pad07	mprocess.h	/^	unsigned long pad07;$/;"	m	class:buf
+pad08	mprocess.h	/^	size_t pad08;$/;"	m	class:orderEle
+pad1	mprocess.h	/^	unsigned long pad1;$/;"	m	class:buf
+pad11	mprocess.h	/^	unsigned long pad11;$/;"	m	class:buf
+pad12	mprocess.h	/^	unsigned long pad12;$/;"	m	class:buf
+pad13	mprocess.h	/^	unsigned long pad13;$/;"	m	class:buf
+pad14	mprocess.h	/^	unsigned long pad14;$/;"	m	class:buf
+pad15	mprocess.h	/^	unsigned long pad15;$/;"	m	class:buf
+pad16	mprocess.h	/^	unsigned long pad16;$/;"	m	class:buf
+pad17	mprocess.h	/^	unsigned long pad17;$/;"	m	class:buf
+pad2	mprocess.h	/^	unsigned long pad2;$/;"	m	class:buf
+pad21	mprocess.h	/^	unsigned long pad21;$/;"	m	class:buf
+pad22	mprocess.h	/^	unsigned long pad22;$/;"	m	class:buf
+pad23	mprocess.h	/^	unsigned long pad23;$/;"	m	class:buf
+pad24	mprocess.h	/^	unsigned long pad24;$/;"	m	class:buf
+pad25	mprocess.h	/^	unsigned long pad25;$/;"	m	class:buf
+pad26	mprocess.h	/^	unsigned long pad26;$/;"	m	class:buf
+pad27	mprocess.h	/^	unsigned long pad27;$/;"	m	class:buf
+pad3	mprocess.h	/^	unsigned long pad3;$/;"	m	class:buf
+pad4	mprocess.h	/^	unsigned long pad4;$/;"	m	class:buf
+pad5	mprocess.h	/^	unsigned long pad5;$/;"	m	class:buf
+pad6	mprocess.h	/^	unsigned long pad6;$/;"	m	class:buf
+pad7	mprocess.h	/^	unsigned long pad7;$/;"	m	class:buf
+parallel_multiplex	mprocess.cpp	/^bool mprocess::parallel_multiplex(const msequence &_s)$/;"	f	class:mprocess
+parallel_multiplex_create_score	mprocess.cpp	/^bool mprocess::parallel_multiplex_create_score(const msequence &_s,const size_t _v,const size_t _w,const long _m,bool _p,const vector<unit> &_plRes)$/;"	f	class:mprocess
+parallel_multiplex_single	mprocess.cpp	/^bool mprocess::parallel_multiplex_single(const msequence &_s)$/;"	f	class:mprocess
+parallel_reuse_each_sequence	mprocess.cpp	/^bool mprocess::parallel_reuse_each_sequence()$/;"	f	class:mprocess
+parse	saxhandler.cpp	/^bool SAXHandler::parse()$/;"	f	class:SAXHandler
+parse_description	mzid_report.cpp	/^bool mzid_report::parse_description(const string &_s,string &_acc,string &_desc)$/;"	f	class:mzid_report
+parser	expat.h	/^XMLPARSEAPI(XML_Index) XML_GetCurrentByteIndex(XML_Parser parser);$/;"	v
+parser	expat.h	/^XMLPARSEAPI(XML_Size) XML_GetCurrentColumnNumber(XML_Parser parser);$/;"	v
+parser	expat.h	/^XMLPARSEAPI(XML_Size) XML_GetCurrentLineNumber(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_DefaultCurrent(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_GetBase(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_GetCurrentByteCount(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_GetErrorCode(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_GetIdAttributeIndex(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_GetSpecifiedAttributeCount(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_ParserFree(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_ResumeParser(XML_Parser parser);$/;"	v
+parser	expat.h	/^XML_UseParserAsHandlerArg(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XMLPARSEAPI(int) XML_GetCurrentColumnNumber(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XMLPARSEAPI(int) XML_GetCurrentLineNumber(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XMLPARSEAPI(long) XML_GetCurrentByteIndex(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_DefaultCurrent(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_GetBase(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_GetCurrentByteCount(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_GetErrorCode(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_GetIdAttributeIndex(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_GetSpecifiedAttributeCount(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_ParserFree(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_ResumeParser(XML_Parser parser);$/;"	v
+parser	expat_old.h	/^XML_UseParserAsHandlerArg(XML_Parser parser);$/;"	v
+parsing	expat.h	/^  enum XML_Parsing parsing;$/;"	m	struct:__anon3	typeref:enum:__anon3::XML_Parsing
+parsing	expat_old.h	/^  enum XML_Parsing parsing;$/;"	m	struct:__anon13	typeref:enum:__anon13::XML_Parsing
+performance	mreport.cpp	/^bool mreport::performance(XmlParameter &_x)$/;"	f	class:mreport
+permute	mscore.cpp	/^bool mscore::permute()$/;"	f	class:mscore
+pipeline_cols	tandem.cpp	/^int pipeline_cols = 0;$/;"	v
+pipeline_rows	tandem.cpp	/^int pipeline_rows = 0;$/;"	v
+prSap	stdafx.h	/^typedef pair<char,string> prSap;$/;"	t
+precondition	mscore.cpp	/^bool mscore::precondition(mspectrum &_s)$/;"	f	class:mscore
+prescore	mscore.cpp	/^__inline__ void mscore::prescore(const size_t _i)$/;"	f	class:mscore
+process	mprocess.cpp	/^bool mprocess::process(void)$/;"	f	class:mprocess
+processCVParam	saxmzmlhandler.cpp	/^void SAXMzmlHandler::processCVParam(const char* name, const char* accession, const char* value)$/;"	f	class:SAXMzmlHandler
+processData	saxmzdatahandler.cpp	/^void SAXMzdataHandler::processData()$/;"	f	class:SAXMzdataHandler
+processData	saxmzmlhandler.cpp	/^void SAXMzmlHandler::processData()$/;"	f	class:SAXMzmlHandler
+processData	saxmzxmlhandler.cpp	/^void SAXMzxmlHandler::processData()$/;"	f	class:SAXMzxmlHandler
+process_end	tandem.cpp	/^bool process_end = false;$/;"	v
+produceStop	mprocess.h	/^	std::atomic<bool> produceStop;$/;"	m	class:buf
+protein_cnt	mprocess.h	/^	map<size_t, size_t> protein_cnt;$/;"	m	class:mprocess
+pull_peptide	mscorestate.h	/^	bool pull_peptide(const mscorestate _state) {$/;"	f	class:mscorestate
+pull_peptide	msequtilities.h	/^	bool pull_peptide(const msequtilities _util){$/;"	f	class:msequtilities
+pushPeaks	saxhandler.cpp	/^void SAXSpectraHandler::pushPeaks(bool bM \/*= true*\/, bool bI \/*= true*\/)$/;"	f	class:SAXSpectraHandler
+pushSpectrum	saxhandler.cpp	/^void SAXSpectraHandler::pushSpectrum()$/;"	f	class:SAXSpectraHandler
+pushSpectrum	saxhandler.cpp	/^void SAXSpectraHandler::pushSpectrum(int charge)$/;"	f	class:SAXSpectraHandler
+push_peptide	mscorestate.h	/^	bool push_peptide(mscorestate &_state){$/;"	f	class:mscorestate
+push_peptide	msequtilities.h	/^	bool push_peptide(msequtilities &_util){$/;"	f	class:msequtilities
+pyro_check	mprocess.cpp	/^__inline__ bool mprocess::pyro_check(const char _c)$/;"	f	class:mprocess
+pyro_reset	mprocess.cpp	/^__inline__ bool mprocess::pyro_reset()$/;"	f	class:mprocess
+quant	expat.h	/^  enum XML_Content_Quant        quant;$/;"	m	struct:XML_cp	typeref:enum:XML_cp::XML_Content_Quant
+quant	expat_old.h	/^  enum XML_Content_Quant        quant;$/;"	m	struct:XML_cp	typeref:enum:XML_cp::XML_Content_Quant
+realloc_fcn	expat.h	/^  void *(*realloc_fcn)(void *ptr, size_t size);$/;"	m	struct:__anon1
+realloc_fcn	expat_old.h	/^  void *(*realloc_fcn)(void *ptr, size_t size);$/;"	m	struct:__anon11
+recored_score_t	mprocess.h	/^	double recored_score_t;$/;"	m	class:mprocess
+refGroupName	saxmzmlhandler.h	/^		string refGroupName;$/;"	m	class:SAXMzmlHandler::cvParam
+refine	mpam.cpp	/^bool mpam::refine(){$/;"	f	class:mpam
+refine	mpmods.cpp	/^bool mpmods::refine()$/;"	f	class:mpmods
+refine	mprocess.cpp	/^bool mprocess::refine(void)$/;"	f	class:mprocess
+refine	mrefine.cpp	/^bool mrefine::refine()$/;"	f	class:mrefine
+refine	mtermmods.cpp	/^bool mtermmods::refine(){$/;"	f	class:mtermmods
+refine	mxxcleavage.cpp	/^bool mxxcleavage::refine(){$/;"	f	class:mxxcleavage
+refine_model	mprocess.cpp	/^bool mprocess::refine_model()$/;"	f	class:mprocess
+register_factory	mpam.cpp	/^void mpammanager::register_factory(const char* _spec, mpluginfactory* _f)$/;"	f	class:mpammanager
+register_factory	mplugin.cpp	/^void mpluginmanager::register_factory(const char* _type, const char* _spec, mpluginfactory* _f)$/;"	f	class:mpluginmanager
+register_factory	mpmods.cpp	/^void mpmodsmanager::register_factory(const char* _spec, mpluginfactory* _f)$/;"	f	class:mpmodsmanager
+register_factory	mrefine.cpp	/^void mrefinemanager::register_factory(const char* _spec, mpluginfactory* _f)$/;"	f	class:mrefinemanager
+register_factory	mscore.cpp	/^void mscoremanager::register_factory(const char* _spec, mpluginfactory* _f)$/;"	f	class:mscoremanager
+register_factory	mtermmods.cpp	/^void mtermmodsmanager::register_factory(const char* _spec, mpluginfactory* _f)$/;"	f	class:mtermmodsmanager
+register_factory	mxxcleavage.cpp	/^void mxxcleavagemanager::register_factory(const char* _spec, mpluginfactory* _f)$/;"	f	class:mxxcleavagemanager
+release	expat.h	/^  void (XMLCALL *release)(void *data);$/;"	m	struct:__anon2
+release	expat_old.h	/^  void (XMLCALL *release)(void *data);$/;"	m	struct:__anon12
+removeMI	mprocess.cpp	/^bool mprocess::removeMI(void)$/;"	f	class:mprocess
+remove_isotopes	mspectrumcondition.cpp	/^bool mspectrumcondition::remove_isotopes(mspectrum &_s)$/;"	f	class:mspectrumcondition
+remove_low_masses	mspectrumcondition.cpp	/^bool mspectrumcondition::remove_low_masses(mspectrum &_s)$/;"	f	class:mspectrumcondition
+remove_neutral	mspectrumcondition.cpp	/^bool mspectrumcondition::remove_neutral(mspectrum &_s)$/;"	f	class:mspectrumcondition
+remove_parent	mspectrumcondition.cpp	/^bool mspectrumcondition::remove_parent(mspectrum &_s)$/;"	f	class:mspectrumcondition
+remove_small	mspectrumcondition.cpp	/^bool mspectrumcondition::remove_small(mspectrum &_s)$/;"	f	class:mspectrumcondition
+report	mprocess.cpp	/^bool mprocess::report(void)$/;"	f	class:mprocess
+report_all	mprocess.cpp	/^bool mprocess::report_all()$/;"	f	class:mprocess
+report_expect	mprocess.cpp	/^bool mprocess::report_expect(const double _m)$/;"	f	class:mprocess
+report_score	mscore.cpp	/^void mscore::report_score(char* buffer, float _hyper)$/;"	f	class:mscore
+report_sort	mprocess.cpp	/^bool mprocess::report_sort()$/;"	f	class:mprocess
+report_stochastic	mprocess.cpp	/^bool mprocess::report_stochastic(const double _d)$/;"	f	class:mprocess
+report_valid	mprocess.cpp	/^bool mprocess::report_valid(const double _d)$/;"	f	class:mprocess
+reset	msemistate.h	/^	  bool reset(const long _s,const long _e,const long _c)	{$/;"	f	class:msemistate
+reset	mspectrum.h	/^	   bool reset() {$/;"	f	class:mspectrum
+reset	saxhandler.h	/^	inline void reset()$/;"	f	class:SAXSpectraHandler
+reset_permute	mscore.cpp	/^bool mscore::reset_permute()$/;"	f	class:mscore
+reset_value	mscorepam.h	/^	bool reset_value(string &_s,const bool _b)	{$/;"	f	class:mscoresap
+residues	mprocess.cpp	/^bool mprocess::residues()$/;"	f	class:mprocess
+restore	mprocess.cpp	/^bool mprocess::restore(void)$/;"	f	class:mprocess
+reuse_each_sequence	mprocess.cpp	/^bool mprocess::reuse_each_sequence()$/;"	f	class:mprocess
+reuse_serilize	tandem.cpp	/^bool reuse_serilize = true;$/;"	v
+rollback	mprocess.cpp	/^bool mprocess::rollback(vector<mspectrum>& _v,const double _m,const double _f)$/;"	f	class:mprocess
+run_state_machine	mscore.cpp	/^bool mscore::run_state_machine(void)$/;"	f	class:mscore
+s_rid	mprocess.h	/^	size_t s_rid;$/;"	m	class:mprocess
+s_wid	mprocess.h	/^	size_t s_wid;$/;"	m	class:mprocess
+score	mprocess.cpp	/^bool mprocess::score(const msequence &_s)$/;"	f	class:mprocess
+score	mscore.cpp	/^float mscore::score(const size_t _i)$/;"	f	class:mscore
+score_each_sequence	mprocess.cpp	/^bool mprocess::score_each_sequence()$/;"	f	class:mprocess
+score_single	mprocess.cpp	/^bool mprocess::score_single(const msequence &_s)$/;"	f	class:mprocess
+score_t	mprocess.h	/^	double score_t;$/;"	m	class:mprocess
+score_terminus	mprocess.cpp	/^bool mprocess::score_terminus(const string &_s)$/;"	f	class:mprocess
+seqMH	mprocess.h	/^	double seqMH;$/;"	m	class:singleSpectrum
+seqStage_1	mprocess.h	/^	vector<onePeptide *> seqStage_1;$/;"	m	class:hydrolyze_seq
+seqStage_2	mprocess.h	/^	vector<onePeptide *> seqStage_2;$/;"	m	class:hydrolyze_seq
+seq_end	tandem.cpp	/^	int seq_end;$/;"	m	class:overheadDetail	file:
+seq_mh	mscore.cpp	/^double mscore::seq_mh()$/;"	f	class:mscore
+seq_start	tandem.cpp	/^	int seq_start;$/;"	m	class:overheadDetail	file:
+sequence	mreport.cpp	/^bool mreport::sequence(mspectrum &_s,const bool _b,vector<string> &_p,map<string,string> &_ann)$/;"	f	class:mreport
+sequenceControl	tandem.cpp	/^	sequenceControl(void){$/;"	f	class:sequenceControl
+sequenceControl	tandem.cpp	/^class sequenceControl{$/;"	c	file:
+sequence_collection	mzid_report.cpp	/^bool mzid_report::sequence_collection(vector<mspectrum> &_vs,vector<string> &_vp)$/;"	f	class:mzid_report
+serialize	mprocess.cpp	/^bool mprocess::serialize(void)$/;"	f	class:mprocess
+set	mmotif.h	/^	bool set(const char *_p)	{$/;"	f	class:mmotif
+set	mmotif.h	/^	bool set(const char *_p)	{$/;"	f	class:mmotifres
+set	xmlparameter.cpp	/^bool XmlParameter::set(string &_k,string &_v)$/;"	f	class:XmlParameter
+setDescription	saxhandler.cpp	/^void SAXSpectraHandler::setDescription()$/;"	f	class:SAXSpectraHandler
+setFileName	saxhandler.h	/^	inline void setFileName(const char* fileName)$/;"	f	class:SAXHandler
+setPotentialMotif	msequtilities.h	/^	double setPotentialMotif(const bool _b)$/;"	f	class:msequtilities
+set_a	msequtilities.cpp	/^bool msequtilities::set_a(const char _c,const float _f)$/;"	f	class:msequtilities
+set_aa	msequtilities.cpp	/^bool msequtilities::set_aa()$/;"	f	class:msequtilities
+set_aa_file	msequtilities.cpp	/^bool msequtilities::set_aa_file(string &_p)$/;"	f	class:msequtilities
+set_allowed_saps	mscore.cpp	/^bool mscore::set_allowed_saps(string &_s)$/;"	f	class:mscore
+set_b	msequtilities.cpp	/^bool msequtilities::set_b(const char _c,const float _f)$/;"	f	class:msequtilities
+set_class	mprocess.cpp	/^bool mprocess::set_class(const char *_f,mprocess *_p)$/;"	f	class:mprocess
+set_columns	mreport.cpp	/^bool mreport::set_columns(const long _v)$/;"	f	class:mreport
+set_complexity	mscore.h	/^	__inline__ bool set_complexity(const double _d) {$/;"	f	class:mscore
+set_compression	mreport.cpp	/^bool mreport::set_compression(const bool _b)$/;"	f	class:mreport
+set_dynamic_range	mspectrumcondition.cpp	/^bool mspectrumcondition::set_dynamic_range(const float _p)$/;"	f	class:mspectrumcondition
+set_error	mscore.cpp	/^unsigned long mscore::set_error(const unsigned long _t)$/;"	f	class:mscore
+set_fragment_error	mscore.cpp	/^double mscore::set_fragment_error(const double _f)$/;"	f	class:mscore
+set_fragment_masstype	mscore.cpp	/^void mscore::set_fragment_masstype(masscalc::massType _t)$/;"	f	class:mscore
+set_homo_error	mscore.cpp	/^double mscore::set_homo_error(const double _f)$/;"	f	class:mscore
+set_isotope_error	mscore.cpp	/^bool mscore::set_isotope_error(const bool _b)$/;"	f	class:mscore
+set_lowest_mass	mspectrumcondition.cpp	/^bool mspectrumcondition::set_lowest_mass(const float _m)$/;"	f	class:mspectrumcondition
+set_max_charge	mspectrumcondition.cpp	/^bool mspectrumcondition::set_max_charge(const long _m)$/;"	f	class:mspectrumcondition
+set_max_peaks	mspectrumcondition.cpp	/^bool mspectrumcondition::set_max_peaks(const long _p)$/;"	f	class:mspectrumcondition
+set_min_mass	mspectrumcondition.cpp	/^bool mspectrumcondition::set_min_mass(const float _m)$/;"	f	class:mspectrumcondition
+set_min_size	mspectrumcondition.cpp	/^bool mspectrumcondition::set_min_size(const long _p)$/;"	f	class:mspectrumcondition
+set_mini	mscore.cpp	/^bool mscore::set_mini(const bool _b)$/;"	f	class:mscore
+set_modified	msequtilities.cpp	/^bool msequtilities::set_modified(const bool _b)$/;"	f	class:msequtilities
+set_motifs	msequtilities.cpp	/^bool msequtilities::set_motifs(void)	$/;"	f	class:msequtilities
+set_mprocess	mpam.cpp	/^bool mpam::set_mprocess(mprocess *_p){$/;"	f	class:mpam
+set_mprocess	mpmods.cpp	/^bool mpmods::set_mprocess(mprocess *_p){$/;"	f	class:mpmods
+set_mprocess	mrefine.cpp	/^bool mrefine::set_mprocess(mprocess *_p){$/;"	f	class:mrefine
+set_mprocess	mtermmods.cpp	/^bool mtermmods::set_mprocess(mprocess *_p){$/;"	f	class:mtermmods
+set_mprocess	mxxcleavage.cpp	/^bool mxxcleavage::set_mprocess(mprocess *_p){$/;"	f	class:mxxcleavage
+set_mtA_filter	mscore.cpp	/^bool mscore::set_mtA_filter(size_t ibegin, size_t iend){$/;"	f	class:mscore
+set_pam	mscore.cpp	/^bool mscore::set_pam(const bool _b)$/;"	f	class:mscore
+set_parent_error	mscore.cpp	/^double mscore::set_parent_error(const double _f,const bool _b)$/;"	f	class:mscore
+set_parent_exclusion	mspectrumcondition.cpp	/^bool mspectrumcondition::set_parent_exclusion(const float _l,const float _u)$/;"	f	class:mspectrumcondition
+set_phospho_bias	mscore.cpp	/^bool mscore::set_phospho_bias(const bool _b)$/;"	f	class:mscore
+set_pos	mscore.cpp	/^bool mscore::set_pos(const size_t _t)$/;"	f	class:mscore
+set_protein_factor	mhistogram.h	/^	bool set_protein_factor(const double _d)	{$/;"	f	class:mhistogram
+set_round	mprocess.h	/^	int set_round(const int _r)	{ m_iCurrentRound = _r; return m_iCurrentRound;}$/;"	f	class:mprocess
+set_saps	mscore.cpp	/^bool mscore::set_saps(const bool _b,string &_s)$/;"	f	class:mscore
+set_seq	mscore.cpp	/^unsigned long mscore::set_seq(const char *_s,const bool _n,const bool _c,const unsigned long _l,const int _f)$/;"	f	class:mscore
+set_thread	mprocess.cpp	/^bool mprocess::set_thread(const unsigned long _t)$/;"	f	class:mprocess
+set_threads	mprocess.cpp	/^bool mprocess::set_threads(const unsigned long _t)$/;"	f	class:mprocess
+set_type	mscore.cpp	/^unsigned long mscore::set_type(const unsigned long _t)$/;"	f	class:mscore
+set_x	msequtilities.cpp	/^bool msequtilities::set_x(const char _c,const float _f)$/;"	f	class:msequtilities
+set_y	msequtilities.cpp	/^bool msequtilities::set_y(const char _c,const float _f)$/;"	f	class:msequtilities
+setpath	mbiomlreport.cpp	/^void mbiomlreport::setpath(string &_s)$/;"	f	class:mbiomlreport
+sfactor	mscore.cpp	/^double mscore::sfactor()$/;"	f	class:mscore
+singleSpectrum	mprocess.h	/^	singleSpectrum(void) {$/;"	f	class:singleSpectrum
+singleSpectrum	mprocess.h	/^class singleSpectrum {$/;"	c
+size	msequencecollection.cpp	/^size_t msequenceCollection::size(void)$/;"	f	class:msequenceCollection
+sort_details	mscore.cpp	/^bool mscore::sort_details()$/;"	f	class:mscore
+specCurrent	loadmspectrum.h	/^	mspectrum specCurrent;$/;"	m	class:loadcmn
+specCurrent	loadmspectrum.h	/^  mspectrum specCurrent;$/;"	m	class:loadgaml
+specCurrent	loadmspectrum.h	/^  mspectrum specCurrent;$/;"	m	class:loadmzdata
+specCurrent	loadmspectrum.h	/^  mspectrum specCurrent;$/;"	m	class:loadmzml
+specCurrent	loadmspectrum.h	/^  mspectrum specCurrent;$/;"	m	class:loadmzxml
+spec_3k_vec	mprocess.h	/^	bitset<10000> spec_3k_vec;$/;"	m	class:mprocess
+spectra	mprocess.cpp	/^bool mprocess::spectra()$/;"	f	class:mprocess
+spectra_force	mprocess.cpp	/^bool mprocess::spectra_force(string &_t,string &_v)$/;"	f	class:mprocess
+spectrum	mreport.cpp	/^bool mreport::spectrum(mspectrum &_s,string &_f)$/;"	f	class:mreport
+spectrum_mtx	mspectrum.h	/^	pthread_mutex_t spectrum_mtx;$/;"	m	class:mspectrum
+start	mprocess.h	/^	int start;$/;"	m	class:divideBatch
+start	mprocess.h	/^	long start;$/;"	m	class:onePeptide
+start	mreport.cpp	/^bool mreport::start(XmlParameter &_x)$/;"	f	class:mreport
+start	msequenceserver.cpp	/^bool msequenceServer::start(void)$/;"	f	class:msequenceServer
+start	mzid_report.cpp	/^bool mzid_report::start(XmlParameter &_x,XmlParameter &_p)$/;"	f	class:mzid_report
+startElement	saxbiomlhandler.cpp	/^void SAXBiomlHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXBiomlHandler
+startElement	saxgamlhandler.cpp	/^void SAXGamlHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXGamlHandler
+startElement	saxhandler.cpp	/^void SAXHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXHandler
+startElement	saxmodhandler.cpp	/^void SAXModHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXModHandler
+startElement	saxmzdatahandler.cpp	/^void SAXMzdataHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXMzdataHandler
+startElement	saxmzmlhandler.cpp	/^void SAXMzmlHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXMzmlHandler
+startElement	saxmzxmlhandler.cpp	/^void SAXMzxmlHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXMzxmlHandler
+startElement	saxsaphandler.cpp	/^void SAXSapHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXSapHandler
+startElement	saxtandeminputhandler.cpp	/^void SAXTandemInputHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXTandemInputHandler
+startElement	saxtaxhandler.cpp	/^void SAXTaxHandler::startElement(const XML_Char *el, const XML_Char **attr)$/;"	f	class:SAXTaxHandler
+startElementCallback	saxhandler.cpp	/^static void startElementCallback(void *data, const XML_Char *el, const XML_Char **attr)$/;"	f	file:
+startPeakListBinary	saxmzdatahandler.cpp	/^void SAXMzdataHandler::startPeakListBinary(const XML_Char **attr)$/;"	f	class:SAXMzdataHandler
+start_0	mprocess.h	/^	long start_0;$/;"	m	class:hydrolyze_seq
+started	msequenceserver.cpp	/^bool msequenceServer::started(void)$/;"	f	class:msequenceServer
+statusBuffer	tandem.cpp	/^sequenceControl *statusBuffer = NULL;$/;"	v
+strLine	loadmspectrum.h	/^  string strLine; \/\/ Usage temporaire$/;"	m	class:loadmzdata
+strLine	loadmspectrum.h	/^  string strLine; \/\/ Usage temporaire$/;"	m	class:loadmzml
+strLine	loadmspectrum.h	/^  string strLine; \/\/ Usage temporaire$/;"	m	class:loadmzxml
+subtract	mprocess.cpp	/^bool mprocess::subtract(void)$/;"	f	class:mprocess
+sum	mhistogram.h	/^	int sum()	{$/;"	f	class:mhistogram
+survival	mhistogram.h	/^	bool survival()$/;"	f	class:mhistogram
+survive	mhistogram.h	/^	int survive(const int _l)	{$/;"	f	class:mhistogram
+synthesis	msequtilities.cpp	/^bool msequtilities::synthesis(const bool _b)$/;"	f	class:msequtilities
+tId	mdomains.h	/^	vector<size_t> tId;$/;"	m	class:mdomain
+tail	mprocess.h	/^	unsigned long tail;$/;"	m	class:buf
+tax_type	xmltaxonomy.h	/^	enum tax_type	{$/;"	g	class:XmlTaxonomy
+taxonomy	mprocess.cpp	/^bool mprocess::taxonomy()$/;"	f	class:mprocess
+taxonomy	p3mprocess.cpp	/^bool p3mprocess::taxonomy()$/;"	f	class:p3mprocess
+test	mcleave.h	/^	bool test(const char _n,const char _c)	{$/;"	f	class:mcleave
+test	mcleave.h	/^	bool test(const char _n,const char _c)	{$/;"	f	class:mcleave_single
+test_parents	mscore.cpp	/^bool mscore::test_parents(size_t &_t)	{$/;"	f	class:mscore
+theorSpectrum	mscore.h	/^	theorSpectrum(const theorSpectrum &rhs){$/;"	f	class:theorSpectrum
+theorSpectrum	mscore.h	/^	theorSpectrum(void){$/;"	f	class:theorSpectrum
+theorSpectrum	mscore.h	/^class theorSpectrum {$/;"	c
+thread	tandem.cpp	/^void* thread(void *_p){$/;"	f
+thread_batch_overhead	tandem.cpp	/^	double thread_batch_overhead;$/;"	m	class:overheadDetail	file:
+thread_keep	tandem.cpp	/^double thread_keep[128];$/;"	v
+thread_parallel_overhead	tandem.cpp	/^	double thread_parallel_overhead;$/;"	m	class:overheadDetail	file:
+thread_pipeline_overhead	tandem.cpp	/^	double thread_pipeline_overhead;$/;"	m	class:overheadDetail	file:
+thread_record	tandem.cpp	/^double thread_record[128];$/;"	v
+tid	tandem.cpp	/^pthread_t *tid = NULL;$/;"	v
+tmpOrder	mprocess.h	/^	vector<orderEle> tmpOrder;$/;"	m	class:mprocess
+total_seq_time	mprocess.h	/^	double total_seq_time;$/;"	m	class:mprocess
+type	expat.h	/^  enum XML_Content_Type         type;$/;"	m	struct:XML_cp	typeref:enum:XML_cp::XML_Content_Type
+type	expat_old.h	/^  enum XML_Content_Type         type;$/;"	m	struct:XML_cp	typeref:enum:XML_cp::XML_Content_Type
+type	msemistate.h	/^  	  int type(const int _t)	{$/;"	f	class:msemistate
+u_load_file	p3msequenceserver.cpp	/^long p3msequenceServer::u_load_file(const string &_p,const string &_t)$/;"	f	class:p3msequenceServer
+u_m128	mscore_tandem.h	/^	union u_m128	{$/;"	u	class:mscore_tandem
+u_maps	p3msequenceserver.cpp	/^unsigned long p3msequenceServer::u_maps(DESMAP &_desc,vector<msequence> &_v)$/;"	f	class:p3msequenceServer
+uint32_t	stdafx.h	232;"	d
+uint64_t	stdafx.h	235;"	d
+unit	mprocess.h	/^	unit(const unit &_rhs){$/;"	f	class:unit
+unit	mprocess.h	/^	unit(void) {$/;"	f	class:unit
+unit	mprocess.h	/^class unit {$/;"	c
+use_charge_suppression	mspectrumcondition.cpp	/^bool mspectrumcondition::use_charge_suppression(const bool _f)$/;"	f	class:mspectrumcondition
+use_condition	mspectrumcondition.cpp	/^bool mspectrumcondition::use_condition(const bool _f)$/;"	f	class:mspectrumcondition
+use_dynamic_range	mspectrumcondition.cpp	/^bool mspectrumcondition::use_dynamic_range(const bool _f)$/;"	f	class:mspectrumcondition
+use_lowest_mass	mspectrumcondition.cpp	/^bool mspectrumcondition::use_lowest_mass(const bool _f)$/;"	f	class:mspectrumcondition
+use_max_peaks	mspectrumcondition.cpp	/^bool mspectrumcondition::use_max_peaks(const bool _f)$/;"	f	class:mspectrumcondition
+use_min_mass	mspectrumcondition.cpp	/^bool mspectrumcondition::use_min_mass(const bool _f)$/;"	f	class:mspectrumcondition
+use_min_size	mspectrumcondition.cpp	/^bool mspectrumcondition::use_min_size(const bool _f)$/;"	f	class:mspectrumcondition
+use_parent_exclusion	mspectrumcondition.cpp	/^bool mspectrumcondition::use_parent_exclusion(const bool _f)$/;"	f	class:mspectrumcondition
+value	expat.h	/^  long int              value;$/;"	m	struct:__anon5
+value	expat_old.h	/^  long int              value;$/;"	m	struct:__anon15
+value	saxmzmlhandler.h	/^		string value;$/;"	m	class:SAXMzmlHandler::cvParam
+vector_avx	mscore_tandem.cpp	/^float mscore_tandem::vector_avx(const float *a,const float *b,size_t size){$/;"	f	class:mscore_tandem
+vectorindex	mprocess.h	/^	std::atomic<int> vectorindex;$/;"	m	class:item
+vmiType	mscore.h	/^typedef vector<MIType> vmiType;$/;"	t
+working	msequenceserver.cpp	/^bool msequenceServer::working(void)$/;"	f	class:msequenceServer
+workload	mprocess.h	/^	long workload;$/;"	m	class:orderEle
+workload	mprocess.h	/^	size_t workload;$/;"	m	class:divideBatch
+workload	tandem.cpp	/^	size_t workload;$/;"	m	class:overheadDetail	file:
+write	mbiomlreport.cpp	/^bool mbiomlreport::write(vector<msequence> &_v,vector<string> &_p)$/;"	f	class:mbiomlreport
+xMap	stdafx.h	/^typedef map<string,string,less<string> > xMap;$/;"	t
+~MIType	mscore.h	/^	virtual ~MIType() { }$/;"	f	class:MIType
+~PermuteState	mscore.h	/^	~PermuteState() { delete m_pSeq; delete m_pPerm;}$/;"	f	class:PermuteState
+~SAXBiomlHandler	saxbiomlhandler.cpp	/^SAXBiomlHandler::~SAXBiomlHandler()$/;"	f	class:SAXBiomlHandler
+~SAXGamlHandler	saxgamlhandler.cpp	/^SAXGamlHandler::~SAXGamlHandler()$/;"	f	class:SAXGamlHandler
+~SAXHandler	saxhandler.cpp	/^SAXHandler::~SAXHandler()$/;"	f	class:SAXHandler
+~SAXModHandler	saxmodhandler.cpp	/^SAXModHandler::~SAXModHandler()$/;"	f	class:SAXModHandler
+~SAXMzdataHandler	saxmzdatahandler.cpp	/^SAXMzdataHandler::~SAXMzdataHandler()$/;"	f	class:SAXMzdataHandler
+~SAXMzmlHandler	saxmzmlhandler.cpp	/^SAXMzmlHandler::~SAXMzmlHandler()$/;"	f	class:SAXMzmlHandler
+~SAXMzxmlHandler	saxmzxmlhandler.cpp	/^SAXMzxmlHandler::~SAXMzxmlHandler()$/;"	f	class:SAXMzxmlHandler
+~SAXSapHandler	saxsaphandler.cpp	/^SAXSapHandler::~SAXSapHandler()$/;"	f	class:SAXSapHandler
+~SAXSpectraHandler	saxhandler.cpp	/^SAXSpectraHandler::~SAXSpectraHandler()$/;"	f	class:SAXSpectraHandler
+~SAXTandemInputHandler	saxtandeminputhandler.cpp	/^SAXTandemInputHandler::~SAXTandemInputHandler()$/;"	f	class:SAXTandemInputHandler
+~SAXTaxHandler	saxtaxhandler.cpp	/^SAXTaxHandler::~SAXTaxHandler()$/;"	f	class:SAXTaxHandler
+~SavInfo	saxsaphandler.h	/^	virtual ~SavInfo(void)$/;"	f	class:SavInfo
+~XmlParameter	xmlparameter.cpp	/^XmlParameter::~XmlParameter(void)$/;"	f	class:XmlParameter
+~XmlTaxonomy	xmltaxonomy.cpp	/^XmlTaxonomy::~XmlTaxonomy(void)$/;"	f	class:XmlTaxonomy
+~buf	mprocess.h	/^	~buf(void){$/;"	f	class:buf
+~count_mhistogram	mhistogram.h	/^	virtual ~count_mhistogram(void) { }$/;"	f	class:count_mhistogram
+~divideBatch	mprocess.h	/^	~divideBatch(void){}$/;"	f	class:divideBatch
+~hydrolyze_seq	mprocess.h	/^	~hydrolyze_seq(void) {$/;"	f	class:hydrolyze_seq
+~item	mprocess.h	/^	~item(void){$/;"	f	class:item
+~loadcmn	loadmspectrum.cpp	/^loadcmn::~loadcmn(void)$/;"	f	class:loadcmn
+~loaddta	loadmspectrum.cpp	/^loaddta::~loaddta(void)$/;"	f	class:loaddta
+~loadgaml	loadmspectrum.cpp	/^loadgaml::~loadgaml(void)$/;"	f	class:loadgaml
+~loadmatrix	loadmspectrum.cpp	/^loadmatrix::~loadmatrix(void)$/;"	f	class:loadmatrix
+~loadmspectrum	loadmspectrum.h	/^	virtual ~loadmspectrum(void) { }$/;"	f	class:loadmspectrum
+~loadmzdata	loadmspectrum.cpp	/^loadmzdata::~loadmzdata(void)$/;"	f	class:loadmzdata
+~loadmzml	loadmspectrum.cpp	/^loadmzml::~loadmzml(void)$/;"	f	class:loadmzml
+~loadmzxml	loadmspectrum.cpp	/^loadmzxml::~loadmzxml(void)$/;"	f	class:loadmzxml
+~loadpkl	loadmspectrum.cpp	/^loadpkl::~loadpkl(void)$/;"	f	class:loadpkl
+~maa	mdomains.h	/^	virtual ~maa(void) { }$/;"	f	class:maa
+~mbiomlreport	mbiomlreport.cpp	/^mbiomlreport::~mbiomlreport()$/;"	f	class:mbiomlreport
+~mcleave	mcleave.h	/^	virtual ~mcleave(void) { }$/;"	f	class:mcleave
+~mcleave_single	mcleave.h	/^	virtual ~mcleave_single(void) { }$/;"	f	class:mcleave_single
+~mdomain	mdomains.h	/^	virtual ~mdomain(void) { $/;"	f	class:mdomain
+~merrors	mprocess.h	/^	virtual ~merrors(void) { }$/;"	f	class:merrors
+~mhistogram	mhistogram.h	/^	virtual ~mhistogram(void) {$/;"	f	class:mhistogram
+~mi	mspectrum.h	/^	virtual ~mi(void) { }$/;"	f	class:mi
+~mmotif	mmotif.h	/^	virtual ~mmotif(void)$/;"	f	class:mmotif
+~mmotifres	mmotif.h	/^	virtual ~mmotifres(void)$/;"	f	class:mmotifres
+~mpam	mpam.cpp	/^mpam::~mpam(){$/;"	f	class:mpam
+~mplugin	mplugin.h	/^	virtual ~mplugin()$/;"	f	class:mplugin
+~mpmods	mpmods.cpp	/^mpmods::~mpmods(){$/;"	f	class:mpmods
+~mprocess	mprocess.cpp	/^mprocess::~mprocess(void)$/;"	f	class:mprocess
+~mprocesslog	mprocess.h	/^	virtual ~mprocesslog() { }$/;"	f	class:mprocesslog
+~mpyrostate	msemistate.h	/^	virtual ~mpyrostate(void)	{$/;"	f	class:mpyrostate
+~mrefine	mrefine.cpp	/^mrefine::~mrefine(void)$/;"	f	class:mrefine
+~mreport	mreport.cpp	/^mreport::~mreport(void)$/;"	f	class:mreport
+~mscore	mscore.cpp	/^mscore::~mscore(void)$/;"	f	class:mscore
+~mscore_tandem	mscore_tandem.cpp	/^mscore_tandem::~mscore_tandem(void)$/;"	f	class:mscore_tandem
+~mscorepam	mscorepam.h	/^	virtual ~mscorepam(void)$/;"	f	class:mscorepam
+~mscoresap	mscorepam.h	/^	virtual ~mscoresap(void) { $/;"	f	class:mscoresap
+~mscorestate	mscorestate.h	/^      virtual ~mscorestate(void) {$/;"	f	class:mscorestate
+~mscoreterm	mscorestate.h	/^	virtual ~mscoreterm(void) { $/;"	f	class:mscoreterm
+~msemistate	msemistate.h	/^      virtual ~msemistate(void) {$/;"	f	class:msemistate
+~msequence	msequence.h	/^	virtual ~msequence(void) { $/;"	f	class:msequence
+~msequenceCollection	msequencecollection.cpp	/^msequenceCollection::~msequenceCollection(void)$/;"	f	class:msequenceCollection
+~msequenceServer	msequenceserver.cpp	/^msequenceServer::~msequenceServer(void)$/;"	f	class:msequenceServer
+~msequtilities	msequtilities.cpp	/^msequtilities::~msequtilities(void)$/;"	f	class:msequtilities
+~mspec	mscore.h	/^	virtual ~mspec() { }$/;"	f	class:mspec
+~mspectrum	mspectrum.h	/^	~mspectrum(void) { }$/;"	f	class:mspectrum
+~mspectrumcondition	mspectrumcondition.cpp	/^mspectrumcondition::~mspectrumcondition(void)$/;"	f	class:mspectrumcondition
+~mspectrumdetails	mscore.h	/^	virtual ~mspectrumdetails() { }$/;"	f	class:mspectrumdetails
+~mspectrumindex	mscore.h	/^	virtual ~mspectrumindex() { }$/;"	f	class:mspectrumindex
+~mtermmods	mtermmods.cpp	/^mtermmods::~mtermmods(){$/;"	f	class:mtermmods
+~mxxcleavage	mxxcleavage.cpp	/^mxxcleavage::~mxxcleavage(){$/;"	f	class:mxxcleavage
+~mzid_report	mzid_report.cpp	/^mzid_report::~mzid_report(void)$/;"	f	class:mzid_report
+~onePeptide	mprocess.h	/^	~onePeptide(void) {$/;"	f	class:onePeptide
+~orderEle	mprocess.h	/^	~orderEle(void){$/;"	f	class:orderEle
+~overheadDetail	tandem.cpp	/^	~overheadDetail(void) {}$/;"	f	class:overheadDetail
+~p3mprocess	p3mprocess.cpp	/^p3mprocess::~p3mprocess(void)$/;"	f	class:p3mprocess
+~p3msequenceServer	p3msequenceserver.cpp	/^p3msequenceServer::~p3msequenceServer(void)$/;"	f	class:p3msequenceServer
+~pList	mscore.cpp	/^pList::~pList(void){$/;"	f	class:pList
+~sequenceControl	tandem.cpp	/^	~sequenceControl(void){$/;"	f	class:sequenceControl
+~singleSpectrum	mprocess.h	/^	~singleSpectrum(void){$/;"	f	class:singleSpectrum
+~theorSpectrum	mscore.h	/^	virtual ~theorSpectrum(void){$/;"	f	class:theorSpectrum
+~unit	mprocess.h	/^	~unit(void){$/;"	f	class:unit

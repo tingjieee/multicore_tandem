@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.aa_h 	tandem-style.css	/^.aa_h {$/;"	c
+.aa_s 	tandem-style.css	/^.aa_s {$/;"	c
+.b 	tandem-style.css	/^.b {$/;"	c
+.b0 	tandem-style.css	/^.b0 {$/;"	c
+.b17 	tandem-style.css	/^.b17 {$/;"	c
+.button 	tandem-style.css	/^.button {$/;"	c
+.button:hover 	tandem-style.css	/^.button:hover {$/;"	c
+.c 	tandem-style.css	/^.c {$/;"	c
+.cb	tandem-style.css	/^.cb{$/;"	c
+.ci	tandem-style.css	/^.ci{$/;"	c
+.db	tandem-style.css	/^.db{$/;"	c
+.di	tandem-style.css	/^.di{$/;"	c
+.e	tandem-style.css	/^.e{$/;"	c
+.ensembl 	tandem-style.css	/^.ensembl {$/;"	c
+.f	tandem-style.css	/^.f{$/;"	c
+.f1	tandem-style.css	/^.f1{$/;"	c
+.f2	tandem-style.css	/^.f2{$/;"	c
+.fm	tandem-style.css	/^.fm{$/;"	c
+.go_button 	tandem-style.css	/^.go_button {$/;"	c
+.greek 	tandem-style.css	/^.greek {$/;"	c
+.greek_b 	tandem-style.css	/^.greek_b {$/;"	c
+.k	tandem-style.css	/^.k{$/;"	c
+.mod 	tandem-style.css	/^.mod {$/;"	c
+.mut 	tandem-style.css	/^.mut {$/;"	c
+.peptide_label 	tandem-style.css	/^.peptide_label {$/;"	c
+.residues 	tandem-style.css	/^.residues {$/;"	c
+.small_label 	tandem-style.css	/^.small_label {$/;"	c
+.small_link 	tandem-style.css	/^.small_link {$/;"	c
+.small_value 	tandem-style.css	/^.small_value {$/;"	c
+.top_highlight 	tandem-style.css	/^.top_highlight {$/;"	c
+.top_label 	tandem-style.css	/^.top_label {$/;"	c
+.top_note 	tandem-style.css	/^.top_note {$/;"	c
+.y0 	tandem-style.css	/^.y0 {	$/;"	c
+.y17 	tandem-style.css	/^.y17 {$/;"	c
+A	static_link_ubuntu/test.cpp	/^class A{$/;"	c	file:
+B	static_link_ubuntu/test.cpp	/^class B {$/;"	c	file:
+PRE 	tandem-style.css	/^PRE {$/;"	s
+a 	tandem-style.css	/^a {$/;"	s
+a:hover 	tandem-style.css	/^a:hover {$/;"	s
+a:visited 	tandem-style.css	/^a:visited {$/;"	s
+big 	tandem-style.css	/^big {$/;"	s
+elems	ana-set.py	/^	elems = tuple(line.split(','))$/;"	v
+elems	ana.py	/^	elems = tuple(line.split('|'));$/;"	v
+f	ana.py	/^f = open('Protein_cnt.csv','r');$/;"	v
+f	static_link_ubuntu/test.cpp	/^	void f(void){$/;"	f	class:A
+f1	ana-set.py	/^f1 = open('Hydrolyze1','r');$/;"	v
+f1	ana.py	/^f1 = open('..\/..\/tandem-bak-serial\/bin\/protein_cnt.csv','r');$/;"	v
+f2	ana-set.py	/^f2 = open('Hydrolyze0','r');$/;"	v
+h3 	tandem-style.css	/^h3 {$/;"	s
+i	ana-set.py	/^			i = i+1$/;"	v
+i	ana-set.py	/^	i = 0$/;"	v
+i	static_link_ubuntu/test.cpp	/^	int i;$/;"	m	class:A	file:
+j	ana-set.py	/^			j = j+1;$/;"	v
+j	ana-set.py	/^	j = 0$/;"	v
+k	ana-set.py	/^	k = k + 1$/;"	v
+k	ana-set.py	/^k = 0;$/;"	v
+l1	ana-set.py	/^l1 = [];$/;"	v
+l2	ana-set.py	/^l2 = [];$/;"	v
+line	ana-set.py	/^	line = line[:-1]$/;"	v
+line	ana.py	/^	line = line[:-1];$/;"	v
+lines	ana.py	/^lines = f.readlines();$/;"	v
+lines	ana.py	/^lines = f1.readlines();$/;"	v
+lines1	ana-set.py	/^lines1 = f1.readlines();$/;"	v
+lines2	ana-set.py	/^lines2 = f2.readlines();$/;"	v
+main	static_link_ubuntu/test.cpp	/^int main(){$/;"	f
+p 	tandem-style.css	/^p {$/;"	s
+s1	ana-set.py	/^	s1 = set()$/;"	v
+s1	ana.py	/^s1 = set();$/;"	v
+s2	ana-set.py	/^	s2 = set()$/;"	v
+s2	ana.py	/^s2 = set();$/;"	v
+s3	ana.py	/^s3 = s1 & s2;$/;"	v
+ss	ana-set.py	/^	ss = ""$/;"	v
+td 	tandem-style.css	/^td {$/;"	s
+th 	tandem-style.css	/^th {$/;"	s

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<bioml>
+	<note>
+	Each one of the parameters for x! tandem is entered as a labeled note node. 
+	Any of the entries in the default_input.xml file can be over-ridden by
+	adding a corresponding entry to this file. This file represents a minimum
+	input file, with only entries for the default settings, the output file
+	and the input spectra file name. 
+	See the taxonomy.xml file for a description of how FASTA sequence list 
+	files are linked to a taxon name.
+	</note>
+
+	<note type="input" label="list path, default parameters">default_input.xml</note>
+	<note type="input" label="list path, taxonomy information">taxonomy.xml</note>
+
+	<note type="input" label="protein, taxon">yeast</note>
+	
+	<!--note type="input" label="spectrum, path">test_spectra.mgf</note-->
+	<!--note type="input" label="spectrum, path">10000-010000.mgf</note-->
+	<!--note type="input" label="spectrum, path">1499-10mix2.mgf</note-->
+	<!--note type="input" label="spectrum, path">1714-cleavable.mgf</note-->
+	<!--note type="input" label="spectrum, path">2091-CAS.mgf</note-->
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_02.mzXML</note>
+	<!--note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_03.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_04.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_05.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_06.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_07.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_08.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_09.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_10.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_11.mzXML</note>
+	<note type="input" label="spectrum, path">./Mix_8/LTQ/mzXML/LT20080110_S_mix8_12.mzXML</note-->
+
+	<note type="input" label="output, path">output.xml</note>
+</bioml>
